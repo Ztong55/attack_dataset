@@ -1,0 +1,106 @@
+{
+    "stateChanges": [
+        {
+            "address": "0xb84cbaf116eb90fd445dd5aeadfab3e807d2cbac",
+            "erc": "ERC-721",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000019000000000000000000000000000000190",
+                    "key": "0xe6163d0b680c33ba5368a145b727558a32c58f52f15e9d8fefd913654487be40",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000631228dfbd8a137e79c90063cd5c0db3dbabd5ca2ec7e83e",
+                    "key": "0x7a5c07edeafa77ff29006d8fa3e9ac022931398c63e599fdcd54a82e1a48c1a5",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000486",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "prev": "0x00000000000000000000000000000000000000000000000000000000000002f6"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "_addressData",
+                    "type": "mapping(address => struct ERC721A.AddressData)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0xbd8a137e79c90063cd5c0db3dbabd5ca2ec7e83e",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "balance",
+                                            "type": "uint128",
+                                            "value": {
+                                                "current": "400",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "numberMinted",
+                                            "type": "uint128",
+                                            "value": {
+                                                "current": "400",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "_ownerships",
+                    "type": "mapping(uint256 => struct ERC721A.TokenOwnership)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "758",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "addr",
+                                            "type": "address",
+                                            "value": {
+                                                "current": "0xbd8a137e79c90063cd5c0db3dbabd5ca2ec7e83e",
+                                                "prev": "0x0000000000000000000000000000000000000000",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "startTimestamp",
+                                            "type": "uint64",
+                                            "value": {
+                                                "current": "1662134495",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "_currentIndex",
+                    "type": "uint256",
+                    "value": {
+                        "current": "1158",
+                        "prev": "758",
+                        "typeTag": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

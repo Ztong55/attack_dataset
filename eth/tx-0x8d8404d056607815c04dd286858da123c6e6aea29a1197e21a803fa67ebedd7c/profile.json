@@ -1,0 +1,81 @@
+{
+    "basicInfo": {
+        "baseFee": "",
+        "blockNumber": 1680024,
+        "callData": "0x9e5faafc",
+        "debugEnable": true,
+        "errorInfo": "",
+        "eventCount": 4,
+        "feeRecipient": "0xf8b483dba2c3b7176a3da549ad41a48bb3121069",
+        "formatValue": "0.01",
+        "gasLimit": 314159,
+        "gasPrice": "20",
+        "gasUsed": 143853,
+        "intTxnCount": 10,
+        "internalRevert": true,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": false,
+        "maxFee": "",
+        "nonce": 39,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "",
+        "receiver": "0x4afb544eb87265cf7fc8fdb843c81d34f7e2a369",
+        "revertMessage": "",
+        "sender": "0x42dd879f8eb7e9b43036a5b4c97b02c6176d6b99",
+        "simulationEnable": true,
+        "sourceTxnHash": "0x8d8404d056607815c04dd286858da123c6e6aea29a1197e21a803fa67ebedd7c",
+        "status": true,
+        "timestamp": "2016-06-10T18:52:47Z",
+        "transactionFee": "0.00287706",
+        "txnHash": "0x8d8404d056607815c04dd286858da123c6e6aea29a1197e21a803fa67ebedd7c",
+        "txnIndex": 2,
+        "type": 0,
+        "value": "10000000000000000"
+    },
+    "fundFlow": [
+        {
+            "amount": "0.01",
+            "from": "0x42dd879f8eb7e9b43036a5b4c97b02c6176d6b99",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0x4afb544eb87265cf7fc8fdb843c81d34f7e2a369",
+            "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        },
+        {
+            "amount": "0.02",
+            "from": "0x4afb544eb87265cf7fc8fdb843c81d34f7e2a369",
+            "id": 2,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 2,
+            "to": "0xd654bdd32fc99471455e86c2e7f7d7b6437e9179",
+            "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        },
+        {
+            "amount": "0.06",
+            "from": "0xd654bdd32fc99471455e86c2e7f7d7b6437e9179",
+            "id": 3,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 3,
+            "to": "0x4afb544eb87265cf7fc8fdb843c81d34f7e2a369",
+            "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        }
+    ],
+    "tokenInfos": [
+        {
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "decimals": 18
+        },
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        }
+    ]
+}

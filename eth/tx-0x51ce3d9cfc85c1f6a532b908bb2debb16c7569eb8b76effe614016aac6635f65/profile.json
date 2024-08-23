@@ -1,0 +1,72 @@
+{
+    "basicInfo": {
+        "baseFee": "45.999087958",
+        "blockNumber": 18774585,
+        "callData": "0x6b76484e00000000000000000000000031adda225642a8f4d7e90d4152be6661ab22a5a2000000000000000000000000d7a421a6786cf4951a8fae10385680222d63f89a",
+        "debugEnable": true,
+        "errorInfo": "",
+        "eventCount": 4,
+        "feeRecipient": "0xdafea492d9c6733ae3d56b7ed1adb60692c98bc5",
+        "formatValue": "0",
+        "gasLimit": 1000000,
+        "gasPrice": "50.999087958",
+        "gasUsed": 143313,
+        "intTxnCount": 16,
+        "internalRevert": true,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": false,
+        "maxFee": "60",
+        "nonce": 1,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "5",
+        "receiver": "0xba6fa6e8500cd8eeda8ebb9dfbcc554ff4a3eb77",
+        "revertMessage": "",
+        "sender": "0x3ea6ba6d3415e4dfd380516c799aafa94e420519",
+        "simulationEnable": true,
+        "sourceTxnHash": "0x51ce3d9cfc85c1f6a532b908bb2debb16c7569eb8b76effe614016aac6635f65",
+        "status": true,
+        "timestamp": "2023-12-13T03:30:35Z",
+        "transactionFee": "0.007308832292524854",
+        "txnHash": "0x51ce3d9cfc85c1f6a532b908bb2debb16c7569eb8b76effe614016aac6635f65",
+        "txnIndex": 49,
+        "type": 2,
+        "value": "0"
+    },
+    "fundFlow": [
+        {
+            "amount": "2,570,000",
+            "from": "0x40c31236b228935b0329eff066b1ad96e319595e",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0x5b8d598b354f5760b2a65f492154e7a3df46d1be",
+            "token": "0x31adda225642a8f4d7e90d4152be6661ab22a5a2"
+        }
+    ],
+    "securityEvent": {
+        "id": 124,
+        "project": "Hypr Network",
+        "loss": 200000,
+        "media": "https://twitter.com/BlockSecTeam/status/1735197818883588574",
+        "rootCause": "Business Logic Flaw",
+        "poc": "https://github.com/SunWeb3Sec/DeFiHackLabs?tab=readme-ov-file#20231213-hypr---business-logic-flaw",
+        "rescued": 0
+    },
+    "tokenInfos": [
+        {
+            "address": "0x31adda225642a8f4d7e90d4152be6661ab22a5a2",
+            "decimals": 18
+        },
+        {
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "decimals": 18
+        },
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        }
+    ]
+}

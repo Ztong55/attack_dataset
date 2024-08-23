@@ -1,0 +1,77 @@
+{
+    "stateChanges": [
+        {
+            "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "key": "0x9ebf332136d4e95bae12d1378eaa2019512fdaebfb4f4ce9fac9d0b05d0ac11b",
+                    "prev": "0x000000000000000000000000000000000000000000000012922f7d2b2af39de1"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000000000000012922f7d2b2af39de1",
+                    "key": "0xf40249171e25318921d88a843ed9bcd8b050043002830df60471416bf31b3923",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0xffffffffffffffffffffffffffffffffffffffffffffffed6dd082d4d50c621e",
+                    "key": "0xfa60540f505fb9f9397603deb2be8a12609e4d4d4581e6fefe1ac00dc0dabed3",
+                    "prev": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "balances",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0xb687550842a24d7fbc6aad238fd7e0687ed59d55",
+                                "value": {
+                                    "current": "342575169004572483041",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0xcfb58a35d6c847c302e59c968e72045141b6335a",
+                                "value": {
+                                    "current": "0",
+                                    "prev": "342575169004572483041",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "allowed",
+                    "type": "mapping(address => mapping(address => uint256))",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0xcfb58a35d6c847c302e59c968e72045141b6335a",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0x6eb211caf6d304a76efe37d9abdfaddc2d4363d1",
+                                            "value": {
+                                                "current": "115792089237316195423570985008687907853269984665640564039115008838908557156894",
+                                                "prev": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

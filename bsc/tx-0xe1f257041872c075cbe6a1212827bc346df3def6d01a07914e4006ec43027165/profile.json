@@ -1,0 +1,83 @@
+{
+    "basicInfo": {
+        "baseFee": "",
+        "blockNumber": 27835718,
+        "callData": "0xd6d2b6ba000000000000000000000000d25e4df8e07e88fd7bc2eef53f61ac5abd4d32c500000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000044c032dc3000000000000000000000000000000000000000000000000000000000000007d000000000000000000000000070319d1c09e1373fc7b10403c852909e5b20a9d500000000000000000000000000000000000000000000000000000000",
+        "debugEnable": true,
+        "errorInfo": "",
+        "eventCount": 4003,
+        "feeRecipient": "0x72b61c6014342d914470ec7ac2975be345796c2b",
+        "formatValue": "0",
+        "gasLimit": 100000000,
+        "gasPrice": "5",
+        "gasUsed": 87647874,
+        "intTxnCount": 8012,
+        "internalRevert": false,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": false,
+        "maxFee": "",
+        "nonce": 9,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "",
+        "receiver": "0xf08a01d2cace301ae69f07af5fdfb2336da2f629",
+        "revertMessage": "",
+        "sender": "0x61bbd8c1bc09c4f4549f3f77be5ad61a9929412e",
+        "simulationEnable": true,
+        "sourceTxnHash": "0xe1f257041872c075cbe6a1212827bc346df3def6d01a07914e4006ec43027165",
+        "status": true,
+        "timestamp": "2023-05-01T17:50:41Z",
+        "transactionFee": "0.43823937",
+        "txnHash": "0xe1f257041872c075cbe6a1212827bc346df3def6d01a07914e4006ec43027165",
+        "txnIndex": 5,
+        "type": 0,
+        "value": "0"
+    },
+    "fundFlow": [
+        {
+            "amount": "11,814.133625479533542",
+            "from": "0x977087422c008233615b572fbc3f209ed300063a",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0xf08a01d2cace301ae69f07af5fdfb2336da2f629",
+            "token": "0xb64e280e9d1b5dbec4accedb2257a87b400db149"
+        },
+        {
+            "amount": "11,814.488134912257620554",
+            "from": "0xf08a01d2cace301ae69f07af5fdfb2336da2f629",
+            "id": 2,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 2,
+            "to": "0x70319d1c09e1373fc7b10403c852909e5b20a9d5",
+            "token": "0xb64e280e9d1b5dbec4accedb2257a87b400db149"
+        }
+    ],
+    "securityEvent": {
+        "id": 78,
+        "project": "Level Finance",
+        "loss": 1000000,
+        "media": "https://twitter.com/BlockSecTeam/status/1653267431127920641",
+        "rootCause": "Business Logic Flaw",
+        "poc": "https://github.com/SunWeb3Sec/DeFiHackLabs?tab=readme-ov-file#20230502-level---business-logic-flaw",
+        "rescued": 0
+    },
+    "tokenInfos": [
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        },
+        {
+            "address": "0xb64e280e9d1b5dbec4accedb2257a87b400db149",
+            "decimals": 18
+        },
+        {
+            "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+            "decimals": 18
+        }
+    ]
+}

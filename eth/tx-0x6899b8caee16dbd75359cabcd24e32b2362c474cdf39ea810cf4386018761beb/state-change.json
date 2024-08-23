@@ -1,0 +1,47 @@
+{
+    "stateChanges": [
+        {
+            "address": "0x6f40d4a6237c257fff2db00fa0510deeecd303eb",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "key": "0xeb1dea2c80f4577dfb1ea73a9a16e3afe53d3da8f6c0aa4169f530b282a67cbf",
+                    "prev": "0x00000000000000000000000000000000000000000000010f0cf064dd59200000"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000010f0cf064dd59200000",
+                    "key": "0x56c4dc4e43c11d582b2461e68d27590c4224b1fef691a39dcb6fa90f50684fd8",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "balances",
+                    "type": "mapping(address => uint96)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x7e9b5b73d69e3c20477897a3e7bf681788b2d992",
+                                "value": {
+                                    "current": "0",
+                                    "prev": "5000000000000000000000",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0xb687550842a24d7fbc6aad238fd7e0687ed59d55",
+                                "value": {
+                                    "current": "5000000000000000000000",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

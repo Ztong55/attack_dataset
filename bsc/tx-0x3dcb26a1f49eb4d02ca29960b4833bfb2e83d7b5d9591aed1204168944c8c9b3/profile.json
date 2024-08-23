@@ -1,0 +1,116 @@
+{
+    "basicInfo": {
+        "baseFee": "0",
+        "blockNumber": 33435893,
+        "callData": "0x53d0489c00000000000000000000000019a23ddaa47396335894229e0439d3d187d89ec90000000000000000000000008c2d4ed92badb9b65f278efb8b440f4bc995ffe7",
+        "debugEnable": true,
+        "errorInfo": "",
+        "eventCount": 12,
+        "feeRecipient": "0x72b61c6014342d914470ec7ac2975be345796c2b",
+        "formatValue": "0",
+        "gasLimit": 9024088,
+        "gasPrice": "3",
+        "gasUsed": 230544,
+        "intTxnCount": 21,
+        "internalRevert": false,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": true,
+        "maxFee": "3",
+        "nonce": 1,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "3",
+        "receiver": "0x3918e0d26b41134c006e8d2d7e3206a53b006108",
+        "revertMessage": "",
+        "sender": "0x69e068eb917115ed103278b812ec7541f021cea0",
+        "simulationEnable": true,
+        "sourceTxnHash": "0x3dcb26a1f49eb4d02ca29960b4833bfb2e83d7b5d9591aed1204168944c8c9b3",
+        "status": true,
+        "timestamp": "2023-11-12T18:50:52Z",
+        "transactionFee": "0.000691632",
+        "txnHash": "0x3dcb26a1f49eb4d02ca29960b4833bfb2e83d7b5d9591aed1204168944c8c9b3",
+        "txnIndex": 28,
+        "type": 2,
+        "value": "0"
+    },
+    "fundFlow": [
+        {
+            "amount": "366,058.040206325661577467",
+            "from": "0x16b9a82891338f9ba80e2d6970fdda79d1eb0dae",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0x3918e0d26b41134c006e8d2d7e3206a53b006108",
+            "token": "0x55d398326f99059ff775485246999027b3197955"
+        },
+        {
+            "amount": "366,058.040206325661577467",
+            "from": "0x3918e0d26b41134c006e8d2d7e3206a53b006108",
+            "id": 2,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 2,
+            "to": "0x3918e0d26b41134c006e8d2d7e3206a53b006108",
+            "token": "0x55d398326f99059ff775485246999027b3197955"
+        },
+        {
+            "amount": "366,058.040206325661577467",
+            "from": "0x8c2d4ed92badb9b65f278efb8b440f4bc995ffe7",
+            "id": 3,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 3,
+            "to": "0x3918e0d26b41134c006e8d2d7e3206a53b006108",
+            "token": "0x55d398326f99059ff775485246999027b3197955"
+        },
+        {
+            "amount": "367,159.518762613502083719",
+            "from": "0x3918e0d26b41134c006e8d2d7e3206a53b006108",
+            "id": 4,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 4,
+            "to": "0x16b9a82891338f9ba80e2d6970fdda79d1eb0dae",
+            "token": "0x55d398326f99059ff775485246999027b3197955"
+        },
+        {
+            "amount": "364,956.561650037821071215",
+            "from": "0x3918e0d26b41134c006e8d2d7e3206a53b006108",
+            "id": 5,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 5,
+            "to": "0x69e068eb917115ed103278b812ec7541f021cea0",
+            "token": "0x55d398326f99059ff775485246999027b3197955"
+        }
+    ],
+    "securityEvent": {
+        "id": 119,
+        "project": "MEV Bot 0x8c2d4e",
+        "loss": 365000,
+        "media": "https://twitter.com/Phalcon_xyz/status/1723897569661657553",
+        "rootCause": "Access Control Issue",
+        "poc": "https://github.com/SunWeb3Sec/DeFiHackLabs?tab=readme-ov-file#20231112-mevbot_0x8c2d---lack-of-access-control",
+        "rescued": 0
+    },
+    "tokenInfos": [
+        {
+            "address": "0x55d398326f99059ff775485246999027b3197955",
+            "decimals": 18
+        },
+        {
+            "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+            "decimals": 18
+        },
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        }
+    ]
+}

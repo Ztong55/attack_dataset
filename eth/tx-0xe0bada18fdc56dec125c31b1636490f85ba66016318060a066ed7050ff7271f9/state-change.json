@@ -1,0 +1,77 @@
+{
+    "stateChanges": [
+        {
+            "address": "0x1bf68a9d1eaee7826b3593c20a0ca93293cb489a",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "key": "0xcefb184f3ae3d818b4a9906bbb0c8c5ec042694476dfdbcce9be7cf21e4625de",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "isUsedWithdrawal",
+                    "type": "mapping(bytes32 => bool)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x8df324c6d9450793ff2e0e75391e0b3117f55bfdd6d377974e6797ffbf7b763d",
+                                "value": {
+                                    "current": "true",
+                                    "prev": "false",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000000000001521a1cf3",
+                    "key": "0xa0bbaafc831a29fc05ab0d59f55cc902786a1f97d1af8abacd98807f17e6f558",
+                    "prev": "0x00000000000000000000000000000000000000000000000000000006b23f8253"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000000000000000000000056037d736",
+                    "key": "0x38df0fcd2c0a0df108cfe8a6ae4850ca1cdfd082e4b6cb9f9fdf3e7a2fa0f8b5",
+                    "prev": "0x00000000000000000000000000000000000000000000000000000000001271d6"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "balances",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x1bf68a9d1eaee7826b3593c20a0ca93293cb489a",
+                                "value": {
+                                    "current": "5672410355",
+                                    "prev": "28760310355",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0x9ca536d01b9e78dd30de9d7457867f8898634049",
+                                "value": {
+                                    "current": "23089108790",
+                                    "prev": "1208790",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

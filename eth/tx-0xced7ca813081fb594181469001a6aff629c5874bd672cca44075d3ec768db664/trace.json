@@ -1,0 +1,3619 @@
+{
+    "accountLabels": null,
+    "dataMap": {
+        "-1": {
+            "invocation": {
+                "address": "0xa9bf70a420d364e923c74448d9d817d3f2a77822",
+                "callData": "",
+                "decodedMethod": null,
+                "errorInfo": "",
+                "fromAddress": "",
+                "gasUsed": 0,
+                "id": -1,
+                "methodDecoded": false,
+                "operation": "",
+                "output": "",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "",
+                "status": false,
+                "value": ""
+            },
+            "nodeType": 0
+        },
+        "0": {
+            "invocation": {
+                "address": "0x538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "callData": "0x",
+                "decodedMethod": {
+                    "callParams": [],
+                    "constructorArguments": "",
+                    "name": "a",
+                    "returnParams": [],
+                    "signature": "a()"
+                },
+                "errorInfo": "",
+                "fromAddress": "0xa9bf70a420d364e923c74448d9d817d3f2a77822",
+                "gasUsed": 515356,
+                "id": 0,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x0dbe671f",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "1": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5eaffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "spender",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "decimalAvailable": true,
+                            "name": "value",
+                            "type": "uint256",
+                            "value": "115,792,089,237,316,195,423,570,985,008,687,907,853,269,984,665,640,564,039,457,584,007,913,129,639,935"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "approve",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "bool",
+                            "value": true
+                        }
+                    ],
+                    "signature": "approve(address,uint256)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "gasUsed": 7498,
+                "id": 1,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x095ea7b3",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "10": {
+            "invocation": {
+                "address": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "callData": "0x0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a45892300000000000000000000000000000000000000000000000000000006c890ba24000000000000000000000000000000000000000000000000000000000035db2e",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "_asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        },
+                        {
+                            "name": "cash",
+                            "type": "uint256",
+                            "value": "29,134,731,812"
+                        },
+                        {
+                            "name": "borrows",
+                            "type": "uint256",
+                            "value": "3,529,518"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "getSupplyRate",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "0"
+                        },
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "5,469,940,484"
+                        }
+                    ],
+                    "signature": "getSupplyRate(address,uint256,uint256)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 5921,
+                "id": 10,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000014608ab04",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x517cf73e",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "11": {
+            "invocation": {
+                "address": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "callData": "0x0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a45892300000000000000000000000000000000000000000000000000000006c890ba24000000000000000000000000000000000000000000000000000000000035db2e",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        },
+                        {
+                            "name": "cash",
+                            "type": "uint256",
+                            "value": "29,134,731,812"
+                        },
+                        {
+                            "name": "borrows",
+                            "type": "uint256",
+                            "value": "3,529,518"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "getBorrowRate",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "0"
+                        },
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "5,481,462,139"
+                        }
+                    ],
+                    "signature": "getBorrowRate(address,uint256,uint256)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 21298,
+                "id": 11,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000146b8797b",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xed2b5a3c",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "12": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "who",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "balanceOf",
+                    "returnParams": [
+                        {
+                            "decimalAvailable": true,
+                            "name": "",
+                            "type": "uint256",
+                            "value": "6,491,780,844"
+                        }
+                    ],
+                    "signature": "balanceOf(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "gasUsed": 3675,
+                "id": 12,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000182f0b6ec",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x70a08231",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "13": {
+            "invocation": {
+                "address": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "callData": "0x",
+                "decodedMethod": {
+                    "callParams": [],
+                    "constructorArguments": "",
+                    "name": "oracle",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "address",
+                            "value": "0xb620707637c5b2cc49843a03d90e28d9abbda149"
+                        }
+                    ],
+                    "signature": "oracle()"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "gasUsed": 1464,
+                "id": 13,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x000000000000000000000000b620707637c5b2cc49843a03d90e28d9abbda149",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x7dc0d1d0",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "14": {
+            "invocation": {
+                "address": "0xb620707637c5b2cc49843a03d90e28d9abbda149",
+                "callData": "0x",
+                "decodedMethod": {
+                    "callParams": [],
+                    "constructorArguments": "",
+                    "name": "mostRecentCaller",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "address",
+                            "value": "0xa9bf70a420d364e923c74448d9d817d3f2a77822"
+                        }
+                    ],
+                    "signature": "mostRecentCaller()"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "gasUsed": 1043,
+                "id": 14,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x000000000000000000000000a9bf70a420d364e923c74448d9d817d3f2a77822",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xbe59b4b1",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "15": {
+            "invocation": {
+                "address": "0xb620707637c5b2cc49843a03d90e28d9abbda149",
+                "callData": "0x",
+                "decodedMethod": {
+                    "callParams": [],
+                    "constructorArguments": "",
+                    "name": "mostRecentBlock",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "9,899,790"
+                        }
+                    ],
+                    "signature": "mostRecentBlock()"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "gasUsed": 1006,
+                "id": 15,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000970f0e",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x6084747f",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "16": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea0000000000000000000000000000000000000000000000000000000545a00338",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "holder",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "recipient",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "decimalAvailable": true,
+                            "name": "amount",
+                            "type": "uint256",
+                            "value": "22,642,950,968"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "transferFrom",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "bool",
+                            "value": true
+                        }
+                    ],
+                    "signature": "transferFrom(address,address,uint256)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 42602,
+                "id": 16,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x23b872dd",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "17": {
+            "invocation": {
+                "address": "0x1820a4b7618bde71dce8cdc73aab6c95905fad24",
+                "callData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d29ddb589b1fb5fc7cf394961c1adf5f8c6454761adf795e67fe149f658abe895",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "_addr",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "_interfaceHash",
+                            "type": "bytes32",
+                            "value": "0x29ddb589b1fb5fc7cf394961c1adf5f8c6454761adf795e67fe149f658abe895"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "getInterfaceImplementer",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        }
+                    ],
+                    "signature": "getInterfaceImplementer(address,bytes32)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "gasUsed": 1642,
+                "id": 17,
+                "methodDecoded": true,
+                "operation": "STATICCALL",
+                "output": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xaabbb8ca",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "18": {
+            "invocation": {
+                "address": "0x538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "callData": "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea0000000000000000000000000000000000000000000000000000000545a0033800000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "operator",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "name": "from",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "to",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "name": "amount",
+                            "type": "uint256",
+                            "value": "22,642,950,968"
+                        },
+                        {
+                            "name": "userData",
+                            "type": "bytes",
+                            "value": "0x"
+                        },
+                        {
+                            "name": "operatorData",
+                            "type": "bytes",
+                            "value": "0x"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "tokensToSend",
+                    "returnParams": [],
+                    "signature": "tokensToSend(address,address,address,uint256,bytes,bytes)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "gasUsed": 1586,
+                "id": 18,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x75ab9782",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "19": {
+            "event": {
+                "contract": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "decodedLog": {
+                    "name": "Sent",
+                    "params": [
+                        {
+                            "name": "operator",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "name": "from",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "to",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "name": "amount",
+                            "type": "uint256",
+                            "value": "22,642,950,968"
+                        },
+                        {
+                            "name": "data",
+                            "type": "bytes",
+                            "value": "0x"
+                        },
+                        {
+                            "name": "operatorData",
+                            "type": "bytes",
+                            "value": "0x"
+                        }
+                    ],
+                    "signature": "Sent(address,address,address,uint256,bytes,bytes)"
+                },
+                "id": 19,
+                "logData": "0x0000000000000000000000000000000000000000000000000000000545a003380000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0x06b541ddaa720db2b10a4d0cdac39b8d360425fc073085fac19bc82614677987",
+                    "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                    "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d",
+                    "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                ]
+            },
+            "nodeType": 1
+        },
+        "2": {
+            "event": {
+                "contract": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "decodedLog": {
+                    "name": "Approval",
+                    "params": [
+                        {
+                            "name": "owner",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "spender",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "decimalAvailable": true,
+                            "name": "value",
+                            "type": "uint256",
+                            "value": "115,792,089,237,316,195,423,570,985,008,687,907,853,269,984,665,640,564,039,457,584,007,913,129,639,935"
+                        }
+                    ],
+                    "signature": "Approval(address,address,uint256)"
+                },
+                "id": 2,
+                "logData": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+                    "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d",
+                    "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                ]
+            },
+            "nodeType": 1
+        },
+        "20": {
+            "event": {
+                "contract": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "decodedLog": {
+                    "name": "Transfer",
+                    "params": [
+                        {
+                            "name": "from",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "to",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "decimalAvailable": true,
+                            "name": "value",
+                            "type": "uint256",
+                            "value": "22,642,950,968"
+                        }
+                    ],
+                    "signature": "Transfer(address,address,uint256)"
+                },
+                "id": 20,
+                "logData": "0x0000000000000000000000000000000000000000000000000000000545a00338",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+                    "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d",
+                    "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                ]
+            },
+            "nodeType": 1
+        },
+        "21": {
+            "event": {
+                "contract": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "decodedLog": {
+                    "name": "Approval",
+                    "params": [
+                        {
+                            "name": "owner",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "spender",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "decimalAvailable": true,
+                            "name": "value",
+                            "type": "uint256",
+                            "value": "115,792,089,237,316,195,423,570,985,008,687,907,853,269,984,665,640,564,039,457,584,007,890,486,688,967"
+                        }
+                    ],
+                    "signature": "Approval(address,address,uint256)"
+                },
+                "id": 21,
+                "logData": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffaba5ffcc7",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+                    "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d",
+                    "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                ]
+            },
+            "nodeType": 1
+        },
+        "22": {
+            "invocation": {
+                "address": "0x1820a4b7618bde71dce8cdc73aab6c95905fad24",
+                "callData": "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5eab281fc8c12954d22544db45de3159a39272895b169a852b314f9cc762e44c53b",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "_addr",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "name": "_interfaceHash",
+                            "type": "bytes32",
+                            "value": "0xb281fc8c12954d22544db45de3159a39272895b169a852b314f9cc762e44c53b"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "getInterfaceImplementer",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "address",
+                            "value": "0x0000000000000000000000000000000000000000"
+                        }
+                    ],
+                    "signature": "getInterfaceImplementer(address,bytes32)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "gasUsed": 1642,
+                "id": 22,
+                "methodDecoded": true,
+                "operation": "STATICCALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xaabbb8ca",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "23": {
+            "event": {
+                "contract": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "decodedLog": {
+                    "name": "SupplyReceived",
+                    "params": [
+                        {
+                            "name": "account",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        },
+                        {
+                            "name": "amount",
+                            "type": "uint256",
+                            "value": "22,642,950,968"
+                        },
+                        {
+                            "name": "startingBalance",
+                            "type": "uint256",
+                            "value": "22,642,950,970"
+                        },
+                        {
+                            "name": "newBalance",
+                            "type": "uint256",
+                            "value": "45,285,902,061"
+                        }
+                    ],
+                    "signature": "SupplyReceived(address,address,uint256,uint256,uint256)"
+                },
+                "id": 23,
+                "logData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a4589230000000000000000000000000000000000000000000000000000000545a003380000000000000000000000000000000000000000000000000000000545a0033a0000000000000000000000000000000000000000000000000000000a8b4006ed",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0x4ea5606ff36959d6c1a24f693661d800a98dd80c0fb8469a665d2ec7e8313c21"
+                ]
+            },
+            "nodeType": 1
+        },
+        "24": {
+            "invocation": {
+                "address": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "callData": "0x0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a4589230000000000000000000000000000000000000000000000000000000000000001",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        },
+                        {
+                            "name": "amount",
+                            "type": "uint256",
+                            "value": "1"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "supply",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "0"
+                        }
+                    ],
+                    "signature": "supply(address,uint256)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "gasUsed": 319602,
+                "id": 24,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xf2b9fdb8",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "25": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "holder",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "spender",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "allowance",
+                    "returnParams": [
+                        {
+                            "decimalAvailable": true,
+                            "name": "",
+                            "type": "uint256",
+                            "value": "115,792,089,237,316,195,423,570,985,008,687,907,853,269,984,665,640,564,039,457,584,007,890,486,688,967"
+                        }
+                    ],
+                    "signature": "allowance(address,address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 2036,
+                "id": 25,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffaba5ffcc7",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xdd62ed3e",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "26": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "who",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "balanceOf",
+                    "returnParams": [
+                        {
+                            "decimalAvailable": true,
+                            "name": "",
+                            "type": "uint256",
+                            "value": "1"
+                        }
+                    ],
+                    "signature": "balanceOf(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 3675,
+                "id": 26,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x70a08231",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "27": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "who",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "balanceOf",
+                    "returnParams": [
+                        {
+                            "decimalAvailable": true,
+                            "name": "",
+                            "type": "uint256",
+                            "value": "29,134,731,812"
+                        }
+                    ],
+                    "signature": "balanceOf(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 3675,
+                "id": 27,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x00000000000000000000000000000000000000000000000000000006c890ba24",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x70a08231",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "28": {
+            "invocation": {
+                "address": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "callData": "0x0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a45892300000000000000000000000000000000000000000000000000000006c890ba25000000000000000000000000000000000000000000000000000000000035db2e",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "_asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        },
+                        {
+                            "name": "cash",
+                            "type": "uint256",
+                            "value": "29,134,731,813"
+                        },
+                        {
+                            "name": "borrows",
+                            "type": "uint256",
+                            "value": "3,529,518"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "getSupplyRate",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "0"
+                        },
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "5,469,940,484"
+                        }
+                    ],
+                    "signature": "getSupplyRate(address,uint256,uint256)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 5921,
+                "id": 28,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000014608ab04",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x517cf73e",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "29": {
+            "invocation": {
+                "address": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "callData": "0x0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a45892300000000000000000000000000000000000000000000000000000006c890ba25000000000000000000000000000000000000000000000000000000000035db2e",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        },
+                        {
+                            "name": "cash",
+                            "type": "uint256",
+                            "value": "29,134,731,813"
+                        },
+                        {
+                            "name": "borrows",
+                            "type": "uint256",
+                            "value": "3,529,518"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "getBorrowRate",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "0"
+                        },
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "5,481,462,139"
+                        }
+                    ],
+                    "signature": "getBorrowRate(address,uint256,uint256)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 21298,
+                "id": 29,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000146b8797b",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xed2b5a3c",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "3": {
+            "invocation": {
+                "address": "0x1820a4b7618bde71dce8cdc73aab6c95905fad24",
+                "callData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d29ddb589b1fb5fc7cf394961c1adf5f8c6454761adf795e67fe149f658abe895000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "_addr",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "_interfaceHash",
+                            "type": "bytes32",
+                            "value": "0x29ddb589b1fb5fc7cf394961c1adf5f8c6454761adf795e67fe149f658abe895"
+                        },
+                        {
+                            "name": "_implementer",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "setInterfaceImplementer",
+                    "returnParams": [],
+                    "signature": "setInterfaceImplementer(address,bytes32,address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "gasUsed": 5571,
+                "id": 3,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x29965a1d",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "30": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "who",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "balanceOf",
+                    "returnParams": [
+                        {
+                            "decimalAvailable": true,
+                            "name": "",
+                            "type": "uint256",
+                            "value": "29,134,731,812"
+                        }
+                    ],
+                    "signature": "balanceOf(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "gasUsed": 3675,
+                "id": 30,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x00000000000000000000000000000000000000000000000000000006c890ba24",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x70a08231",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "31": {
+            "invocation": {
+                "address": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "callData": "0x",
+                "decodedMethod": {
+                    "callParams": [],
+                    "constructorArguments": "",
+                    "name": "oracle",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "address",
+                            "value": "0xb620707637c5b2cc49843a03d90e28d9abbda149"
+                        }
+                    ],
+                    "signature": "oracle()"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "gasUsed": 1464,
+                "id": 31,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x000000000000000000000000b620707637c5b2cc49843a03d90e28d9abbda149",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x7dc0d1d0",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "32": {
+            "invocation": {
+                "address": "0xb620707637c5b2cc49843a03d90e28d9abbda149",
+                "callData": "0x",
+                "decodedMethod": {
+                    "callParams": [],
+                    "constructorArguments": "",
+                    "name": "mostRecentCaller",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "address",
+                            "value": "0xa9bf70a420d364e923c74448d9d817d3f2a77822"
+                        }
+                    ],
+                    "signature": "mostRecentCaller()"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "gasUsed": 1043,
+                "id": 32,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x000000000000000000000000a9bf70a420d364e923c74448d9d817d3f2a77822",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xbe59b4b1",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "33": {
+            "invocation": {
+                "address": "0xb620707637c5b2cc49843a03d90e28d9abbda149",
+                "callData": "0x",
+                "decodedMethod": {
+                    "callParams": [],
+                    "constructorArguments": "",
+                    "name": "mostRecentBlock",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "9,899,790"
+                        }
+                    ],
+                    "signature": "mostRecentBlock()"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "gasUsed": 1006,
+                "id": 33,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000970f0e",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x6084747f",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "34": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea0000000000000000000000000000000000000000000000000000000000000001",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "holder",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "recipient",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "decimalAvailable": true,
+                            "name": "amount",
+                            "type": "uint256",
+                            "value": "1"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "transferFrom",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "bool",
+                            "value": true
+                        }
+                    ],
+                    "signature": "transferFrom(address,address,uint256)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 242421,
+                "id": 34,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x23b872dd",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "35": {
+            "invocation": {
+                "address": "0x1820a4b7618bde71dce8cdc73aab6c95905fad24",
+                "callData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d29ddb589b1fb5fc7cf394961c1adf5f8c6454761adf795e67fe149f658abe895",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "_addr",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "_interfaceHash",
+                            "type": "bytes32",
+                            "value": "0x29ddb589b1fb5fc7cf394961c1adf5f8c6454761adf795e67fe149f658abe895"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "getInterfaceImplementer",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        }
+                    ],
+                    "signature": "getInterfaceImplementer(address,bytes32)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "gasUsed": 1642,
+                "id": 35,
+                "methodDecoded": true,
+                "operation": "STATICCALL",
+                "output": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xaabbb8ca",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "36": {
+            "invocation": {
+                "address": "0x538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "callData": "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "operator",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "name": "from",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "to",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "name": "amount",
+                            "type": "uint256",
+                            "value": "1"
+                        },
+                        {
+                            "name": "userData",
+                            "type": "bytes",
+                            "value": "0x"
+                        },
+                        {
+                            "name": "operatorData",
+                            "type": "bytes",
+                            "value": "0x"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "tokensToSend",
+                    "returnParams": [],
+                    "signature": "tokensToSend(address,address,address,uint256,bytes,bytes)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "gasUsed": 209805,
+                "id": 36,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x75ab9782",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "37": {
+            "invocation": {
+                "address": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "callData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a458923",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "account",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "getSupplyBalance",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "45,285,902,061"
+                        }
+                    ],
+                    "signature": "getSupplyBalance(address,address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "gasUsed": 7716,
+                "id": 37,
+                "methodDecoded": true,
+                "operation": "STATICCALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000a8b4006ed",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xba377731",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "38": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "who",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "balanceOf",
+                    "returnParams": [
+                        {
+                            "decimalAvailable": true,
+                            "name": "",
+                            "type": "uint256",
+                            "value": "29,134,731,812"
+                        }
+                    ],
+                    "signature": "balanceOf(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "gasUsed": 3675,
+                "id": 38,
+                "methodDecoded": true,
+                "operation": "STATICCALL",
+                "output": "0x00000000000000000000000000000000000000000000000000000006c890ba24",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x70a08231",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "39": {
+            "invocation": {
+                "address": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "callData": "0x0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a45892300000000000000000000000000000000000000000000000000000006c890ba24",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        },
+                        {
+                            "name": "requestedAmount",
+                            "type": "uint256",
+                            "value": "29,134,731,812"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "withdraw",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "0"
+                        }
+                    ],
+                    "signature": "withdraw(address,uint256)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "gasUsed": 187003,
+                "id": 39,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xf3fef3a3",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "4": {
+            "event": {
+                "contract": "0x1820a4b7618bde71dce8cdc73aab6c95905fad24",
+                "decodedLog": {
+                    "name": "InterfaceImplementerSet",
+                    "params": [
+                        {
+                            "name": "addr",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "interfaceHash",
+                            "type": "bytes32",
+                            "value": "0x29ddb589b1fb5fc7cf394961c1adf5f8c6454761adf795e67fe149f658abe895"
+                        },
+                        {
+                            "name": "implementer",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        }
+                    ],
+                    "signature": "InterfaceImplementerSet(address,bytes32,address)"
+                },
+                "id": 4,
+                "logData": "0x",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0x93baa6efbd2244243bfee6ce4cfdd1d04fc4c0e9a786abd3a41313bd352db153",
+                    "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d",
+                    "0x29ddb589b1fb5fc7cf394961c1adf5f8c6454761adf795e67fe149f658abe895",
+                    "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d"
+                ]
+            },
+            "nodeType": 1
+        },
+        "40": {
+            "invocation": {
+                "address": "0xb620707637c5b2cc49843a03d90e28d9abbda149",
+                "callData": "0x0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a458923",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "assetPrices",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "387,503,628,002,717,175,430,000,000,000"
+                        }
+                    ],
+                    "signature": "assetPrices(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 15369,
+                "id": 40,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000004e4177d0653fa25087911bc00",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x5e9a523c",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "41": {
+            "invocation": {
+                "address": "0xe171d8c7e9ee0ddae1a9bec0c7f35294e48c28d4",
+                "callData": "0x0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a458923",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "assetPrices",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "387,503,628,002,717,175,430,000,000,000"
+                        }
+                    ],
+                    "signature": "assetPrices(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0xb620707637c5b2cc49843a03d90e28d9abbda149",
+                "gasUsed": 6115,
+                "id": 41,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000004e4177d0653fa25087911bc00",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x5e9a523c",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "42": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "who",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "balanceOf",
+                    "returnParams": [
+                        {
+                            "decimalAvailable": true,
+                            "name": "",
+                            "type": "uint256",
+                            "value": "29,134,731,812"
+                        }
+                    ],
+                    "signature": "balanceOf(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 3675,
+                "id": 42,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x00000000000000000000000000000000000000000000000000000006c890ba24",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x70a08231",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "43": {
+            "invocation": {
+                "address": "0xb620707637c5b2cc49843a03d90e28d9abbda149",
+                "callData": "0x0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a458923",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "assetPrices",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "387,503,628,002,717,175,430,000,000,000"
+                        }
+                    ],
+                    "signature": "assetPrices(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 11169,
+                "id": 43,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000004e4177d0653fa25087911bc00",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x5e9a523c",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "44": {
+            "invocation": {
+                "address": "0xe171d8c7e9ee0ddae1a9bec0c7f35294e48c28d4",
+                "callData": "0x0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a458923",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "assetPrices",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "387,503,628,002,717,175,430,000,000,000"
+                        }
+                    ],
+                    "signature": "assetPrices(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0xb620707637c5b2cc49843a03d90e28d9abbda149",
+                "gasUsed": 6115,
+                "id": 44,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000004e4177d0653fa25087911bc00",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x5e9a523c",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "45": {
+            "invocation": {
+                "address": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "callData": "0x0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a4589230000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000035db2e",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "_asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        },
+                        {
+                            "name": "cash",
+                            "type": "uint256",
+                            "value": "0"
+                        },
+                        {
+                            "name": "borrows",
+                            "type": "uint256",
+                            "value": "3,529,518"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "getSupplyRate",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "0"
+                        },
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "98,696,727,549"
+                        }
+                    ],
+                    "signature": "getSupplyRate(address,uint256,uint256)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 5921,
+                "id": 45,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016fac88bfd",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x517cf73e",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "46": {
+            "invocation": {
+                "address": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "callData": "0x0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a4589230000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000035db2e",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        },
+                        {
+                            "name": "cash",
+                            "type": "uint256",
+                            "value": "0"
+                        },
+                        {
+                            "name": "borrows",
+                            "type": "uint256",
+                            "value": "3,529,518"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "getBorrowRate",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "0"
+                        },
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "100,599,315,068"
+                        }
+                    ],
+                    "signature": "getBorrowRate(address,uint256,uint256)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 11782,
+                "id": 46,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000176c2fba7c",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xed2b5a3c",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "47": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "who",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "balanceOf",
+                    "returnParams": [
+                        {
+                            "decimalAvailable": true,
+                            "name": "",
+                            "type": "uint256",
+                            "value": "29,134,731,812"
+                        }
+                    ],
+                    "signature": "balanceOf(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x9a18c4d9587344f2b15686aa67ee7e5c4b00d549",
+                "gasUsed": 3675,
+                "id": 47,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x00000000000000000000000000000000000000000000000000000006c890ba24",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x70a08231",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "48": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d00000000000000000000000000000000000000000000000000000006c890ba24",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "recipient",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "decimalAvailable": true,
+                            "name": "amount",
+                            "type": "uint256",
+                            "value": "29,134,731,812"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "transfer",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "bool",
+                            "value": true
+                        }
+                    ],
+                    "signature": "transfer(address,uint256)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 26960,
+                "id": 48,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xa9059cbb",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "49": {
+            "invocation": {
+                "address": "0x1820a4b7618bde71dce8cdc73aab6c95905fad24",
+                "callData": "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea29ddb589b1fb5fc7cf394961c1adf5f8c6454761adf795e67fe149f658abe895",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "_addr",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "name": "_interfaceHash",
+                            "type": "bytes32",
+                            "value": "0x29ddb589b1fb5fc7cf394961c1adf5f8c6454761adf795e67fe149f658abe895"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "getInterfaceImplementer",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "address",
+                            "value": "0x0000000000000000000000000000000000000000"
+                        }
+                    ],
+                    "signature": "getInterfaceImplementer(address,bytes32)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "gasUsed": 1642,
+                "id": 49,
+                "methodDecoded": true,
+                "operation": "STATICCALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xaabbb8ca",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "5": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "who",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "balanceOf",
+                    "returnParams": [
+                        {
+                            "decimalAvailable": true,
+                            "name": "",
+                            "type": "uint256",
+                            "value": "22,642,950,969"
+                        }
+                    ],
+                    "signature": "balanceOf(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "gasUsed": 3675,
+                "id": 5,
+                "methodDecoded": true,
+                "operation": "STATICCALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000545a00339",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x70a08231",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "50": {
+            "event": {
+                "contract": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "decodedLog": {
+                    "name": "Sent",
+                    "params": [
+                        {
+                            "name": "operator",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "name": "from",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "name": "to",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "amount",
+                            "type": "uint256",
+                            "value": "29,134,731,812"
+                        },
+                        {
+                            "name": "data",
+                            "type": "bytes",
+                            "value": "0x"
+                        },
+                        {
+                            "name": "operatorData",
+                            "type": "bytes",
+                            "value": "0x"
+                        }
+                    ],
+                    "signature": "Sent(address,address,address,uint256,bytes,bytes)"
+                },
+                "id": 50,
+                "logData": "0x00000000000000000000000000000000000000000000000000000006c890ba240000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0x06b541ddaa720db2b10a4d0cdac39b8d360425fc073085fac19bc82614677987",
+                    "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                    "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                    "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d"
+                ]
+            },
+            "nodeType": 1
+        },
+        "51": {
+            "event": {
+                "contract": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "decodedLog": {
+                    "name": "Transfer",
+                    "params": [
+                        {
+                            "name": "from",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "name": "to",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "decimalAvailable": true,
+                            "name": "value",
+                            "type": "uint256",
+                            "value": "29,134,731,812"
+                        }
+                    ],
+                    "signature": "Transfer(address,address,uint256)"
+                },
+                "id": 51,
+                "logData": "0x00000000000000000000000000000000000000000000000000000006c890ba24",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+                    "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                    "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d"
+                ]
+            },
+            "nodeType": 1
+        },
+        "52": {
+            "invocation": {
+                "address": "0x1820a4b7618bde71dce8cdc73aab6c95905fad24",
+                "callData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91db281fc8c12954d22544db45de3159a39272895b169a852b314f9cc762e44c53b",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "_addr",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "_interfaceHash",
+                            "type": "bytes32",
+                            "value": "0xb281fc8c12954d22544db45de3159a39272895b169a852b314f9cc762e44c53b"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "getInterfaceImplementer",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "address",
+                            "value": "0x0000000000000000000000000000000000000000"
+                        }
+                    ],
+                    "signature": "getInterfaceImplementer(address,bytes32)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "gasUsed": 1642,
+                "id": 52,
+                "methodDecoded": true,
+                "operation": "STATICCALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xaabbb8ca",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "53": {
+            "event": {
+                "contract": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "decodedLog": {
+                    "name": "SupplyWithdrawn",
+                    "params": [
+                        {
+                            "name": "account",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        },
+                        {
+                            "name": "amount",
+                            "type": "uint256",
+                            "value": "29,134,731,812"
+                        },
+                        {
+                            "name": "startingBalance",
+                            "type": "uint256",
+                            "value": "45,285,902,061"
+                        },
+                        {
+                            "name": "newBalance",
+                            "type": "uint256",
+                            "value": "16,151,170,249"
+                        }
+                    ],
+                    "signature": "SupplyWithdrawn(address,address,uint256,uint256,uint256)"
+                },
+                "id": 53,
+                "logData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a45892300000000000000000000000000000000000000000000000000000006c890ba240000000000000000000000000000000000000000000000000000000a8b4006ed00000000000000000000000000000000000000000000000000000003c2af4cc9",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0x56559a17e3aa8ea4b05036eaf31aeaf9fb71fc1b8865b6389647639940bed030"
+                ]
+            },
+            "nodeType": 1
+        },
+        "54": {
+            "event": {
+                "contract": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "decodedLog": {
+                    "name": "Sent",
+                    "params": [
+                        {
+                            "name": "operator",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "name": "from",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "to",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "name": "amount",
+                            "type": "uint256",
+                            "value": "1"
+                        },
+                        {
+                            "name": "data",
+                            "type": "bytes",
+                            "value": "0x"
+                        },
+                        {
+                            "name": "operatorData",
+                            "type": "bytes",
+                            "value": "0x"
+                        }
+                    ],
+                    "signature": "Sent(address,address,address,uint256,bytes,bytes)"
+                },
+                "id": 54,
+                "logData": "0x00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0x06b541ddaa720db2b10a4d0cdac39b8d360425fc073085fac19bc82614677987",
+                    "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                    "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d",
+                    "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                ]
+            },
+            "nodeType": 1
+        },
+        "55": {
+            "event": {
+                "contract": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "decodedLog": {
+                    "name": "Transfer",
+                    "params": [
+                        {
+                            "name": "from",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "to",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "decimalAvailable": true,
+                            "name": "value",
+                            "type": "uint256",
+                            "value": "1"
+                        }
+                    ],
+                    "signature": "Transfer(address,address,uint256)"
+                },
+                "id": 55,
+                "logData": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+                    "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d",
+                    "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                ]
+            },
+            "nodeType": 1
+        },
+        "56": {
+            "event": {
+                "contract": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "decodedLog": {
+                    "name": "Approval",
+                    "params": [
+                        {
+                            "name": "owner",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "spender",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "decimalAvailable": true,
+                            "name": "value",
+                            "type": "uint256",
+                            "value": "115,792,089,237,316,195,423,570,985,008,687,907,853,269,984,665,640,564,039,457,584,007,890,486,688,966"
+                        }
+                    ],
+                    "signature": "Approval(address,address,uint256)"
+                },
+                "id": 56,
+                "logData": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffaba5ffcc6",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+                    "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d",
+                    "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                ]
+            },
+            "nodeType": 1
+        },
+        "57": {
+            "invocation": {
+                "address": "0x1820a4b7618bde71dce8cdc73aab6c95905fad24",
+                "callData": "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5eab281fc8c12954d22544db45de3159a39272895b169a852b314f9cc762e44c53b",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "_addr",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        },
+                        {
+                            "name": "_interfaceHash",
+                            "type": "bytes32",
+                            "value": "0xb281fc8c12954d22544db45de3159a39272895b169a852b314f9cc762e44c53b"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "getInterfaceImplementer",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "address",
+                            "value": "0x0000000000000000000000000000000000000000"
+                        }
+                    ],
+                    "signature": "getInterfaceImplementer(address,bytes32)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "gasUsed": 1642,
+                "id": 57,
+                "methodDecoded": true,
+                "operation": "STATICCALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xaabbb8ca",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "58": {
+            "event": {
+                "contract": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "decodedLog": {
+                    "name": "SupplyReceived",
+                    "params": [
+                        {
+                            "name": "account",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        },
+                        {
+                            "name": "amount",
+                            "type": "uint256",
+                            "value": "1"
+                        },
+                        {
+                            "name": "startingBalance",
+                            "type": "uint256",
+                            "value": "16,151,170,249"
+                        },
+                        {
+                            "name": "newBalance",
+                            "type": "uint256",
+                            "value": "45,285,902,062"
+                        }
+                    ],
+                    "signature": "SupplyReceived(address,address,uint256,uint256,uint256)"
+                },
+                "id": 58,
+                "logData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a458923000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000003c2af4cc90000000000000000000000000000000000000000000000000000000a8b4006ee",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0x4ea5606ff36959d6c1a24f693661d800a98dd80c0fb8469a665d2ec7e8313c21"
+                ]
+            },
+            "nodeType": 1
+        },
+        "6": {
+            "invocation": {
+                "address": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "callData": "0x0000000000000000000000003212b29e33587a00fb1c83346f5dbfa69a4589230000000000000000000000000000000000000000000000000000000545a00338",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "asset",
+                            "type": "address",
+                            "value": "0x3212b29e33587a00fb1c83346f5dbfa69a458923"
+                        },
+                        {
+                            "name": "amount",
+                            "type": "uint256",
+                            "value": "22,642,950,968"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "supply",
+                    "returnParams": [
+                        {
+                            "name": "",
+                            "type": "uint256",
+                            "value": "0"
+                        }
+                    ],
+                    "signature": "supply(address,uint256)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "gasUsed": 144983,
+                "id": 6,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xf2b9fdb8",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "7": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "holder",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        },
+                        {
+                            "name": "spender",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "allowance",
+                    "returnParams": [
+                        {
+                            "decimalAvailable": true,
+                            "name": "",
+                            "type": "uint256",
+                            "value": "115,792,089,237,316,195,423,570,985,008,687,907,853,269,984,665,640,564,039,457,584,007,913,129,639,935"
+                        }
+                    ],
+                    "signature": "allowance(address,address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 2036,
+                "id": 7,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xdd62ed3e",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "8": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x000000000000000000000000538359785a8d5ab1a741a0ba94f26a800759d91d",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "who",
+                            "type": "address",
+                            "value": "0x538359785a8d5ab1a741a0ba94f26a800759d91d"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "balanceOf",
+                    "returnParams": [
+                        {
+                            "decimalAvailable": true,
+                            "name": "",
+                            "type": "uint256",
+                            "value": "22,642,950,969"
+                        }
+                    ],
+                    "signature": "balanceOf(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 3675,
+                "id": 8,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000545a00339",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x70a08231",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "9": {
+            "invocation": {
+                "address": "0x3212b29e33587a00fb1c83346f5dbfa69a458923",
+                "callData": "0x0000000000000000000000000eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "who",
+                            "type": "address",
+                            "value": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "balanceOf",
+                    "returnParams": [
+                        {
+                            "decimalAvailable": true,
+                            "name": "",
+                            "type": "uint256",
+                            "value": "6,491,780,844"
+                        }
+                    ],
+                    "signature": "balanceOf(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "gasUsed": 3675,
+                "id": 9,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "0x0000000000000000000000000000000000000000000000000000000182f0b6ec",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x70a08231",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        }
+    },
+    "gasFlame": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "depth": 0,
+                            "name": "Initial Gas",
+                            "value": 21064
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "depth": 1,
+                                    "name": "approve",
+                                    "value": 7498
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 1,
+                                    "name": "setInterfaceImplementer",
+                                    "value": 5571
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 1,
+                                    "name": "balanceOf",
+                                    "value": 3675
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [],
+                                            "depth": 2,
+                                            "name": "allowance",
+                                            "value": 2036
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 2,
+                                            "name": "balanceOf",
+                                            "value": 3675
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 2,
+                                            "name": "balanceOf",
+                                            "value": 3675
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 2,
+                                            "name": "getSupplyRate",
+                                            "value": 5921
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "children": [],
+                                                    "depth": 3,
+                                                    "name": "balanceOf",
+                                                    "value": 3675
+                                                },
+                                                {
+                                                    "children": [],
+                                                    "depth": 3,
+                                                    "name": "oracle",
+                                                    "value": 1464
+                                                },
+                                                {
+                                                    "children": [],
+                                                    "depth": 3,
+                                                    "name": "mostRecentCaller",
+                                                    "value": 1043
+                                                },
+                                                {
+                                                    "children": [],
+                                                    "depth": 3,
+                                                    "name": "mostRecentBlock",
+                                                    "value": 1006
+                                                }
+                                            ],
+                                            "depth": 2,
+                                            "name": "getBorrowRate",
+                                            "value": 21298
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "children": [],
+                                                    "depth": 3,
+                                                    "name": "getInterfaceImplementer",
+                                                    "value": 1642
+                                                },
+                                                {
+                                                    "children": [],
+                                                    "depth": 3,
+                                                    "name": "tokensToSend",
+                                                    "value": 1586
+                                                },
+                                                {
+                                                    "children": [],
+                                                    "depth": 3,
+                                                    "name": "getInterfaceImplementer",
+                                                    "value": 1642
+                                                }
+                                            ],
+                                            "depth": 2,
+                                            "name": "transferFrom",
+                                            "value": 42602
+                                        }
+                                    ],
+                                    "depth": 1,
+                                    "name": "supply",
+                                    "value": 144983
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [],
+                                            "depth": 2,
+                                            "name": "allowance",
+                                            "value": 2036
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 2,
+                                            "name": "balanceOf",
+                                            "value": 3675
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 2,
+                                            "name": "balanceOf",
+                                            "value": 3675
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 2,
+                                            "name": "getSupplyRate",
+                                            "value": 5921
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "children": [],
+                                                    "depth": 3,
+                                                    "name": "balanceOf",
+                                                    "value": 3675
+                                                },
+                                                {
+                                                    "children": [],
+                                                    "depth": 3,
+                                                    "name": "oracle",
+                                                    "value": 1464
+                                                },
+                                                {
+                                                    "children": [],
+                                                    "depth": 3,
+                                                    "name": "mostRecentCaller",
+                                                    "value": 1043
+                                                },
+                                                {
+                                                    "children": [],
+                                                    "depth": 3,
+                                                    "name": "mostRecentBlock",
+                                                    "value": 1006
+                                                }
+                                            ],
+                                            "depth": 2,
+                                            "name": "getBorrowRate",
+                                            "value": 21298
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "children": [],
+                                                    "depth": 3,
+                                                    "name": "getInterfaceImplementer",
+                                                    "value": 1642
+                                                },
+                                                {
+                                                    "children": [
+                                                        {
+                                                            "children": [],
+                                                            "depth": 4,
+                                                            "name": "getSupplyBalance",
+                                                            "value": 7716
+                                                        },
+                                                        {
+                                                            "children": [],
+                                                            "depth": 4,
+                                                            "name": "balanceOf",
+                                                            "value": 3675
+                                                        },
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [
+                                                                        {
+                                                                            "children": [],
+                                                                            "depth": 6,
+                                                                            "name": "assetPrices",
+                                                                            "value": 6115
+                                                                        }
+                                                                    ],
+                                                                    "depth": 5,
+                                                                    "name": "assetPrices",
+                                                                    "value": 15369
+                                                                },
+                                                                {
+                                                                    "children": [],
+                                                                    "depth": 5,
+                                                                    "name": "balanceOf",
+                                                                    "value": 3675
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {
+                                                                            "children": [],
+                                                                            "depth": 6,
+                                                                            "name": "assetPrices",
+                                                                            "value": 6115
+                                                                        }
+                                                                    ],
+                                                                    "depth": 5,
+                                                                    "name": "assetPrices",
+                                                                    "value": 11169
+                                                                },
+                                                                {
+                                                                    "children": [],
+                                                                    "depth": 5,
+                                                                    "name": "getSupplyRate",
+                                                                    "value": 5921
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {
+                                                                            "children": [],
+                                                                            "depth": 6,
+                                                                            "name": "balanceOf",
+                                                                            "value": 3675
+                                                                        }
+                                                                    ],
+                                                                    "depth": 5,
+                                                                    "name": "getBorrowRate",
+                                                                    "value": 11782
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {
+                                                                            "children": [],
+                                                                            "depth": 6,
+                                                                            "name": "getInterfaceImplementer",
+                                                                            "value": 1642
+                                                                        },
+                                                                        {
+                                                                            "children": [],
+                                                                            "depth": 6,
+                                                                            "name": "getInterfaceImplementer",
+                                                                            "value": 1642
+                                                                        }
+                                                                    ],
+                                                                    "depth": 5,
+                                                                    "name": "transfer",
+                                                                    "value": 26960
+                                                                }
+                                                            ],
+                                                            "depth": 4,
+                                                            "name": "withdraw",
+                                                            "value": 187003
+                                                        }
+                                                    ],
+                                                    "depth": 3,
+                                                    "name": "tokensToSend",
+                                                    "value": 209805
+                                                },
+                                                {
+                                                    "children": [],
+                                                    "depth": 3,
+                                                    "name": "getInterfaceImplementer",
+                                                    "value": 1642
+                                                }
+                                            ],
+                                            "depth": 2,
+                                            "name": "transferFrom",
+                                            "value": 242421
+                                        }
+                                    ],
+                                    "depth": 1,
+                                    "name": "supply",
+                                    "value": 319602
+                                }
+                            ],
+                            "depth": 0,
+                            "name": "Executed Gas",
+                            "value": 506892
+                        }
+                    ],
+                    "depth": -1,
+                    "name": "Actual Gas Used",
+                    "value": 515356
+                },
+                {
+                    "children": [],
+                    "depth": -1,
+                    "name": "Refunded Gas",
+                    "value": 12600
+                }
+            ],
+            "depth": -2,
+            "name": "Total Gas",
+            "value": 527956
+        }
+    ],
+    "isConfirmed": true,
+    "mainTrace": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 2,
+                                    "order": 2
+                                }
+                            ],
+                            "depth": 1,
+                            "id": 1,
+                            "order": 1
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 4,
+                                    "order": 4
+                                }
+                            ],
+                            "depth": 1,
+                            "id": 3,
+                            "order": 3
+                        },
+                        {
+                            "children": [],
+                            "depth": 1,
+                            "id": 5,
+                            "order": 5
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 7,
+                                    "order": 7
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 8,
+                                    "order": 8
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 9,
+                                    "order": 9
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 10,
+                                    "order": 10
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 12,
+                                            "order": 12
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 13,
+                                            "order": 13
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 14,
+                                            "order": 14
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 15,
+                                            "order": 15
+                                        }
+                                    ],
+                                    "depth": 2,
+                                    "id": 11,
+                                    "order": 11
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 17,
+                                            "order": 17
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 18,
+                                            "order": 18
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 19,
+                                            "order": 19
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 20,
+                                            "order": 20
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 21,
+                                            "order": 21
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 22,
+                                            "order": 22
+                                        }
+                                    ],
+                                    "depth": 2,
+                                    "id": 16,
+                                    "order": 16
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 23,
+                                    "order": 23
+                                }
+                            ],
+                            "depth": 1,
+                            "id": 6,
+                            "order": 6
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 25,
+                                    "order": 25
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 26,
+                                    "order": 26
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 27,
+                                    "order": 27
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 28,
+                                    "order": 28
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 30,
+                                            "order": 30
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 31,
+                                            "order": 31
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 32,
+                                            "order": 32
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 33,
+                                            "order": 33
+                                        }
+                                    ],
+                                    "depth": 2,
+                                    "id": 29,
+                                    "order": 29
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 35,
+                                            "order": 35
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "children": [],
+                                                    "depth": 4,
+                                                    "id": 37,
+                                                    "order": 37
+                                                },
+                                                {
+                                                    "children": [],
+                                                    "depth": 4,
+                                                    "id": 38,
+                                                    "order": 38
+                                                },
+                                                {
+                                                    "children": [
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [],
+                                                                    "depth": 6,
+                                                                    "id": 41,
+                                                                    "order": 41
+                                                                }
+                                                            ],
+                                                            "depth": 5,
+                                                            "id": 40,
+                                                            "order": 40
+                                                        },
+                                                        {
+                                                            "children": [],
+                                                            "depth": 5,
+                                                            "id": 42,
+                                                            "order": 42
+                                                        },
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [],
+                                                                    "depth": 6,
+                                                                    "id": 44,
+                                                                    "order": 44
+                                                                }
+                                                            ],
+                                                            "depth": 5,
+                                                            "id": 43,
+                                                            "order": 43
+                                                        },
+                                                        {
+                                                            "children": [],
+                                                            "depth": 5,
+                                                            "id": 45,
+                                                            "order": 45
+                                                        },
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [],
+                                                                    "depth": 6,
+                                                                    "id": 47,
+                                                                    "order": 47
+                                                                }
+                                                            ],
+                                                            "depth": 5,
+                                                            "id": 46,
+                                                            "order": 46
+                                                        },
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [],
+                                                                    "depth": 6,
+                                                                    "id": 49,
+                                                                    "order": 49
+                                                                },
+                                                                {
+                                                                    "children": [],
+                                                                    "depth": 6,
+                                                                    "id": 50,
+                                                                    "order": 50
+                                                                },
+                                                                {
+                                                                    "children": [],
+                                                                    "depth": 6,
+                                                                    "id": 51,
+                                                                    "order": 51
+                                                                },
+                                                                {
+                                                                    "children": [],
+                                                                    "depth": 6,
+                                                                    "id": 52,
+                                                                    "order": 52
+                                                                }
+                                                            ],
+                                                            "depth": 5,
+                                                            "id": 48,
+                                                            "order": 48
+                                                        },
+                                                        {
+                                                            "children": [],
+                                                            "depth": 5,
+                                                            "id": 53,
+                                                            "order": 53
+                                                        }
+                                                    ],
+                                                    "depth": 4,
+                                                    "id": 39,
+                                                    "order": 39
+                                                }
+                                            ],
+                                            "depth": 3,
+                                            "id": 36,
+                                            "order": 36
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 54,
+                                            "order": 54
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 55,
+                                            "order": 55
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 56,
+                                            "order": 56
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 57,
+                                            "order": 57
+                                        }
+                                    ],
+                                    "depth": 2,
+                                    "id": 34,
+                                    "order": 34
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 58,
+                                    "order": 58
+                                }
+                            ],
+                            "depth": 1,
+                            "id": 24,
+                            "order": 24
+                        }
+                    ],
+                    "depth": 0,
+                    "id": 0,
+                    "order": 0
+                }
+            ],
+            "depth": -1,
+            "id": -1,
+            "order": -1
+        }
+    ],
+    "mainTraceNodeCount": 59,
+    "parentIdMap": {
+        "0": -1,
+        "1": 0,
+        "10": 6,
+        "11": 6,
+        "12": 11,
+        "13": 11,
+        "14": 11,
+        "15": 11,
+        "16": 6,
+        "17": 16,
+        "18": 16,
+        "19": 16,
+        "2": 1,
+        "20": 16,
+        "21": 16,
+        "22": 16,
+        "23": 6,
+        "24": 0,
+        "25": 24,
+        "26": 24,
+        "27": 24,
+        "28": 24,
+        "29": 24,
+        "3": 0,
+        "30": 29,
+        "31": 29,
+        "32": 29,
+        "33": 29,
+        "34": 24,
+        "35": 34,
+        "36": 34,
+        "37": 36,
+        "38": 36,
+        "39": 36,
+        "4": 3,
+        "40": 39,
+        "41": 40,
+        "42": 39,
+        "43": 39,
+        "44": 43,
+        "45": 39,
+        "46": 39,
+        "47": 46,
+        "48": 39,
+        "49": 48,
+        "5": 0,
+        "50": 48,
+        "51": 48,
+        "52": 48,
+        "53": 39,
+        "54": 34,
+        "55": 34,
+        "56": 34,
+        "57": 34,
+        "58": 24,
+        "6": 0,
+        "7": 6,
+        "8": 6,
+        "9": 6
+    },
+    "tidyTrace": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 2,
+                                    "order": 2
+                                }
+                            ],
+                            "depth": 1,
+                            "id": 1,
+                            "order": 1
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 4,
+                                    "order": 4
+                                }
+                            ],
+                            "depth": 1,
+                            "id": 3,
+                            "order": 3
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 7,
+                                    "order": 7
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 8,
+                                    "order": 8
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 9,
+                                    "order": 9
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 10,
+                                    "order": 10
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 12,
+                                            "order": 12
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 13,
+                                            "order": 13
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 14,
+                                            "order": 14
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 15,
+                                            "order": 15
+                                        }
+                                    ],
+                                    "depth": 2,
+                                    "id": 11,
+                                    "order": 11
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 18,
+                                            "order": 18
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 19,
+                                            "order": 19
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 20,
+                                            "order": 20
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 21,
+                                            "order": 21
+                                        }
+                                    ],
+                                    "depth": 2,
+                                    "id": 16,
+                                    "order": 16
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 23,
+                                    "order": 23
+                                }
+                            ],
+                            "depth": 1,
+                            "id": 6,
+                            "order": 6
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 25,
+                                    "order": 25
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 26,
+                                    "order": 26
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 27,
+                                    "order": 27
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 28,
+                                    "order": 28
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 30,
+                                            "order": 30
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 31,
+                                            "order": 31
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 32,
+                                            "order": 32
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 33,
+                                            "order": 33
+                                        }
+                                    ],
+                                    "depth": 2,
+                                    "id": 29,
+                                    "order": 29
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [
+                                                {
+                                                    "children": [
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [],
+                                                                    "depth": 6,
+                                                                    "id": 41,
+                                                                    "order": 41
+                                                                }
+                                                            ],
+                                                            "depth": 5,
+                                                            "id": 40,
+                                                            "order": 40
+                                                        },
+                                                        {
+                                                            "children": [],
+                                                            "depth": 5,
+                                                            "id": 42,
+                                                            "order": 42
+                                                        },
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [],
+                                                                    "depth": 6,
+                                                                    "id": 44,
+                                                                    "order": 44
+                                                                }
+                                                            ],
+                                                            "depth": 5,
+                                                            "id": 43,
+                                                            "order": 43
+                                                        },
+                                                        {
+                                                            "children": [],
+                                                            "depth": 5,
+                                                            "id": 45,
+                                                            "order": 45
+                                                        },
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [],
+                                                                    "depth": 6,
+                                                                    "id": 47,
+                                                                    "order": 47
+                                                                }
+                                                            ],
+                                                            "depth": 5,
+                                                            "id": 46,
+                                                            "order": 46
+                                                        },
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [],
+                                                                    "depth": 6,
+                                                                    "id": 50,
+                                                                    "order": 50
+                                                                },
+                                                                {
+                                                                    "children": [],
+                                                                    "depth": 6,
+                                                                    "id": 51,
+                                                                    "order": 51
+                                                                }
+                                                            ],
+                                                            "depth": 5,
+                                                            "id": 48,
+                                                            "order": 48
+                                                        },
+                                                        {
+                                                            "children": [],
+                                                            "depth": 5,
+                                                            "id": 53,
+                                                            "order": 53
+                                                        }
+                                                    ],
+                                                    "depth": 4,
+                                                    "id": 39,
+                                                    "order": 39
+                                                }
+                                            ],
+                                            "depth": 3,
+                                            "id": 36,
+                                            "order": 36
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 54,
+                                            "order": 54
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 55,
+                                            "order": 55
+                                        },
+                                        {
+                                            "children": [],
+                                            "depth": 3,
+                                            "id": 56,
+                                            "order": 56
+                                        }
+                                    ],
+                                    "depth": 2,
+                                    "id": 34,
+                                    "order": 34
+                                },
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 58,
+                                    "order": 58
+                                }
+                            ],
+                            "depth": 1,
+                            "id": 24,
+                            "order": 24
+                        }
+                    ],
+                    "depth": 0,
+                    "id": 0,
+                    "order": 0
+                }
+            ],
+            "depth": -1,
+            "id": -1,
+            "order": -1
+        }
+    ],
+    "tidyTraceNodeCount": 50
+}

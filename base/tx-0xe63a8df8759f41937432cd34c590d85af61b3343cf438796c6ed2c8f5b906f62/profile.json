@@ -1,0 +1,72 @@
+{
+    "basicInfo": {
+        "baseFee": "0.26405766",
+        "blockNumber": 14279786,
+        "callData": "0xbbdb9f6100000000000000000000000075ac62ea5d058a7f88f0c3a5f8f73195277c93da00000000000000000000000066e915f192ef3d121ad518f0fb37a74fed1c090a",
+        "debugEnable": false,
+        "errorInfo": "",
+        "eventCount": 1,
+        "feeRecipient": "0x4200000000000000000000000000000000000011",
+        "formatValue": "0",
+        "gasLimit": 120388,
+        "gasPrice": "3.26405766",
+        "gasUsed": 113407,
+        "intTxnCount": 3,
+        "internalRevert": false,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": false,
+        "maxFee": "3.526342084",
+        "nonce": 2,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "3",
+        "receiver": "0xa2209b48506c4e7f3a879ec1c1c2c4ee16c2c017",
+        "revertMessage": "",
+        "sender": "0x7a5eb99c993f4c075c222f9327abc7426cfae386",
+        "simulationEnable": false,
+        "sourceTxnHash": "0xe63a8df8759f41937432cd34c590d85af61b3343cf438796c6ed2c8f5b906f62",
+        "status": true,
+        "timestamp": "2024-05-10T13:48:39Z",
+        "transactionFee": "0.00037016698704762",
+        "txnHash": "0xe63a8df8759f41937432cd34c590d85af61b3343cf438796c6ed2c8f5b906f62",
+        "txnIndex": 1,
+        "type": 2,
+        "value": "0"
+    },
+    "fundFlow": [
+        {
+            "amount": "167,200,000",
+            "from": "0x0000000000000000000000000000000000000000",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0x66e915f192ef3d121ad518f0fb37a74fed1c090a",
+            "token": "0x75ac62ea5d058a7f88f0c3a5f8f73195277c93da"
+        }
+    ],
+    "securityEvent": {
+        "id": 167,
+        "project": "Tsuru",
+        "loss": 403847,
+        "media": "https://twitter.com/TsuruBase/status/1789000570235420847",
+        "rootCause": "Access Control Issue",
+        "poc": "",
+        "rescued": 0
+    },
+    "tokenInfos": [
+        {
+            "address": "0x75ac62ea5d058a7f88f0c3a5f8f73195277c93da",
+            "decimals": 18
+        },
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        },
+        {
+            "address": "0x4200000000000000000000000000000000000006",
+            "decimals": 18
+        }
+    ]
+}

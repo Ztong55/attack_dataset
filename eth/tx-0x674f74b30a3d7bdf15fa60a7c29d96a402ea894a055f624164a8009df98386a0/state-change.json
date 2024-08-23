@@ -1,0 +1,77 @@
+{
+    "stateChanges": [
+        {
+            "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000000000015561de239",
+                    "key": "0xb08ef94e40cf46a3b9c30f538fc53bd116e78b004768851a17c9f76414f95985",
+                    "prev": "0x00000000000000000000000000000000000000000000000000000000000f4240"
+                },
+                {
+                    "current": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffeaa9f16006",
+                    "key": "0xb8086c5729ff726a2764bb2bcae0d5f5a799c30d0142f48d148b478155abdd9a",
+                    "prev": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "key": "0xc1d1984df05e01f3f0d9cf96cecef56ff20b848f620a3b4cba39ede018e56948",
+                    "prev": "0x00000000000000000000000000000000000000000000000000000015560e9ff9"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "allowed",
+                    "type": "mapping(address => mapping(address => uint256))",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x211b6a1137bf539b2750e02b9e525cf5757a35ae",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0x0ad8229d4bc84135786ae752b9a9d53392a8afd4",
+                                            "value": {
+                                                "current": "115792089237316195423570985008687907853269984665640564039457584007821491527686",
+                                                "prev": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "balances",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x211b6a1137bf539b2750e02b9e525cf5757a35ae",
+                                "value": {
+                                    "current": "0",
+                                    "prev": "91638112249",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0xae39a6c2379bef53334ea968f4c711c8cf3898b6",
+                                "value": {
+                                    "current": "91639112249",
+                                    "prev": "1000000",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

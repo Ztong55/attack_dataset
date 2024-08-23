@@ -1,0 +1,135 @@
+{
+    "basicInfo": {
+        "baseFee": "23.961996518",
+        "blockNumber": 16646023,
+        "callData": "0xbf4c1d60000000000000000000000000de62e1b0edaa55aac5ffbe21984d321706418024000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000004c19596f5aaff459fa38b0f7ed92f11ae654378400000000000000000000000058f5f0684c381fcfc203d77b2bba468ebb29b098",
+        "debugEnable": true,
+        "errorInfo": "",
+        "eventCount": 10,
+        "feeRecipient": "0xdafea492d9c6733ae3d56b7ed1adb60692c98bc5",
+        "formatValue": "0",
+        "gasLimit": 317312,
+        "gasPrice": "28.961996518",
+        "gasUsed": 298633,
+        "intTxnCount": 37,
+        "internalRevert": false,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": false,
+        "maxFee": "38.56204126",
+        "nonce": 5,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "5",
+        "receiver": "0x194fc30f9eeba9ad673413629b47fc00e71d90df",
+        "revertMessage": "",
+        "sender": "0x684083f312ac50f538cc4b634d85a2feafaab77a",
+        "simulationEnable": true,
+        "sourceTxnHash": "0x138daa4cbeaa3db42eefcec26e234fc2c89a4aa17d6b1870fc460b2856fd11a6",
+        "status": true,
+        "timestamp": "2023-02-17T04:20:35Z",
+        "transactionFee": "0.008649007906159894",
+        "txnHash": "0x138daa4cbeaa3db42eefcec26e234fc2c89a4aa17d6b1870fc460b2856fd11a6",
+        "txnIndex": 22,
+        "type": 2,
+        "value": "0"
+    },
+    "fundFlow": [
+        {
+            "amount": "0",
+            "from": "0x194fc30f9eeba9ad673413629b47fc00e71d90df",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0xde62e1b0edaa55aac5ffbe21984d321706418024",
+            "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+        },
+        {
+            "amount": "17,960,937.5",
+            "from": "0x58f5f0684c381fcfc203d77b2bba468ebb29b098",
+            "id": 2,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 2,
+            "to": "0x684083f312ac50f538cc4b634d85a2feafaab77a",
+            "token": "0x4c19596f5aaff459fa38b0f7ed92f11ae6543784"
+        },
+        {
+            "amount": "0.144035",
+            "from": "0x0000000000000000000000000000000000000000",
+            "id": 3,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 3,
+            "to": "0x194fc30f9eeba9ad673413629b47fc00e71d90df",
+            "token": "0xd6f483787c135b20570e7acb1d1fbc557b8f42f8"
+        },
+        {
+            "amount": "0.005762",
+            "from": "0x194fc30f9eeba9ad673413629b47fc00e71d90df",
+            "id": 4,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 4,
+            "to": "0x5db6e1b7ce743a2d49b2546b3ebe17132e0ab04d",
+            "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+        },
+        {
+            "amount": "0.005761",
+            "from": "0x194fc30f9eeba9ad673413629b47fc00e71d90df",
+            "id": 5,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 5,
+            "to": "0xeb890541049ccd965d3dd4a3ec1ad368fd4b26a4",
+            "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+        },
+        {
+            "amount": "0",
+            "from": "0xde62e1b0edaa55aac5ffbe21984d321706418024",
+            "id": 6,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 6,
+            "to": "0x194fc30f9eeba9ad673413629b47fc00e71d90df",
+            "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+        }
+    ],
+    "securityEvent": {
+        "id": 61,
+        "project": "Dexible",
+        "loss": 1500000,
+        "media": "https://twitter.com/MevRefund/status/1626450002254958592",
+        "rootCause": "Arbitrary Call",
+        "poc": "https://github.com/SunWeb3Sec/DeFiHackLabs?tab=readme-ov-file#20230217---dexible---arbitrary-external-call-vulnerability",
+        "rescued": 0
+    },
+    "tokenInfos": [
+        {
+            "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "decimals": 6
+        },
+        {
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "decimals": 18
+        },
+        {
+            "address": "0xd6f483787c135b20570e7acb1d1fbc557b8f42f8",
+            "decimals": 18
+        },
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        },
+        {
+            "address": "0x4c19596f5aaff459fa38b0f7ed92f11ae6543784",
+            "decimals": 8
+        }
+    ]
+}

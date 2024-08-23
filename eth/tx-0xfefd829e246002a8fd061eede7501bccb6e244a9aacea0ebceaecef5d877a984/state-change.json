@@ -1,0 +1,607 @@
+{
+    "stateChanges": [
+        {
+            "address": "0x4d7968ebfd390d5e7926cb3587c39eff2f9fb225",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x000000000000000000000000000000000000007e37be2022c0914b2680000000",
+                    "key": "0xb23d70d85185b9c32391a59a307058dafc81934adafc6d9cce7c4f173dfaad7b",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "key": "0x44cf9bc34a815ecfccc5e90e1fd7b976427f3dc7ca6f7c553a71d4912e17d492",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000bdbb5945f252bc3466a319cdcc3ee8056bf2e56901",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000033",
+                    "prev": "0x0000000000000000000000a62c3ced6906b188a4d4a3c981b79f2aabf2107f01"
+                },
+                {
+                    "current": "0x000000000000000000000000bdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                    "key": "0x000000000000000000000000000000000000000000000000000000000000003c",
+                    "prev": "0x000000000000000000000000a62c3ced6906b188a4d4a3c981b79f2aabf2107f"
+                },
+                {
+                    "current": "0x000000000000000000000000bdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000035",
+                    "prev": "0x000000000000000000000000a62c3ced6906b188a4d4a3c981b79f2aabf2107f"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000007e37be2022c0914b2680000000",
+                    "key": "0x6deab4c03f1abe7f89124f04377ef8814f3bd638f4b9ce450991eb0d9f936ceb",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x000000000000000000000000bdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                    "key": "0x96d2d02c4a4a49165707da429ba0d7bab20fa7ee98626891f96b5fea0cda3a1d",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000007e37be2022c0914b2680000000",
+                    "key": "0x44cf9bc34a815ecfccc5e90e1fd7b976427f3dc7ca6f7c553a71d4912e17d490",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "isInitialized",
+                    "type": "bool",
+                    "value": {
+                        "current": "true",
+                        "prev": "true",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "governanceAddress",
+                    "type": "address",
+                    "value": {
+                        "current": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                        "prev": "0xa62c3ced6906b188a4d4a3c981b79f2aabf2107f",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "audiusToken",
+                    "type": "contract ERC20Mintable",
+                    "value": {
+                        "current": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                        "prev": "0xa62c3ced6906b188a4d4a3c981b79f2aabf2107f",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "serviceProviderFactoryAddress",
+                    "type": "address",
+                    "value": {
+                        "current": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                        "prev": "0xa62c3ced6906b188a4d4a3c981b79f2aabf2107f",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "delegateInfo",
+                    "type": "mapping(address => mapping(address => uint256))",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                                            "value": {
+                                                "current": "10000000000000000000000000000000",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "spDelegateInfo",
+                    "type": "mapping(address => struct DelegateManagerV2.ServiceProviderDelegateInfo)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "totalDelegatedStake",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "10000000000000000000000000000000",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "delegators",
+                                            "type": "address[]",
+                                            "value": {
+                                                "elemType": "address",
+                                                "elems": [
+                                                    {
+                                                        "index": 0,
+                                                        "value": {
+                                                            "current": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                                                            "prev": "0x0000000000000000000000000000000000000000",
+                                                            "typeTag": 1
+                                                        }
+                                                    }
+                                                ],
+                                                "typeTag": 2
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "delegatorTotalStake",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                                "value": {
+                                    "current": "10000000000000000000000000000000",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0x4deca517d6817b6510798b7328f2314d3003abac",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x00000000000000000000000018aaa7115705e8be94bffebde57af9bfc265b998",
+                    "key": "0x49157b242564839087dcaef57fcbfdae9309e1ea00bce40edd87ee97d7eb19af",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000bdbb5945f252bc3466a319cdcc3ee8056bf2e56901",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000033",
+                    "prev": "0x0000000000000000000000a62c3ced6906b188a4d4a3c981b79f2aabf2107f01"
+                },
+                {
+                    "current": "0x000000000000000000000000bdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                    "key": "0x49157b242564839087dcaef57fcbfdae9309e1ea00bce40edd87ee97d7eb19ac",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000055",
+                    "key": "0x49157b242564839087dcaef57fcbfdae9309e1ea00bce40edd87ee97d7eb19ab",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x000000000000000000000000bdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                    "key": "0xa287495c3c571314315dfbc8bacc3884c3f5e2ab1a6a620f0af24c3570693cac",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x00000000000000000000bdbb5945f252bc3466a319cdcc3ee8056bf2e5690004",
+                    "key": "0x000000000000000000000000000000000000000000000000000000000000003a",
+                    "prev": "0x00000000000000000000a62c3ced6906b188a4d4a3c981b79f2aabf2107f0004"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000003",
+                    "key": "0x4ae0989b770e0408e40e25c4cc7528befd3c98d597853de167a787639b853e33",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x3078000000000000000000000000000000000000000000000000000000000000",
+                    "key": "0x49157b242564839087dcaef57fcbfdae9309e1ea00bce40edd87ee97d7eb19ae",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x7472616e7366657228616464726573732c75696e743235362900000000000032",
+                    "key": "0x49157b242564839087dcaef57fcbfdae9309e1ea00bce40edd87ee97d7eb19b1",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000081",
+                    "key": "0x49157b242564839087dcaef57fcbfdae9309e1ea00bce40edd87ee97d7eb19b2",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000e7f602",
+                    "key": "0x49157b242564839087dcaef57fcbfdae9309e1ea00bce40edd87ee97d7eb19ad",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000055",
+                    "key": "0xece66cfdbd22e3f37d348a3d8e19074452862cd65fd4b9a11f0336d1ac6d1dc3",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000054"
+                },
+                {
+                    "current": "0xbf7376680c902fcf38ed91530e17d92afd22321b53acf6bc78a8f128eeefe95d",
+                    "key": "0x49157b242564839087dcaef57fcbfdae9309e1ea00bce40edd87ee97d7eb19b9",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000f5b2f71812d138f71f6f5",
+                    "key": "0xa287495c3c571314315dfbc8bacc3884c3f5e2ab1a6a620f0af24c3570693cad",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000055",
+                    "key": "0x000000000000000000000000000000000000000000000000000000000000003b",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000054"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "isInitialized",
+                    "type": "bool",
+                    "value": {
+                        "current": "true",
+                        "prev": "true",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "registry",
+                    "type": "contract Registry",
+                    "value": {
+                        "current": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                        "prev": "0xa62c3ced6906b188a4d4a3c981b79f2aabf2107f",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "proposals",
+                    "type": "mapping(uint256 => struct Governance.Proposal)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "84",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "callData",
+                                            "type": "bytes",
+                                            "value": {
+                                                "current": "0x000000000000000000000000a62c3ced6906b188a4d4a3c981b79f2aabf2107f0x0000000000000000000000000000000000000000000f5b2f71812d138f71f6f5",
+                                                "prev": "0x000000000000000000000000a62c3ced6906b188a4d4a3c981b79f2aabf2107f0x0000000000000000000000000000000000000000000f5b2f71812d138f71f6f5",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "outcome",
+                                            "type": "enum Governance.Outcome",
+                                            "value": {
+                                                "current": "3",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            },
+                            {
+                                "key": "85",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "proposalId",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "85",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "proposer",
+                                            "type": "address",
+                                            "value": {
+                                                "current": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                                                "prev": "0x0000000000000000000000000000000000000000",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "submissionBlockNumber",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "15201794",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "targetContractRegistryKey",
+                                            "type": "bytes32",
+                                            "value": {
+                                                "current": "0x3078000000000000000000000000000000000000000000000000000000000000",
+                                                "prev": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "targetContractAddress",
+                                            "type": "address",
+                                            "value": {
+                                                "current": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+                                                "prev": "0x0000000000000000000000000000000000000000",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "functionSignature",
+                                            "type": "string",
+                                            "value": {
+                                                "current": "transfer(address,uint256)",
+                                                "prev": "",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "callData",
+                                            "type": "bytes",
+                                            "value": {
+                                                "current": "0x000000000000000000000000bdbb5945f252bc3466a319cdcc3ee8056bf2e5690x0000000000000000000000000000000000000000000f5b2f71812d138f71f6f5",
+                                                "prev": "0x",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "contractHash",
+                                            "type": "bytes32",
+                                            "value": {
+                                                "current": "0xbf7376680c902fcf38ed91530e17d92afd22321b53acf6bc78a8f128eeefe95d",
+                                                "prev": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "maxInProgressProposals",
+                    "type": "uint16",
+                    "value": {
+                        "current": "4",
+                        "prev": "4",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "guardianAddress",
+                    "type": "address",
+                    "value": {
+                        "current": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                        "prev": "0xa62c3ced6906b188a4d4a3c981b79f2aabf2107f",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "inProgressProposals",
+                    "type": "uint256[]",
+                    "value": {
+                        "elemType": "uint256",
+                        "elems": [
+                            {
+                                "index": 0,
+                                "value": {
+                                    "current": "85",
+                                    "prev": "84",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 2
+                    }
+                },
+                {
+                    "name": "lastProposalId",
+                    "type": "uint256",
+                    "value": {
+                        "current": "85",
+                        "prev": "84",
+                        "typeTag": 1
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0xe6d97b2099f142513be7a2a068be040656ae4591",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000bdbb5945f252bc3466a319cdcc3ee8056bf2e56901",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000033",
+                    "prev": "0x0000000000000000000000a62c3ced6906b188a4d4a3c981b79f2aabf2107f01"
+                },
+                {
+                    "current": "0x00000000000000000000007e37be2022c0914b26800000000000000000e7f602",
+                    "key": "0x9ff22b784420f992779441d274a7450b20d8759e7b8cf169d5ecd21b9819a614",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000001152",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000039",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000001151"
+                },
+                {
+                    "current": "0x0000000000000000000000fc70a399f649dddc75a1073a660000000000e7f602",
+                    "key": "0xdc16fef70f8d5ddbc01ee3d903d1e69c18a3c7be080eb86a81e0578814ee6a24",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "key": "0xe203e547a3b9139191c0e079019ee64c8faa5f877d5419da2d0dc1b61f9274ee",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x000000000000000000000000bdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000037",
+                    "prev": "0x000000000000000000000000a62c3ced6906b188a4d4a3c981b79f2aabf2107f"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "totalStakedHistory",
+                    "type": "struct Checkpointing.History",
+                    "value": {
+                        "fields": [
+                            {
+                                "name": "history",
+                                "type": "struct Checkpointing.Checkpoint[]",
+                                "value": {
+                                    "elemType": "struct Checkpointing.Checkpoint",
+                                    "elems": [
+                                        {
+                                            "index": 4433,
+                                            "value": {
+                                                "fields": [
+                                                    {
+                                                        "name": "time",
+                                                        "type": "uint64",
+                                                        "value": {
+                                                            "current": "15201794",
+                                                            "prev": "0",
+                                                            "typeTag": 1
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "value",
+                                                        "type": "uint192",
+                                                        "value": {
+                                                            "current": "20000357056668494479746388146790",
+                                                            "prev": "0",
+                                                            "typeTag": 1
+                                                        }
+                                                    }
+                                                ],
+                                                "typeTag": 3
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 2
+                                }
+                            }
+                        ],
+                        "typeTag": 3
+                    }
+                },
+                {
+                    "name": "accounts",
+                    "type": "mapping(address => struct Staking.Account)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "stakedHistory",
+                                            "type": "struct Checkpointing.History",
+                                            "value": {
+                                                "fields": [
+                                                    {
+                                                        "name": "history",
+                                                        "type": "struct Checkpointing.Checkpoint[]",
+                                                        "value": {
+                                                            "elemType": "struct Checkpointing.Checkpoint",
+                                                            "elems": [
+                                                                {
+                                                                    "index": 0,
+                                                                    "value": {
+                                                                        "fields": [
+                                                                            {
+                                                                                "name": "time",
+                                                                                "type": "uint64",
+                                                                                "value": {
+                                                                                    "current": "15201794",
+                                                                                    "prev": "0",
+                                                                                    "typeTag": 1
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "name": "value",
+                                                                                "type": "uint192",
+                                                                                "value": {
+                                                                                    "current": "10000000000000000000000000000000",
+                                                                                    "prev": "0",
+                                                                                    "typeTag": 1
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        "typeTag": 3
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "typeTag": 2
+                                                        }
+                                                    }
+                                                ],
+                                                "typeTag": 3
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "stakingToken",
+                    "type": "contract ERC20",
+                    "value": {
+                        "current": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                        "prev": "0xa62c3ced6906b188a4d4a3c981b79f2aabf2107f",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "isInitialized",
+                    "type": "bool",
+                    "value": {
+                        "current": "true",
+                        "prev": "true",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "governanceAddress",
+                    "type": "address",
+                    "value": {
+                        "current": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                        "prev": "0xa62c3ced6906b188a4d4a3c981b79f2aabf2107f",
+                        "typeTag": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

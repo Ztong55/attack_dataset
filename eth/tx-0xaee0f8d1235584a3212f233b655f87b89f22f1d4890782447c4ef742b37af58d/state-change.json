@@ -1,0 +1,1195 @@
+{
+    "stateChanges": [
+        {
+            "address": "0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x000100012c012c0070ff216600000000000000000ed2203adaed49afaa1b7be4",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "prev": "0x000100012c012c0070ff21b500000000000000000ee1442e0186c914f76468be"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000f73dc43be9417a995d2146948a68c1ce",
+                    "key": "0x7c36defbcfd39795c7c0c468dada9846568934a2796f461e42386b179aaebf79",
+                    "prev": "0x00000000000000000000000000000001071f562345a0fdeb8078f8fff2450e09"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000011606d85b6ed93f39ecebbc36408cdf",
+                    "key": "0x7c36defbcfd39795c7c0c468dada9846568934a2796f461e42386b179aaebf7a",
+                    "prev": "0x00000000000000000000000000000000010147baffed00e1dbcc9cecf7b4a402"
+                },
+                {
+                    "current": "0x01023da310000000000000000000000ea247642cd0dea0ab6afffe258d0042e6",
+                    "key": "0x7c36defbcfd39795c7c0c468dada9846568934a2796f461e42386b179aaebf7b",
+                    "prev": "0x01639b0a270000000000000000000a180a8a73516ee2fa12a1fffd6c482b6e58"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000000000003d182b8b4811dfece0ea",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000004",
+                    "prev": "0x000000000000000000000000000000000000000000003c3ce1c0a186739b7b82"
+                },
+                {
+                    "current": "0x00000000000000000000000000000001fe64e3204a5e90b33e7d7c44a8f784b1",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "prev": "0x00000000000000000000000000000001fe5759441bb6625418f0839f269fcb23"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "liquidity",
+                    "type": "uint128",
+                    "value": {
+                        "current": "288510214993624389443818",
+                        "prev": "284465060796054185409410",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "feeGrowthGlobal0X128",
+                    "type": "uint256",
+                    "value": {
+                        "current": "678430114201458020410506613883097547953",
+                        "prev": "678359818207545985260851525343061723939",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "slot0",
+                    "type": "struct UniswapV3Pool.Slot0",
+                    "value": {
+                        "fields": [
+                            {
+                                "name": "sqrtPriceX96",
+                                "type": "uint160",
+                                "value": {
+                                    "current": "4586816761031857281206811620",
+                                    "prev": "4605120416493181385773967550",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "tick",
+                                "type": "int24",
+                                "value": {
+                                    "current": "-56986",
+                                    "prev": "-56907",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "observationIndex",
+                                "type": "uint16",
+                                "value": {
+                                    "current": "112",
+                                    "prev": "112",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "observationCardinality",
+                                "type": "uint16",
+                                "value": {
+                                    "current": "300",
+                                    "prev": "300",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "observationCardinalityNext",
+                                "type": "uint16",
+                                "value": {
+                                    "current": "300",
+                                    "prev": "300",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "feeProtocol",
+                                "type": "uint8",
+                                "value": {
+                                    "current": "0",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "unlocked",
+                                "type": "bool",
+                                "value": {
+                                    "current": "true",
+                                    "prev": "true",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 3
+                    }
+                },
+                {
+                    "name": "ticks",
+                    "type": "mapping(int24 => struct Tick.Info)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "-56940",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "feeGrowthOutside0X128",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "328640025166177915586001543652729995726",
+                                                "prev": "349749671175808149184867574041756896777",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "feeGrowthOutside1X128",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "1443597362710550725596581836672240863",
+                                                "prev": "1335875159368734712346512965636498434",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "tickCumulativeOutside",
+                                            "type": "int56",
+                                            "value": {
+                                                "current": "-2037743861018",
+                                                "prev": "-2833467609512",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "secondsPerLiquidityOutsideX128",
+                                            "type": "uint160",
+                                            "value": {
+                                                "current": "69106647586065944193898",
+                                                "prev": "12202789435583036579779233",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "secondsOutside",
+                                            "type": "uint32",
+                                            "value": {
+                                                "current": "37593872",
+                                                "prev": "1671105063",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "initialized",
+                                            "type": "bool",
+                                            "value": {
+                                                "current": "true",
+                                                "prev": "true",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x000000000000000000000000000000000001b73ccd878260ca021af501265b29",
+                    "key": "0x82b34cdc4a5e594815d7017fb18029bb16fde23073e4060a8834f26f183967fd",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000005dc3",
+                    "key": "0x4fb66b896fddf3708da281eec5e36eecf339a2120d959d3722b0cad4c162d74b",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000005dc2"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000127f8c51bdfb7d5f6bd76",
+                    "key": "0x60cff0c23fc1da8f79d34e3688edc4bc06ef31879f0820ff513318f2bfefa8e1",
+                    "prev": "0x0000000000000000000000000000000000000000000123ca32e9e93c022ea6a6"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000001b73c32b89f01a294d15e",
+                    "key": "0x721f2b1cb9f99b674fe5c7c0cdfaeb08cbc94d46fb3c3f17084348b1fc63aac6",
+                    "prev": "0x00000000000000000000000000000000000000000001bb6ac4ea957d765ce82e"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "checkpoints",
+                    "type": "mapping(address => mapping(uint32 => struct Uni.Checkpoint))",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0xbbf3f1421d886e9b2c5d716b5192ac998af2012c",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "24002",
+                                            "value": {
+                                                "fields": [
+                                                    {
+                                                        "name": "fromBlock",
+                                                        "type": "uint32",
+                                                        "value": {
+                                                            "current": "19290921",
+                                                            "prev": "0",
+                                                            "typeTag": 1
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "votes",
+                                                        "type": "uint96",
+                                                        "value": {
+                                                            "current": "2074240500573448670681845",
+                                                            "prev": "0",
+                                                            "typeTag": 1
+                                                        }
+                                                    }
+                                                ],
+                                                "typeTag": 3
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "numCheckpoints",
+                    "type": "mapping(address => uint32)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0xbbf3f1421d886e9b2c5d716b5192ac998af2012c",
+                                "value": {
+                                    "current": "24003",
+                                    "prev": "24002",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "balances",
+                    "type": "mapping(address => uint96)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801",
+                                "value": {
+                                    "current": "1397687108168655811558774",
+                                    "prev": "1377938557537771500512934",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0x35a18000230da775cac24873d00ff85bccded550",
+                                "value": {
+                                    "current": "2074229345470123804512606",
+                                    "prev": "2093977896101008115558446",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0x35a18000230da775cac24873d00ff85bccded550",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000010da3bd4d2e89bbd",
+                    "key": "0x3a0bd1f6ff73994a85cca6145c004a4cba4dd4e42a4fe9862d5ff501965f5f16",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000042e9231f67bd3c816d0",
+                    "key": "0x3a0bd1f6ff73994a85cca6145c004a4cba4dd4e42a4fe9862d5ff501965f5f15",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000001265b29",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000009",
+                    "prev": "0x00000000000000000000000000000000000000000000000000000000012625e3"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000010da3bd4d2e89bbd",
+                    "key": "0x000000000000000000000000000000000000000000000000000000000000000a",
+                    "prev": "0x00000000000000000000000000000000000000000000000010d8faf5cc382b67"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000394ce1571bc62bdc60a2",
+                    "key": "0x000000000000000000000000000000000000000000000000000000000000000b",
+                    "prev": "0x00000000000000000000000000000000000000000000351a5bc549cc141b4a0a"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000000000000ebe2bb2c2cd7c6fc92e",
+                    "key": "0x000000000000000000000000000000000000000000000000000000000000000c",
+                    "prev": "0x000000000000000000000000000000000000000000000ebd2edacbedeb71893c"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "accrualBlockNumber",
+                    "type": "uint256",
+                    "value": {
+                        "current": "19290921",
+                        "prev": "19277283",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "borrowIndex",
+                    "type": "uint256",
+                    "value": {
+                        "current": "1214348834787335101",
+                        "prev": "1213996033176513383",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "totalBorrows",
+                    "type": "uint256",
+                    "value": {
+                        "current": "270593079550691164053666",
+                        "prev": "250771651710776367598090",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "totalReserves",
+                    "type": "uint256",
+                    "value": {
+                        "current": "69621160927457144981806",
+                        "prev": "69602941625199523629372",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "accountBorrows",
+                    "type": "mapping(address => struct CTokenStorage.BorrowSnapshot)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x2f99fb66ea797e7fa2d07262402ab38bd5e53b12",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "principal",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "19748550630884311045840",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "interestIndex",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "1214348834787335101",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000001265b29",
+                    "key": "0x000000000000000000000000000000000000000000000000000000000000000a",
+                    "prev": "0x00000000000000000000000000000000000000000000000000000000012658d4"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000012c2bcb6acdb3169",
+                    "key": "0x000000000000000000000000000000000000000000000000000000000000000b",
+                    "prev": "0x00000000000000000000000000000000000000000000000012c27d92c21c18d2"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000000000000000000056d3eda53391",
+                    "key": "0x000000000000000000000000000000000000000000000000000000000000000c",
+                    "prev": "0x000000000000000000000000000000000000000000000000000056d2c96bb266"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000000000000000061046b485d2781f",
+                    "key": "0x000000000000000000000000000000000000000000000000000000000000000e",
+                    "prev": "0x000000000000000000000000000000000000000000000000060d5d8097eca259"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000002e933ede5d5c6",
+                    "key": "0x49d23828a03abce558e11c6805ac3e22cb83a3236725c0df546d5a9f08c9dc0d",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000000000000000c96e8",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "prev": "0x00000000000000000000000000000000000000000000000000000000000c96e7"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000000000f69899d339b",
+                    "key": "0x000000000000000000000000000000000000000000000000000000000000000d",
+                    "prev": "0x00000000000000000000000000000000000000000000000000000f68da477fb5"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "borrowIndex",
+                    "type": "uint256",
+                    "value": {
+                        "current": "1351850330934686057",
+                        "prev": "1351780907439888594",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "totalBorrows",
+                    "type": "uint256",
+                    "value": {
+                        "current": "95468225115025",
+                        "prev": "95463322399334",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "totalSupply",
+                    "type": "uint256",
+                    "value": {
+                        "current": "436926905008158751",
+                        "prev": "436107545810870873",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "accountTokens",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x2f99fb66ea797e7fa2d07262402ab38bd5e53b12",
+                                "value": {
+                                    "current": "819359197287878",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "_guardCounter",
+                    "type": "uint256",
+                    "value": {
+                        "current": "825064",
+                        "prev": "825063",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "totalReserves",
+                    "type": "uint256",
+                    "value": {
+                        "current": "16945954763675",
+                        "prev": "16943013134261",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "accrualBlockNumber",
+                    "type": "uint256",
+                    "value": {
+                        "current": "19290921",
+                        "prev": "19290324",
+                        "typeTag": 1
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x01265b290000000000000000000000e2f75c38bc4ee0a2cb2f3668038541b4f2",
+                    "key": "0x8fc13d1caece6612221ef6979b11849610022c9b44e3f1d08267517678547dc6",
+                    "prev": "0x0126545e0000000000000000000000e2f75c38bc4ee0a2cb2f3668038541b4f2"
+                },
+                {
+                    "current": "0x00000000000000000000000035a18000230da775cac24873d00ff85bccded550",
+                    "key": "0xd970e56c62b9b536084ccc64534f205709381882d45a7bcb5b340e15f7774ab4",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                    "key": "0x5bd32b54325eaf56ebf9db3fd65a319da64077a90f73ef0296c89ed75f6ae1cb",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x00000000000000000000000039aa39c021dfbae8fac545936693ac917d5e7563",
+                    "key": "0xd970e56c62b9b536084ccc64534f205709381882d45a7bcb5b340e15f7774ab3",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "key": "0x4516b47521096ad5847200147a11d0d81ec43a86569842ef2271b8c523da0294",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x01265b2900000000000000000000000000c24fbac00a51612b5f8e56f206562f",
+                    "key": "0x94026470579dade20bbb195e632db4bf2b9b3b80a6ccfff35d0fed046ceabcb2",
+                    "prev": "0x01262b4100000000000000000000000000c24fbac00a51612b5f8e56f206562f"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000c24fbac00a51612b5f8e56f206562f",
+                    "key": "0x4ea08a1c89870d7a62e8d1f9aaad1f8ca9eaa5730052facb53f9a87814b66dea",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x000000000000000000000000000000e2f75c38bc4ee0a2cb2f3668038541b4f2",
+                    "key": "0x666cbeea74e1b8ead29cba40935cb799f2499be14ba7eb018c64b92b7b375037",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "key": "0x67407cdefbfb361d2afb9e03663bd8e218876a6947cc4b3a31b1ee5ab0ef197d",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "compSupplyState",
+                    "type": "mapping(address => struct ComptrollerV3Storage.CompMarketState)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "index",
+                                            "type": "uint224",
+                                            "value": {
+                                                "current": "77232613081136195923568085522837569385714",
+                                                "prev": "77232613081136195923568085522837569385714",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "block",
+                                            "type": "uint32",
+                                            "value": {
+                                                "current": "19290921",
+                                                "prev": "19289182",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "accountAssets",
+                    "type": "mapping(address => contract CToken[])",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x2f99fb66ea797e7fa2d07262402ab38bd5e53b12",
+                                "value": {
+                                    "elemType": "contract CToken",
+                                    "elems": [
+                                        {
+                                            "index": 0,
+                                            "value": {
+                                                "current": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
+                                                "prev": "0x0000000000000000000000000000000000000000",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "index": 1,
+                                            "value": {
+                                                "current": "0x35a18000230da775cac24873d00ff85bccded550",
+                                                "prev": "0x0000000000000000000000000000000000000000",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 2
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "compSupplierIndex",
+                    "type": "mapping(address => mapping(address => uint256))",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0x2f99fb66ea797e7fa2d07262402ab38bd5e53b12",
+                                            "value": {
+                                                "current": "77232613081136195923568085522837569385714",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "markets",
+                    "type": "mapping(address => struct ComptrollerV2Storage.Market)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x35a18000230da775cac24873d00ff85bccded550",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "accountMembership",
+                                            "type": "mapping(address => bool)",
+                                            "value": {
+                                                "pairs": [
+                                                    {
+                                                        "key": "0x2f99fb66ea797e7fa2d07262402ab38bd5e53b12",
+                                                        "value": {
+                                                            "current": "true",
+                                                            "prev": "false",
+                                                            "typeTag": 1
+                                                        }
+                                                    }
+                                                ],
+                                                "typeTag": 4
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            },
+                            {
+                                "key": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "accountMembership",
+                                            "type": "mapping(address => bool)",
+                                            "value": {
+                                                "pairs": [
+                                                    {
+                                                        "key": "0x2f99fb66ea797e7fa2d07262402ab38bd5e53b12",
+                                                        "value": {
+                                                            "current": "true",
+                                                            "prev": "false",
+                                                            "typeTag": 1
+                                                        }
+                                                    }
+                                                ],
+                                                "typeTag": 4
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "compBorrowState",
+                    "type": "mapping(address => struct ComptrollerV3Storage.CompMarketState)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x35a18000230da775cac24873d00ff85bccded550",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "index",
+                                            "type": "uint224",
+                                            "value": {
+                                                "current": "1008922696786268143104260768386143791",
+                                                "prev": "1008922696786268143104260768386143791",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "block",
+                                            "type": "uint32",
+                                            "value": {
+                                                "current": "19290921",
+                                                "prev": "19278657",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "compBorrowerIndex",
+                    "type": "mapping(address => mapping(address => uint256))",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x35a18000230da775cac24873d00ff85bccded550",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0x2f99fb66ea797e7fa2d07262402ab38bd5e53b12",
+                                            "value": {
+                                                "current": "1008922696786268143104260768386143791",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x010000000000000001eb6ca1b7ff14858720c966e4001012c65b4e0f65d8ad37",
+                    "key": "0x00000000000000000000000000000000000000000000000000000000000000ec",
+                    "prev": "0x010000000000000001eb6b6e9f86a42cd7bc74fb2b001010e00c35bf65d80afb"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000000000000000c988d6321d462a1f",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000004",
+                    "prev": "0x0000000000000000000000000000000000000000000000009b50f365e14c1300"
+                },
+                {
+                    "current": "0x00000000000000000000000000000e8efefd0150c107bffaff4052b49c5b567e",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                    "prev": "0x00000000000000000000000000000e8efe4a7192af031a42d2dc313961ab82f7"
+                },
+                {
+                    "current": "0x00010002d302d300e402ff4500000000000047e8ff9d97d158fb970b56e426b5",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "prev": "0x00010002d302d300e302ff3f00000000000047e38d4d2aa2a6b19a361a01176c"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000007eb70efd78d7f5a36502cdd5421d",
+                    "key": "0xa99c246bf102f1a2c53a06c162e7c901706b8b88fba61007675fdcee84cf6815",
+                    "prev": "0x000000000000000000000000000000000000033057c35eb4632b35bb668eb819"
+                },
+                {
+                    "current": "0x00000000000000000000000000000e44af4532172941c2048ef2ef0e979deb91",
+                    "key": "0xa99c246bf102f1a2c53a06c162e7c901706b8b88fba61007675fdcee84cf6816",
+                    "prev": "0x0000000000000000000000000000004a4f83f97fc78f4fa11e1eeefd1be81b8d"
+                },
+                {
+                    "current": "0x0165a1ac0f0000000000000001eb04637a4bf767a59db268d8000f6c774f870b",
+                    "key": "0xa99c246bf102f1a2c53a06c162e7c901706b8b88fba61007675fdcee84cf6817",
+                    "prev": "0x0100370128000000000000000000683e3db31d1de18316fe0c0000a64f0bc704"
+                }
+            ],
+            "storageVariables": []
+        },
+        {
+            "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x000000000000000000000000000000000000000000000000000016329c9d99ca",
+                    "key": "0xbccdc544072f1d154275788f84bcf1a9429a7563287106936a820738716d6e84",
+                    "prev": "0x00000000000000000000000000000000000000000000000000001605abb63eda"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000000006310912dcf4a",
+                    "key": "0x1f21a62c4538bacf2aabeca410f0fe63151869f172e03c0e00357ba26a341eff",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000633e1398953f"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000000000009ff99f282",
+                    "key": "0xedeec6d4b516c694145a613dd89d1be165aeb0b8ae5438f2c684529bc8619fc7",
+                    "prev": "0x000000000000000000000000000000000000000000000000000000096e16877d"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "balanceAndBlacklistStates",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
+                                "value": {
+                                    "current": "24406631750090",
+                                    "prev": "24213611495130",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+                                "value": {
+                                    "current": "108922806325066",
+                                    "prev": "109118267888959",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0xb263dd92a23e57e37b7c7132cc898d697d443951",
+                                "value": {
+                                    "current": "42942984834",
+                                    "prev": "40501675901",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0xb263dd92a23e57e37b7c7132cc898d697d443951",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x01000061b0000000000000000002765452b4225548b5904a0f00000124dff328",
+                    "key": "0xc0a88350197e3dfb30e53bfed117c6a07b5b2ecb283675db68e552f88571948c",
+                    "prev": "0x0165d84b87000000240000f2d2a7f30cc5a085372d954e696c0000dffd668d64"
+                },
+                {
+                    "current": "0x01000000240000f2d2aa69611854a78c764adeb37b0000e12246808c65d8ad37",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000026",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000001"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000000000000000003cbd7fc88a70a9",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000004",
+                    "prev": "0x000000000000000000000000000000000000000000000000002cc3da503ad55a"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000aeec89d905c95bf99e52f18ea6b",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "prev": "0x0000000000000000000000000000000000000aee7cb20ee26d4265c606955e8d"
+                },
+                {
+                    "current": "0x00000000000000000051eda2a63116640000000000000000000000000455a0ff",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000003",
+                    "prev": "0x00000000000000000051eda2a631166400000000000000000000000003f4c674"
+                },
+                {
+                    "current": "0x0001dd003c003c001e02ff4200000000000047e5d045c4a23bfeb7a32362721c",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "prev": "0x0001dd003c003c001d02ff8100000000000048204d9b68fbd9d3ca57c5cee6f2"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000a130c2a7221ca886ac05816e",
+                    "key": "0xc0a88350197e3dfb30e53bfed117c6a07b5b2ecb283675db68e552f88571948a",
+                    "prev": "0x0000000000000000000000000000000000000aee0d629cbc52a3a6d15b9fd735"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000007bd47ec187781f66c8cc0cef845a239",
+                    "key": "0xc0a88350197e3dfb30e53bfed117c6a07b5b2ecb283675db68e552f88571948b",
+                    "prev": "0x000000000000000000000000000022b46fb87b1d0a5795db61b9ebccc4fe1b9a"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "feeGrowthGlobal0X128",
+                    "type": "uint256",
+                    "value": {
+                        "current": "221742486199958229597713367362155",
+                        "prev": "221718990115215322667084120678029",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "protocolFees",
+                    "type": "struct BlueprintV3Pool.ProtocolFees",
+                    "value": {
+                        "fields": [
+                            {
+                                "name": "token0",
+                                "type": "uint128",
+                                "value": {
+                                    "current": "72720639",
+                                    "prev": "66373236",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "token1",
+                                "type": "uint128",
+                                "value": {
+                                    "current": "23060755942282852",
+                                    "prev": "23060755942282852",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 3
+                    }
+                },
+                {
+                    "name": "slot0",
+                    "type": "struct BlueprintV3Pool.Slot0",
+                    "value": {
+                        "fields": [
+                            {
+                                "name": "sqrtPriceX96",
+                                "type": "uint160",
+                                "value": {
+                                    "current": "1458258788301536052869879247827484",
+                                    "prev": "1462892810888406956257558232229618",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "tick",
+                                "type": "int24",
+                                "value": {
+                                    "current": "196418",
+                                    "prev": "196481",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "observationIndex",
+                                "type": "uint16",
+                                "value": {
+                                    "current": "30",
+                                    "prev": "29",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "observationCardinality",
+                                "type": "uint16",
+                                "value": {
+                                    "current": "60",
+                                    "prev": "60",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "observationCardinalityNext",
+                                "type": "uint16",
+                                "value": {
+                                    "current": "60",
+                                    "prev": "60",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "feeProtocol",
+                                "type": "uint8",
+                                "value": {
+                                    "current": "221",
+                                    "prev": "221",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "unlocked",
+                                "type": "bool",
+                                "value": {
+                                    "current": "true",
+                                    "prev": "true",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 3
+                    }
+                },
+                {
+                    "name": "ticks",
+                    "type": "mapping(int24 => struct Tick.Info)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "196440",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "feeGrowthOutside0X128",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "49886034242740020078744797550",
+                                                "prev": "221684541234932730306360994944821",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "feeGrowthOutside1X128",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "10287398833257822306346279045362459193",
+                                                "prev": "3023217049912808604175189117296471225277338",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "tickCumulativeOutside",
+                                            "type": "int56",
+                                            "value": {
+                                                "current": "4913623848",
+                                                "prev": "962029063524",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "secondsPerLiquidityOutsideX128",
+                                            "type": "uint160",
+                                            "value": {
+                                                "current": "762021470754822321253403151",
+                                                "prev": "12250170134186800722309543427632601655660",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "secondsOutside",
+                                            "type": "uint32",
+                                            "value": {
+                                                "current": "25008",
+                                                "prev": "1708673927",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "initialized",
+                                            "type": "bool",
+                                            "value": {
+                                                "current": "true",
+                                                "prev": "true",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "liquidity",
+                    "type": "uint128",
+                    "value": {
+                        "current": "17096855125651625",
+                        "prev": "12600241391588698",
+                        "typeTag": 1
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000108af28d6aed28ca9",
+                    "key": "0x51477803685ca36e1b78277ec7d1431c454927d013e8052f1ccbadf49b2dcdd6",
+                    "prev": "0x000000000000000000000000000000000000000000000001142943cccc6c9041"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000b745d7d6b9618a5153",
+                    "key": "0xb884b91182324d70fdc7c8411c40d802e62f41c4ddf8f831a011e7cd7c4072f1",
+                    "prev": "0x0000000000000000000000000000000000000000000000badd50546ac72631cc"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000001af37de44c77bc7ec06",
+                    "key": "0x390f6178407c9b8e95802b8659e6df8e34c1e3d4f8d6a49e6132bbcdd937b63a",
+                    "prev": "0x0000000000000000000000000000000000000000000001aba065c716162c0b8d"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "balanceOf",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801",
+                                "value": {
+                                    "current": "3380786892689151512915",
+                                    "prev": "3447041736808079962572",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+                                "value": {
+                                    "current": "7954572426509298428934",
+                                    "prev": "7888317582390369979277",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0xb263dd92a23e57e37b7c7132cc898d697d443951",
+                                "value": {
+                                    "current": "19072507849458486441",
+                                    "prev": "19899510975395303489",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

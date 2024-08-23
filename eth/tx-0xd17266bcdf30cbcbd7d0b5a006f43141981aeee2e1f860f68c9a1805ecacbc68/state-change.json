@@ -1,0 +1,74 @@
+{
+    "stateChanges": [
+        {
+            "address": "0x706206eabd6a70ca4992eec1646b6d1599259cae",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x65e9449b00000000000000000000000000010000000052208121e0994fbe1fde",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000008",
+                    "prev": "0x65e9449b000000000000d640f9827857b3f30000000052208121e0994fbe1fde"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "reserve0",
+                    "type": "uint112",
+                    "value": {
+                        "current": "387833652370923809808350",
+                        "prev": "387833652370923809808350",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "reserve1",
+                    "type": "uint112",
+                    "value": {
+                        "current": "1",
+                        "prev": "15438613861386138611",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "blockTimestampLast",
+                    "type": "uint32",
+                    "value": {
+                        "current": "1709786267",
+                        "prev": "1709786267",
+                        "typeTag": 1
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "key": "0xa4d3a63a5c0a86a3386f7a04dd0fee86e279e3dec32883607e7a1d796882cbaf",
+                    "prev": "0x000000000000000000000000000000000000000000000000d640f9827857b3f3"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "balanceOf",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x706206eabd6a70ca4992eec1646b6d1599259cae",
+                                "value": {
+                                    "current": "1",
+                                    "prev": "15438613861386138611",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

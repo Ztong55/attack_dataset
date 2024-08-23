@@ -1,0 +1,127 @@
+{
+    "basicInfo": {
+        "baseFee": "38.237895249",
+        "blockNumber": 19470561,
+        "callData": "0x9846cd9e0000000000000000000000000000000000000000018400000000fdac7708d0d360bddc1bc7d097f47439fa461e33fffffffffffffffffffffffffffffffffffffffffffffffffffffff8510bf60000000000000000000000000000000000000000000000000059b25eed88eb30c1000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000001000000000000000000000000006980a47bee930a4584b09ee79ebe46484fbdbdd00000000000000000000000000cc396f558aae5200bb0abb23225accafca31e2700000000000000000000000077e06c9eccf2e797fd462a92b6d7642ef85b0a44000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb88000000000000000000000006a7eff1e2c355ad6eb91bebb5ded49257f3fed98000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000000000000000000000000000000000000000000000000000000000000271009",
+        "debugEnable": true,
+        "errorInfo": "",
+        "eventCount": 5,
+        "feeRecipient": "0x229b8325bb9ac04602898b7e8989998710235d5f",
+        "formatValue": "0.000000000000000998",
+        "gasLimit": 317832,
+        "gasPrice": "38.237895249",
+        "gasUsed": 205473,
+        "intTxnCount": 11,
+        "internalRevert": false,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": false,
+        "maxFee": "38.237895249",
+        "nonce": 33376,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "0",
+        "receiver": "0x6980a47bee930a4584b09ee79ebe46484fbdbdd0",
+        "revertMessage": "",
+        "sender": "0xfde0d1575ed8e06fbf36256bcdfa1f359281455a",
+        "simulationEnable": true,
+        "sourceTxnHash": "0x35a73969f582872c25c96c48d8bb31c23eab8a49c19282c67509b96186734e60",
+        "status": true,
+        "timestamp": "2024-03-19T18:25:35Z",
+        "transactionFee": "0.007856855050497777",
+        "txnHash": "0x35a73969f582872c25c96c48d8bb31c23eab8a49c19282c67509b96186734e60",
+        "txnIndex": 0,
+        "type": 2,
+        "value": "998"
+    },
+    "fundFlow": [
+        {
+            "amount": "0.000000000000000998",
+            "from": "0xfde0d1575ed8e06fbf36256bcdfa1f359281455a",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0x6980a47bee930a4584b09ee79ebe46484fbdbdd0",
+            "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        },
+        {
+            "amount": "6.463332789527457985",
+            "from": "0x45f4d60405b797a2b0e5ea581fe6ea445cb46b8f",
+            "id": 2,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 2,
+            "to": "0x6980a47bee930a4584b09ee79ebe46484fbdbdd0",
+            "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+        },
+        {
+            "amount": "12,479.437103825582622058",
+            "from": "0x0cc396f558aae5200bb0abb23225accafca31e27",
+            "id": 3,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 3,
+            "to": "0x45f4d60405b797a2b0e5ea581fe6ea445cb46b8f",
+            "token": "0x6a7eff1e2c355ad6eb91bebb5ded49257f3fed98"
+        },
+        {
+            "amount": "6.463332789527457985",
+            "from": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "id": 4,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 4,
+            "to": "0x6980a47bee930a4584b09ee79ebe46484fbdbdd0",
+            "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        },
+        {
+            "amount": "6.463332789527457985",
+            "from": "0x6980a47bee930a4584b09ee79ebe46484fbdbdd0",
+            "id": 5,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 5,
+            "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+        },
+        {
+            "amount": "6.450406123948403069",
+            "from": "0x6980a47bee930a4584b09ee79ebe46484fbdbdd0",
+            "id": 6,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 6,
+            "to": "0x229b8325bb9ac04602898b7e8989998710235d5f",
+            "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        }
+    ],
+    "securityEvent": {
+        "id": 153,
+        "project": "ParaSwap",
+        "loss": 300000,
+        "media": "https://medium.com/neptune-mutual/analysis-of-the-paraswap-exploit-1f97c604b4fe",
+        "rootCause": "Access Control Issue",
+        "poc": "https://github.com/SunWeb3Sec/DeFiHackLabs?tab=readme-ov-file#20240320-paraswap---incorrect-access-control",
+        "rescued": 0
+    },
+    "tokenInfos": [
+        {
+            "address": "0x6a7eff1e2c355ad6eb91bebb5ded49257f3fed98",
+            "decimals": 18
+        },
+        {
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "decimals": 18
+        },
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "stateChanges": [
+        {
+            "address": "0x4deca517d6817b6510798b7328f2314d3003abac",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                    "key": "0xa61177f5caf521a2b4e3e8b49990bce12636b885799b93360b45e40dfc3a98b7",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000007e37be2022c0914b2680000000",
+                    "key": "0xa86b0765785fdafe9cd24e6dd1a741346f9c35736425f22917c199cd9cb43c79",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000007e37be2022c0914b2680000000",
+                    "key": "0x49157b242564839087dcaef57fcbfdae9309e1ea00bce40edd87ee97d7eb19b4",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "key": "0x49157b242564839087dcaef57fcbfdae9309e1ea00bce40edd87ee97d7eb19b6",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "proposals",
+                    "type": "mapping(uint256 => struct Governance.Proposal)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "85",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "callData",
+                                            "type": "bytes",
+                                            "value": {
+                                                "current": "0x000000000000000000000000bdbb5945f252bc3466a319cdcc3ee8056bf2e5690x0000000000000000000000000000000000000000000f5b2f71812d138f71f6f5",
+                                                "prev": "0x000000000000000000000000bdbb5945f252bc3466a319cdcc3ee8056bf2e5690x0000000000000000000000000000000000000000000f5b2f71812d138f71f6f5",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "voteMagnitudeYes",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "10000000000000000000000000000000",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "numVotes",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "1",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "votes",
+                                            "type": "mapping(address => enum Governance.Vote)",
+                                            "value": {
+                                                "pairs": [
+                                                    {
+                                                        "key": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                                                        "value": {
+                                                            "current": "2",
+                                                            "prev": "0",
+                                                            "typeTag": 1
+                                                        }
+                                                    }
+                                                ],
+                                                "typeTag": 4
+                                            }
+                                        },
+                                        {
+                                            "name": "voteMagnitudes",
+                                            "type": "mapping(address => uint256)",
+                                            "value": {
+                                                "pairs": [
+                                                    {
+                                                        "key": "0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569",
+                                                        "value": {
+                                                            "current": "10000000000000000000000000000000",
+                                                            "prev": "0",
+                                                            "typeTag": 1
+                                                        }
+                                                    }
+                                                ],
+                                                "typeTag": 4
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

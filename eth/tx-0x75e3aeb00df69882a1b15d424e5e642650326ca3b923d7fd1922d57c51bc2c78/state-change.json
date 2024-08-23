@@ -1,0 +1,514 @@
+{
+    "stateChanges": [
+        {
+            "address": "0x732276168b421d4792e743711e1a48172ea574a2",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000260125bb37d75acc572cdbfcb0849cd14",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                    "prev": "0x000000000000000000000000000000025eb9f57c896fdd1f3a0f3db7c1d7d561"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000075c0b556197c11d2187a1f2e85decce",
+                    "key": "0xf51c72d82bebd8e40417bb7c08fd2b911cd087273a0f73777098f2ede1d8c437",
+                    "prev": "0x00000000000000000000000000000000043de8c3f71f4d9ab3480d75bc62ca97"
+                },
+                {
+                    "current": "0x00000000000000000000000000000001991056c18b797da9db7dc55627a8a34a",
+                    "key": "0xf51c72d82bebd8e40417bb7c08fd2b911cd087273a0f73777098f2ede1d8c438",
+                    "prev": "0x00000000000000000000000000000000c5e0fbf522fc09c3e8babe71e6bdfe5d"
+                },
+                {
+                    "current": "0x0100000030000000000000090ebbe0e981d73d65b300000200ef79e865ccc4a7",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000008",
+                    "prev": "0x0100000030000000000000090e8103f5e1aa03cb0a00000200e2c42065ccc48f"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000b3e53f6f0a77eb3fd92a688deb15be4",
+                    "key": "0xd9bd0ee343027d4ca308387b659868b577c3f45bcdb169e1c1a7af43abf1c6c5",
+                    "prev": "0x00000000000000000000000000000000005ba022680f9003d73d08dfc60f5b81"
+                },
+                {
+                    "current": "0x0165cc5b770000003000000000000008081bfa70060c4c9e57000001c75c5b94",
+                    "key": "0xd9bd0ee343027d4ca308387b659868b577c3f45bcdb169e1c1a7af43abf1c6c7",
+                    "prev": "0x01000069300000000000000000000001069fe6797bcaf0c75c00000039931e54"
+                },
+                {
+                    "current": "0x000100000100010000008e6e000000000000000630d31efe956b808f9feee502",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "prev": "0x0001000001000100000087930000000000000005aba397be372c3349a348f141"
+                },
+                {
+                    "current": "0x000000000000000000000000000000025221f131da11033368b6f857f0ab33c1",
+                    "key": "0xd9bd0ee343027d4ca308387b659868b577c3f45bcdb169e1c1a7af43abf1c6c6",
+                    "prev": "0x000000000000000000000000000000000d1c536f7815b2d3447ddf9b3a14400e"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000099a1ef1075c91239a0db90ac7e8bd77",
+                    "key": "0x773c413bc208c5d4077e0d38006a5dd9951f9e8a9127e81c696415a6be522b9a",
+                    "prev": "0x0000000000000000000000000000000001ffd528515a7d943ac1f65ddcd7f9ee"
+                },
+                {
+                    "current": "0x00000000000000000000000000000001fd7d9d13a793b170f5dcd7df6df4fd1f",
+                    "key": "0x773c413bc208c5d4077e0d38006a5dd9951f9e8a9127e81c696415a6be522b9b",
+                    "prev": "0x000000000000000000000000000000006236ff010ef9b9002f351f10716c8989"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000668508cb5e0ccc3b8c",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000004",
+                    "prev": "0x00000000000000000000000000000000000000000000006860b766bca0132e1c"
+                },
+                {
+                    "current": "0x0165caa7570000003000000000000003b58f77cd5d1498f3bb000000ca769094",
+                    "key": "0xf51c72d82bebd8e40417bb7c08fd2b911cd087273a0f73777098f2ede1d8c439",
+                    "prev": "0x0100021d500000000000000000000005592c691c24c2a471f80000013678e954"
+                },
+                {
+                    "current": "0x0165cbeb3f0000003000000000000006ea1372b860435dabb6000001801831c8",
+                    "key": "0x773c413bc208c5d4077e0d38006a5dd9951f9e8a9127e81c696415a6be522b9c",
+                    "prev": "0x010000d968000000000000000000000224a86e312193dfb9fd00000080d74820"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "ticks",
+                    "type": "mapping(int24 => struct Tick.Info)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "35000",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "feeGrowthOutside0X128",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "9782517152582574838529944395798408398",
+                                                "prev": "5638363136510666048256419144396884631",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "feeGrowthOutside1X128",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "543739086647193718374853646899189687114",
+                                                "prev": "263026099972477746670531927879031062109",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "tickCumulativeOutside",
+                                            "type": "int56",
+                                            "value": {
+                                                "current": "3396767892",
+                                                "prev": "5208861012",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "secondsPerLiquidityOutsideX128",
+                                            "type": "uint160",
+                                            "value": {
+                                                "current": "16333553612205046263758279239944552117179",
+                                                "prev": "25256792756862809567736",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "secondsOutside",
+                                            "type": "uint32",
+                                            "value": {
+                                                "current": "1707779927",
+                                                "prev": "138576",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "initialized",
+                                            "type": "bool",
+                                            "value": {
+                                                "current": "true",
+                                                "prev": "true",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            },
+                            {
+                                "key": "35400",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "feeGrowthOutside0X128",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "14945133363467206819997344149571460068",
+                                                "prev": "475746925626034066789019390623832961",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "feeGrowthOutside1X128",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "789737667302954420063543174884986926017",
+                                                "prev": "17427040528730456792540618619759116302",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "tickCumulativeOutside",
+                                            "type": "int56",
+                                            "value": {
+                                                "current": "7639686036",
+                                                "prev": "965942868",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "secondsPerLiquidityOutsideX128",
+                                            "type": "uint160",
+                                            "value": {
+                                                "current": "16333553612205046284170503019226192453207",
+                                                "prev": "4844568977581169231708",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "secondsOutside",
+                                            "type": "uint32",
+                                            "value": {
+                                                "current": "1707891575",
+                                                "prev": "26928",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "initialized",
+                                            "type": "bool",
+                                            "value": {
+                                                "current": "true",
+                                                "prev": "true",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            },
+                            {
+                                "key": "36000",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "feeGrowthOutside0X128",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "12763293246832183442776790594883206519",
+                                                "prev": "2657587042261057444009572945312086510",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "feeGrowthOutside1X128",
+                                            "type": "uint256",
+                                            "value": {
+                                                "current": "677229272857344440523150133256818851103",
+                                                "prev": "130549899715594416234520046611917998473",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "tickCumulativeOutside",
+                                            "type": "int56",
+                                            "value": {
+                                                "current": "6444036552",
+                                                "prev": "2161592352",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "secondsPerLiquidityOutsideX128",
+                                            "type": "uint160",
+                                            "value": {
+                                                "current": "16333553612205046278894119552348432739254",
+                                                "prev": "10120952444458928945661",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "secondsOutside",
+                                            "type": "uint32",
+                                            "value": {
+                                                "current": "1707862847",
+                                                "prev": "55656",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "initialized",
+                                            "type": "bool",
+                                            "value": {
+                                                "current": "true",
+                                                "prev": "true",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "observations",
+                    "type": "struct Oracle.Observation[65535]",
+                    "value": {
+                        "elemType": "struct Oracle.Observation",
+                        "elems": [
+                            {
+                                "index": 0,
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "blockTimestamp",
+                                            "type": "uint32",
+                                            "value": {
+                                                "current": "1707918503",
+                                                "prev": "1707918479",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "tickCumulative",
+                                            "type": "int56",
+                                            "value": {
+                                                "current": "8605628904",
+                                                "prev": "8604795936",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "secondsPerLiquidityCumulativeX128",
+                                            "type": "uint160",
+                                            "value": {
+                                                "current": "16333553612205046289015071996807361684915",
+                                                "prev": "16333553612205046289010830463989006453514",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "initialized",
+                                            "type": "bool",
+                                            "value": {
+                                                "current": "true",
+                                                "prev": "true",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 2
+                    }
+                },
+                {
+                    "name": "feeGrowthGlobal1X128",
+                    "type": "uint256",
+                    "value": {
+                        "current": "808265942700625386416032410301694070036",
+                        "prev": "806477719421667689849543858195376100705",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "liquidity",
+                    "type": "uint128",
+                    "value": {
+                        "current": "1891154030930034441100",
+                        "prev": "1925430535574497996316",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "slot0",
+                    "type": "struct UniswapV3Pool.Slot0",
+                    "value": {
+                        "fields": [
+                            {
+                                "name": "sqrtPriceX96",
+                                "type": "uint160",
+                                "value": {
+                                    "current": "490479485272183597116009932034",
+                                    "prev": "449260520745564775558802895169",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "tick",
+                                "type": "int24",
+                                "value": {
+                                    "current": "36462",
+                                    "prev": "34707",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "observationIndex",
+                                "type": "uint16",
+                                "value": {
+                                    "current": "0",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "observationCardinality",
+                                "type": "uint16",
+                                "value": {
+                                    "current": "1",
+                                    "prev": "1",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "observationCardinalityNext",
+                                "type": "uint16",
+                                "value": {
+                                    "current": "1",
+                                    "prev": "1",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "feeProtocol",
+                                "type": "uint8",
+                                "value": {
+                                    "current": "0",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "unlocked",
+                                "type": "bool",
+                                "value": {
+                                    "current": "true",
+                                    "prev": "true",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 3
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0xbff51c9c3d50d6168dfef72133f5dbda453ebf29",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000000000000000007d0",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": []
+        },
+        {
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000e563098771f000953",
+                    "key": "0x10578b7d7fa671d86e544003041083f6c90286b219e0711d2494cfa0604d0b1e",
+                    "prev": "0x00000000000000000000000000000000000000000000000fddb0d4162de5da95"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000187803b9f0ee5d142",
+                    "key": "0xb4b436c8cb9a693c2d8b91570b9c3e8819791ab91f2b6deb6b7d566ec2abd11d",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "balanceOf",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x732276168b421d4792e743711e1a48172ea574a2",
+                                "value": {
+                                    "current": "264465048555466262867",
+                                    "prev": "292675662175650830997",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0xbff51c9c3d50d6168dfef72133f5dbda453ebf29",
+                                "value": {
+                                    "current": "28210613620184568130",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0xe77ec1bf3a5c95bfe3be7bdbacfe3ac1c7e454cd",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000003782dace9d8fffff",
+                    "key": "0x54cbbfed84877ae0f23a916898fe633c610b67a5f5966250689c6ecaa71669b3",
+                    "prev": "0x000000000000000000000000000000000000000000000000319466269e96f77d"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000049ba2d8e2e239415e86",
+                    "key": "0x69c1674a0b67e5cce61d73290f874227f0daaad920dfc408bd2e2fb33ec70838",
+                    "prev": "0x0000000000000000000000000000000000000000000004656d0f351c5aa16656"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "_balances",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x732276168b421d4792e743711e1a48172ea574a2",
+                                "value": {
+                                    "current": "21760445641193926254214",
+                                    "prev": "20760445641193926256214",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0xbff51c9c3d50d6168dfef72133f5dbda453ebf29",
+                                "value": {
+                                    "current": "3999999999999999999",
+                                    "prev": "3572592720467130237",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

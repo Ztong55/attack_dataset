@@ -1,0 +1,111 @@
+{
+    "stateChanges": [
+        {
+            "address": "0x44709a920fccf795fbc57baa433cc3dd53c44dbe",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0xfffffffffffffffffffffffffffffffffffffffffffffe2888e122ae4bbbffff",
+                    "key": "0xc8ebd4f68e2491d5563e45d6c94d9ef3eaf888a1ea19eaa1b14919df61c3bdd5",
+                    "prev": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "key": "0xc318a5da9fe429f6b03708d815caccdb93e53154cbb289b9a020460905e0fbe4",
+                    "prev": "0x0000000000000000000000000000000000000000000001d7771edd51b4440000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "key": "0x2d247cf272c1584741fd4311e60cf573d19a53ca8f91941dc6f7dfb03a4a18bc",
+                    "prev": "0x00000000000000000000000000000000000000000000013a4f69e8e122d80000"
+                },
+                {
+                    "current": "0xfffffffffffffffffffffffffffffffffffffffffffffec5b096171edd27ffff",
+                    "key": "0x68252d159ffd6494757672038601b8b08deccab02030d595ab3cfc2a9371fa77",
+                    "prev": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000000000000311c688c632d71c0000",
+                    "key": "0x18beb58f28f0d47780547d8e293a3e204d16e52e5e3a47dbb3c672119d841775",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "_balances",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x9747d9a97619bee9f3ab529b303886e967cead6d",
+                                "value": {
+                                    "current": "0",
+                                    "prev": "5798000000000000000000",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0xb687550842a24d7fbc6aad238fd7e0687ed59d55",
+                                "value": {
+                                    "current": "14495000000000000000000",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0xdd16f14aa9226e7ecc456f8b52427f92eb7b84ee",
+                                "value": {
+                                    "current": "0",
+                                    "prev": "8697000000000000000000",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "_allowances",
+                    "type": "mapping(address => mapping(address => uint256))",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x9747d9a97619bee9f3ab529b303886e967cead6d",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0x6eb211caf6d304a76efe37d9abdfaddc2d4363d1",
+                                            "value": {
+                                                "current": "115792089237316195423570985008687907853269984665640564033659584007913129639935",
+                                                "prev": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            },
+                            {
+                                "key": "0xdd16f14aa9226e7ecc456f8b52427f92eb7b84ee",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0x6eb211caf6d304a76efe37d9abdfaddc2d4363d1",
+                                            "value": {
+                                                "current": "115792089237316195423570985008687907853269984665640564030760584007913129639935",
+                                                "prev": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

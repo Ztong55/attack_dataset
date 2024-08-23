@@ -1,0 +1,78 @@
+{
+    "basicInfo": {
+        "baseFee": "0",
+        "blockNumber": 33260397,
+        "callData": "0xf3fef3a3000000000000000000000000e613c058701c768e0d04d1bf8e6a6dc1a0c6d48a0000000000000000000000000000000000000000000000000000000000000000",
+        "debugEnable": true,
+        "errorInfo": "",
+        "eventCount": 3,
+        "feeRecipient": "0x72b61c6014342d914470ec7ac2975be345796c2b",
+        "formatValue": "0",
+        "gasLimit": 434809,
+        "gasPrice": "3",
+        "gasUsed": 408350,
+        "intTxnCount": 8,
+        "internalRevert": false,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": false,
+        "maxFee": "",
+        "nonce": 6,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "",
+        "receiver": "0x1694d7fabf3b28f11d65deeb9f60810daa26909a",
+        "revertMessage": "",
+        "sender": "0x1a7b15354e2f6564fcf6960c79542de251ce0dc9",
+        "simulationEnable": true,
+        "sourceTxnHash": "0xea5bb62b8a151917a732d4114d716c7e6c087af8b3c0b3416c9dbc37c59f04da",
+        "status": true,
+        "timestamp": "2023-11-06T16:03:07Z",
+        "transactionFee": "0.00122505",
+        "txnHash": "0xea5bb62b8a151917a732d4114d716c7e6c087af8b3c0b3416c9dbc37c59f04da",
+        "txnIndex": 51,
+        "type": 0,
+        "value": "0"
+    },
+    "fundFlow": [
+        {
+            "amount": "0.000000000000000001",
+            "from": "0x1a7b15354e2f6564fcf6960c79542de251ce0dc9",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0x1694d7fabf3b28f11d65deeb9f60810daa26909a",
+            "token": "0x2e1fc745937a44ae8313bc889ee023ee303f2488"
+        },
+        {
+            "amount": "110.691360001",
+            "from": "0xe613c058701c768e0d04d1bf8e6a6dc1a0c6d48a",
+            "id": 2,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 2,
+            "to": "0x1694d7fabf3b28f11d65deeb9f60810daa26909a",
+            "token": "0xadcfc6bf853a0a8ad7f9ff4244140d10cf01363c"
+        }
+    ],
+    "tokenInfos": [
+        {
+            "address": "0x2e1fc745937a44ae8313bc889ee023ee303f2488",
+            "decimals": 18
+        },
+        {
+            "address": "0xadcfc6bf853a0a8ad7f9ff4244140d10cf01363c",
+            "decimals": 9
+        },
+        {
+            "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+            "decimals": 18
+        },
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        }
+    ]
+}

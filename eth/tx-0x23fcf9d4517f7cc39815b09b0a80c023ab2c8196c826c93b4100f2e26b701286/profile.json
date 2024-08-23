@@ -1,0 +1,72 @@
+{
+    "basicInfo": {
+        "baseFee": "59.40641755",
+        "blockNumber": 19325937,
+        "callData": "0x568d8cd9000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000140000000000000000000000000b05cabcd99cf9a73b19805edefc5f67ca5d1895e00000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006423b872dd0000000000000000000000009cbf099ff424979439dfba03f00b5961784c06ce00000000000000000000000094641c01a4937f2c8ef930580cf396142a2942dc00000000000000000000000000000000000000000000004b180b86618eddc3ab00000000000000000000000000000000000000000000000000000000",
+        "debugEnable": true,
+        "errorInfo": "",
+        "eventCount": 1,
+        "feeRecipient": "0xdafea492d9c6733ae3d56b7ed1adb60692c98bc5",
+        "formatValue": "0",
+        "gasLimit": 120108,
+        "gasPrice": "59.451138527",
+        "gasUsed": 68921,
+        "intTxnCount": 2,
+        "internalRevert": false,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": false,
+        "maxFee": "97.046134307",
+        "nonce": 8,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "0.044720977",
+        "receiver": "0x65c210c59b43eb68112b7a4f75c8393c36491f06",
+        "revertMessage": "",
+        "sender": "0x94641c01a4937f2c8ef930580cf396142a2942dc",
+        "simulationEnable": true,
+        "sourceTxnHash": "0x23fcf9d4517f7cc39815b09b0a80c023ab2c8196c826c93b4100f2e26b701286",
+        "status": true,
+        "timestamp": "2024-02-28T12:09:59Z",
+        "transactionFee": "0.004097431918419367",
+        "txnHash": "0x23fcf9d4517f7cc39815b09b0a80c023ab2c8196c826c93b4100f2e26b701286",
+        "txnIndex": 119,
+        "type": 2,
+        "value": "0"
+    },
+    "fundFlow": [
+        {
+            "amount": "1,385.238431763437306795",
+            "from": "0x9cbf099ff424979439dfba03f00b5961784c06ce",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0x94641c01a4937f2c8ef930580cf396142a2942dc",
+            "token": "0xb05cabcd99cf9a73b19805edefc5f67ca5d1895e"
+        }
+    ],
+    "securityEvent": {
+        "id": 146,
+        "project": "Seneca",
+        "loss": 6000000,
+        "media": "https://twitter.com/Phalcon_xyz/status/1763045563040411876",
+        "rootCause": "Arbitrary Call",
+        "poc": "https://github.com/SunWeb3Sec/DeFiHackLabs?tab=readme-ov-file#20240228-seneca---arbitrary-external-call-vulnerability",
+        "rescued": 0
+    },
+    "tokenInfos": [
+        {
+            "address": "0xb05cabcd99cf9a73b19805edefc5f67ca5d1895e",
+            "decimals": 18
+        },
+        {
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "decimals": 18
+        },
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        }
+    ]
+}

@@ -1,0 +1,331 @@
+{
+    "stateChanges": [
+        {
+            "address": "0xc1e088fc1323b20bcbee9bd1b9fc9546db5624c5",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x00000000000000a8000017a01c5dcdd006ea78a7e4783f9e6021c32935a10fb4",
+                    "key": "0x7601ffefa6ba1727312968a657488b1c15c3fb08db74e7fb86ab372180914279",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "key": "0x70a64cedb9ce7ed9315a331a6baf9ab439c6c0b92647da222d891d20d8f4d1a6",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000013",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000010",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000012"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000003",
+                    "key": "0x7601ffefa6ba1727312968a657488b1c15c3fb08db74e7fb86ab37218091427a",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0xe1c7392a00000000000000000000000000000000000000000000000000000008",
+                    "key": "0x4f6f17d4c19a0fb4496592de6c1ed38b2e6bf8a401cfc93de804cb1abd2317db",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000001200000011",
+                    "key": "0x8d1108e10bcb7c27dddfc02ed9d693a074039d026cf4ea4240b40f7d581ac802",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000011"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000052d75ccf83185465007073",
+                    "key": "0x7601ffefa6ba1727312968a657488b1c15c3fb08db74e7fb86ab37218091427c",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000000000000625aa075",
+                    "key": "0x7601ffefa6ba1727312968a657488b1c15c3fb08db74e7fb86ab37218091427b",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                    "key": "0x000000000000000000000000000000000000000000000000000000000000000f",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000001"
+                },
+                {
+                    "current": "0x0000000000000000000018480000008b000000000000042b0000179e00001848",
+                    "key": "0x1eabc3ef883c6d3a5154ff1c71cb807dc1be2f4831a3fcad7bb8dfac09b4055b",
+                    "prev": "0x0000000000000000000000000000008b000000000000042b0000179e00000000"
+                },
+                {
+                    "current": "0x000000000000000000000000e5ecf73603d98a0128f05ed30506ac7a663dbb69",
+                    "key": "0x4f6f17d4c19a0fb4496592de6c1ed38b2e6bf8a401cfc93de804cb1abd2317da",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "s",
+                    "type": "struct AppStorage",
+                    "value": {
+                        "fields": [
+                            {
+                                "name": "g",
+                                "type": "struct Storage.Governance",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "activeBips",
+                                            "type": "uint32[]",
+                                            "value": {
+                                                "elemType": "uint32",
+                                                "elems": [
+                                                    {
+                                                        "index": 0,
+                                                        "value": {
+                                                            "current": "17",
+                                                            "prev": "17",
+                                                            "typeTag": 1
+                                                        }
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "value": {
+                                                            "current": "18",
+                                                            "prev": "0",
+                                                            "typeTag": 1
+                                                        }
+                                                    }
+                                                ],
+                                                "typeTag": 2
+                                            }
+                                        },
+                                        {
+                                            "name": "bipIndex",
+                                            "type": "uint32",
+                                            "value": {
+                                                "current": "19",
+                                                "prev": "18",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "diamondCuts",
+                                            "type": "mapping(uint32 => struct Storage.DiamondCut)",
+                                            "value": {
+                                                "pairs": [
+                                                    {
+                                                        "key": "18",
+                                                        "value": {
+                                                            "fields": [
+                                                                {
+                                                                    "name": "initAddress",
+                                                                    "type": "address",
+                                                                    "value": {
+                                                                        "current": "0xe5ecf73603d98a0128f05ed30506ac7a663dbb69",
+                                                                        "prev": "0x0000000000000000000000000000000000000000",
+                                                                        "typeTag": 1
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "name": "initData",
+                                                                    "type": "bytes",
+                                                                    "value": {
+                                                                        "current": "0xe1c7392a",
+                                                                        "prev": "0x",
+                                                                        "typeTag": 1
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "typeTag": 3
+                                                        }
+                                                    }
+                                                ],
+                                                "typeTag": 4
+                                            }
+                                        },
+                                        {
+                                            "name": "voted",
+                                            "type": "mapping(uint32 => mapping(address => bool))",
+                                            "value": {
+                                                "pairs": [
+                                                    {
+                                                        "key": "18",
+                                                        "value": {
+                                                            "pairs": [
+                                                                {
+                                                                    "key": "0x1c5dcdd006ea78a7e4783f9e6021c32935a10fb4",
+                                                                    "value": {
+                                                                        "current": "true",
+                                                                        "prev": "false",
+                                                                        "typeTag": 1
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "typeTag": 4
+                                                        }
+                                                    }
+                                                ],
+                                                "typeTag": 4
+                                            }
+                                        },
+                                        {
+                                            "name": "bips",
+                                            "type": "mapping(uint32 => struct Storage.Bip)",
+                                            "value": {
+                                                "pairs": [
+                                                    {
+                                                        "key": "18",
+                                                        "value": {
+                                                            "fields": [
+                                                                {
+                                                                    "name": "proposer",
+                                                                    "type": "address",
+                                                                    "value": {
+                                                                        "current": "0x1c5dcdd006ea78a7e4783f9e6021c32935a10fb4",
+                                                                        "prev": "0x0000000000000000000000000000000000000000",
+                                                                        "typeTag": 1
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "name": "start",
+                                                                    "type": "uint32",
+                                                                    "value": {
+                                                                        "current": "6048",
+                                                                        "prev": "0",
+                                                                        "typeTag": 1
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "name": "period",
+                                                                    "type": "uint32",
+                                                                    "value": {
+                                                                        "current": "168",
+                                                                        "prev": "0",
+                                                                        "typeTag": 1
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "name": "executed",
+                                                                    "type": "bool",
+                                                                    "value": {
+                                                                        "current": "false",
+                                                                        "prev": "false",
+                                                                        "typeTag": 1
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "name": "pauseOrUnpause",
+                                                                    "type": "int256",
+                                                                    "value": {
+                                                                        "current": "3",
+                                                                        "prev": "0",
+                                                                        "typeTag": 1
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "name": "timestamp",
+                                                                    "type": "uint128",
+                                                                    "value": {
+                                                                        "current": "1650106485",
+                                                                        "prev": "0",
+                                                                        "typeTag": 1
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "name": "roots",
+                                                                    "type": "uint256",
+                                                                    "value": {
+                                                                        "current": "100148938055493285876625523",
+                                                                        "prev": "0",
+                                                                        "typeTag": 1
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "typeTag": 3
+                                                        }
+                                                    }
+                                                ],
+                                                "typeTag": 4
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            },
+                            {
+                                "name": "a",
+                                "type": "mapping(address => struct Account.State)",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0x1c5dcdd006ea78a7e4783f9e6021c32935a10fb4",
+                                            "value": {
+                                                "fields": [
+                                                    {
+                                                        "name": "votedUntil",
+                                                        "type": "uint32",
+                                                        "value": {
+                                                            "current": "6216",
+                                                            "prev": "0",
+                                                            "typeTag": 1
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "lastUpdate",
+                                                        "type": "uint32",
+                                                        "value": {
+                                                            "current": "6046",
+                                                            "prev": "6046",
+                                                            "typeTag": 1
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "lastSop",
+                                                        "type": "uint32",
+                                                        "value": {
+                                                            "current": "1067",
+                                                            "prev": "1067",
+                                                            "typeTag": 1
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "lastRain",
+                                                        "type": "uint32",
+                                                        "value": {
+                                                            "current": "0",
+                                                            "prev": "0",
+                                                            "typeTag": 1
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "lastSIs",
+                                                        "type": "uint32",
+                                                        "value": {
+                                                            "current": "139",
+                                                            "prev": "139",
+                                                            "typeTag": 1
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "proposedUntil",
+                                                        "type": "uint32",
+                                                        "value": {
+                                                            "current": "6216",
+                                                            "prev": "0",
+                                                            "typeTag": 1
+                                                        }
+                                                    }
+                                                ],
+                                                "typeTag": 3
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 3
+                    }
+                }
+            ]
+        }
+    ]
+}

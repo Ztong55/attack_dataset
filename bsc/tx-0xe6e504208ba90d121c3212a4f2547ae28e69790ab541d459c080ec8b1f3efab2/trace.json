@@ -1,0 +1,310 @@
+{
+    "accountLabels": null,
+    "dataMap": {
+        "-1": {
+            "invocation": {
+                "address": "0x6deba0f8ab4891632fb8d381b27ecec7f7743a14",
+                "callData": "",
+                "decodedMethod": null,
+                "errorInfo": "",
+                "fromAddress": "",
+                "gasUsed": 0,
+                "id": -1,
+                "methodDecoded": false,
+                "operation": "",
+                "output": "",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "",
+                "status": false,
+                "value": ""
+            },
+            "nodeType": 0
+        },
+        "0": {
+            "invocation": {
+                "address": "0x16149999c85c3e3f7d1b9402a4c64d125877d89d",
+                "callData": "0x000000000000000000000000a3fdf7f376f4bfd38d7c4a5cf8aab4de68792fd4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000f6ee06c6a62a6a42d1ad9d321d45c4f92a7a215509c850ee36fb025ba767a7640000000000000000000000000000000000000000000000000000000000000024f2fde38b0000000000000000000000007507f84610f6d656a70eb8cdec044674799265d300000000000000000000000000000000000000000000000000000000",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "target",
+                            "type": "address",
+                            "value": "0xa3fdf7f376f4bfd38d7c4a5cf8aab4de68792fd4"
+                        },
+                        {
+                            "name": "value",
+                            "type": "uint256",
+                            "value": "0"
+                        },
+                        {
+                            "name": "data",
+                            "type": "bytes",
+                            "value": "0xf2fde38b0000000000000000000000007507f84610f6d656a70eb8cdec044674799265d3"
+                        },
+                        {
+                            "name": "predecessor",
+                            "type": "bytes32",
+                            "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                        },
+                        {
+                            "name": "salt",
+                            "type": "bytes32",
+                            "value": "0xf6ee06c6a62a6a42d1ad9d321d45c4f92a7a215509c850ee36fb025ba767a764"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "execute",
+                    "returnParams": [],
+                    "signature": "execute(address,uint256,bytes,bytes32,bytes32)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x6deba0f8ab4891632fb8d381b27ecec7f7743a14",
+                "gasUsed": 45299,
+                "id": 0,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x134008d3",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "1": {
+            "invocation": {
+                "address": "0xa3fdf7f376f4bfd38d7c4a5cf8aab4de68792fd4",
+                "callData": "0x0000000000000000000000007507f84610f6d656a70eb8cdec044674799265d3",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "newOwner",
+                            "type": "address",
+                            "value": "0x7507f84610f6d656a70eb8cdec044674799265d3"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "transferOwnership",
+                    "returnParams": [],
+                    "signature": "transferOwnership(address)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x16149999c85c3e3f7d1b9402a4c64d125877d89d",
+                "gasUsed": 9504,
+                "id": 1,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0xf2fde38b",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "2": {
+            "event": {
+                "contract": "0xa3fdf7f376f4bfd38d7c4a5cf8aab4de68792fd4",
+                "decodedLog": {
+                    "name": "OwnershipTransferred",
+                    "params": [
+                        {
+                            "name": "previousOwner",
+                            "type": "address",
+                            "value": "0x16149999c85c3e3f7d1b9402a4c64d125877d89d"
+                        },
+                        {
+                            "name": "newOwner",
+                            "type": "address",
+                            "value": "0x7507f84610f6d656a70eb8cdec044674799265d3"
+                        }
+                    ],
+                    "signature": "OwnershipTransferred(address,address)"
+                },
+                "id": 2,
+                "logData": "0x",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+                    "0x00000000000000000000000016149999c85c3e3f7d1b9402a4c64d125877d89d",
+                    "0x0000000000000000000000007507f84610f6d656a70eb8cdec044674799265d3"
+                ]
+            },
+            "nodeType": 1
+        },
+        "3": {
+            "event": {
+                "contract": "0x16149999c85c3e3f7d1b9402a4c64d125877d89d",
+                "decodedLog": {
+                    "name": "CallExecuted",
+                    "params": [
+                        {
+                            "name": "id",
+                            "type": "bytes32",
+                            "value": "0x691de0423f190dab6d72e5784656b8f2021907534ac79d6295dc26be8231d2bc"
+                        },
+                        {
+                            "name": "index",
+                            "type": "uint256",
+                            "value": "0"
+                        },
+                        {
+                            "name": "target",
+                            "type": "address",
+                            "value": "0xa3fdf7f376f4bfd38d7c4a5cf8aab4de68792fd4"
+                        },
+                        {
+                            "name": "value",
+                            "type": "uint256",
+                            "value": "0"
+                        },
+                        {
+                            "name": "data",
+                            "type": "bytes",
+                            "value": "0xf2fde38b0000000000000000000000007507f84610f6d656a70eb8cdec044674799265d3"
+                        }
+                    ],
+                    "signature": "CallExecuted(bytes32,uint256,address,uint256,bytes)"
+                },
+                "id": 3,
+                "logData": "0x000000000000000000000000a3fdf7f376f4bfd38d7c4a5cf8aab4de68792fd4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000024f2fde38b0000000000000000000000007507f84610f6d656a70eb8cdec044674799265d300000000000000000000000000000000000000000000000000000000",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0xc2617efa69bab66782fa219543714338489c4e9e178271560a91b82c3f612b58",
+                    "0x691de0423f190dab6d72e5784656b8f2021907534ac79d6295dc26be8231d2bc",
+                    "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ]
+            },
+            "nodeType": 1
+        }
+    },
+    "gasFlame": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "depth": 0,
+                            "name": "Initial Gas",
+                            "value": 23024
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "depth": 1,
+                                    "name": "transferOwnership",
+                                    "value": 9504
+                                }
+                            ],
+                            "depth": 0,
+                            "name": "Executed Gas",
+                            "value": 22275
+                        }
+                    ],
+                    "depth": -1,
+                    "name": "Actual Gas Used",
+                    "value": 45299
+                },
+                {
+                    "children": [],
+                    "depth": -1,
+                    "name": "Refunded Gas",
+                    "value": 0
+                }
+            ],
+            "depth": -2,
+            "name": "Total Gas",
+            "value": 45299
+        }
+    ],
+    "isConfirmed": true,
+    "mainTrace": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 2,
+                                    "order": 2
+                                }
+                            ],
+                            "depth": 1,
+                            "id": 1,
+                            "order": 1
+                        },
+                        {
+                            "children": [],
+                            "depth": 1,
+                            "id": 3,
+                            "order": 3
+                        }
+                    ],
+                    "depth": 0,
+                    "id": 0,
+                    "order": 0
+                }
+            ],
+            "depth": -1,
+            "id": -1,
+            "order": -1
+        }
+    ],
+    "mainTraceNodeCount": 4,
+    "parentIdMap": {
+        "0": -1,
+        "1": 0,
+        "2": 1,
+        "3": 0
+    },
+    "tidyTrace": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "depth": 2,
+                                    "id": 2,
+                                    "order": 2
+                                }
+                            ],
+                            "depth": 1,
+                            "id": 1,
+                            "order": 1
+                        },
+                        {
+                            "children": [],
+                            "depth": 1,
+                            "id": 3,
+                            "order": 3
+                        }
+                    ],
+                    "depth": 0,
+                    "id": 0,
+                    "order": 0
+                }
+            ],
+            "depth": -1,
+            "id": -1,
+            "order": -1
+        }
+    ],
+    "tidyTraceNodeCount": 4
+}

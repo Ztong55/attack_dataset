@@ -1,0 +1,77 @@
+{
+    "stateChanges": [
+        {
+            "address": "0xf411903cbc70a74d22900a5de66a2dda66507255",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000000000000000008cfc1302271d70c8f8a",
+                    "key": "0x8f45384b9021c63169068905d5f3bfd9fe5c5eb7aba9af8f2b017d1aa1bbcd7b",
+                    "prev": "0x00000000000000000000000000000000000000000000119f826044e3ae0c8f8a"
+                },
+                {
+                    "current": "0xfffffffffffffffffffffffffffffffffffffffffffff7303ecfdd8e28ffffff",
+                    "key": "0x589a714658be1faced65dc85472485c022c469ea006ae45901c69e6d461fbdc4",
+                    "prev": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000729dd5ddbf49cb000000",
+                    "key": "0x6ccd15158f1f3893beab0a94865959cdd9cc656676f1f380dece029f2ce5e342",
+                    "prev": "0x0000000000000000000000000000000000000000000069ce14ad9cd7f4000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "_balances",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x12fe4bc7d0b969055f763c5587f2ed0ca1b334f3",
+                                "value": {
+                                    "current": "41611328550535575670666",
+                                    "prev": "83222657101071150518154",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0x2ad8aed847e8d4d3da52aabb7d0f5c25729d10df",
+                                "value": {
+                                    "current": "541261328550535544963072",
+                                    "prev": "499649999999999970115584",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "_allowances",
+                    "type": "mapping(address => mapping(address => uint256))",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x12fe4bc7d0b969055f763c5587f2ed0ca1b334f3",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0xd3f64baa732061f8b3626ee44bab354f854877ac",
+                                            "value": {
+                                                "current": "115792089237316195423570985008687907853269984665640563997846255457377554792447",
+                                                "prev": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

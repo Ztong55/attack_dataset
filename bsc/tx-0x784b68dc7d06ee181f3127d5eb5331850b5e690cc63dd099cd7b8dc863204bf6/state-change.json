@@ -1,0 +1,177 @@
+{
+    "stateChanges": [
+        {
+            "address": "0xfaf0f1cfa8e334cc17a07e3e653c2fa0f9bc8940",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0xfffffffffffffffffffffffffffffffffffffffffffffff7861e9a62b12f8e86",
+                    "key": "0x2a25187d7db174f0aa165ce902feea38a72c151992c513dfc62d7ac3724c2deb",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000000000000085b76a9caaf61656f7",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000005",
+                    "prev": "0x000000000000000000000000000000000000000000000085b74cf4ba2cc935b0"
+                },
+                {
+                    "current": "0x000000000000000000000b5f0138a4d5f00000006236d37d00278d006259b027",
+                    "key": "0x000000000000000000000000000000000000000000000000000000000000000a",
+                    "prev": "0x000000000000000000000b5f0138a4d5f00000006236d33e00278d006259b027"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000000000000085b76a9caaf61656f7",
+                    "key": "0x66db37ced23500afb5dd8062a12946f3ff001f5b1c73862cb5170e6b9945e2a7",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000008",
+                    "prev": "0x00000000000000000000000000000000000000000000000879e1659d4ed0717a"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "_totalSupply",
+                    "type": "uint256",
+                    "value": {
+                        "current": "0",
+                        "prev": "156356365064332145018",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "_balances",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x2d85f5c295760b0afe0b271b94254a8c58b513c5",
+                                "value": {
+                                    "current": "115792089237316195423570985008687907853269984665640564039301227642848797494918",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "rewardPerTokenStored",
+                    "type": "uint256",
+                    "value": {
+                        "current": "2466633510117929539319",
+                        "prev": "2466625162690993665456",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "timeData",
+                    "type": "struct StakingRewards.Times",
+                    "value": {
+                        "fields": [
+                            {
+                                "name": "periodFinish",
+                                "type": "uint32",
+                                "value": {
+                                    "current": "1650044967",
+                                    "prev": "1650044967",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "rewardsDuration",
+                                "type": "uint32",
+                                "value": {
+                                    "current": "2592000",
+                                    "prev": "2592000",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "lastUpdateTime",
+                                "type": "uint32",
+                                "value": {
+                                    "current": "1647760253",
+                                    "prev": "1647760190",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "name": "totalRewardsSupply",
+                                "type": "uint96",
+                                "value": {
+                                    "current": "53698560000000000000000",
+                                    "prev": "53698560000000000000000",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 3
+                    }
+                },
+                {
+                    "name": "userRewardPerTokenPaid",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x2d85f5c295760b0afe0b271b94254a8c58b513c5",
+                                "value": {
+                                    "current": "2466633510117929539319",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0xffd8eefb9f0ba3c60282fd3e6567a2c78c994266",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "key": "0x132dd6ad19f17852e3b035cfb9770ff9ab0c7ede9f2da5758ed289d2c6080f2d",
+                    "prev": "0x00000000000000000000000000000000000000000000000879e1659d4ed0717a"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000879e1659d4ed0717a",
+                    "key": "0x5f7260ca244fdce735e729c9434299f37af4cf5f44e9d07b4ace2318bf22d123",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "balanceOf",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x2d85f5c295760b0afe0b271b94254a8c58b513c5",
+                                "value": {
+                                    "current": "156356365064332145018",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0xfaf0f1cfa8e334cc17a07e3e653c2fa0f9bc8940",
+                                "value": {
+                                    "current": "0",
+                                    "prev": "156356365064332145018",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

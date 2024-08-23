@@ -1,0 +1,204 @@
+{
+    "stateChanges": [
+        {
+            "address": "0xa1ce40702e15d0417a6c74d0bab96772f36f4e99",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000000000000666ea3d7",
+                    "key": "0x7283cf9dfbdcfcad212907b89d61cb24c79a967642255a73a783e6ae106aa28d",
+                    "prev": "0x00000000000000000000000000000000000000000000000000000000666ea3a7"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000fc11116da299588",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000003",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000fc11116da299588",
+                    "key": "0x2e174c10e159ea99b867ce3205125c24a42d128804e4070ed6fcc8cc98166aa0",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000fc11116da299588",
+                    "key": "0x2d0841b75a8bb5a204a1b12d50762fc1cfcb8501e4669c630ad39580ab25f3ce",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000fc11116da299588",
+                    "key": "0x666ff8acf42217f98db3904c1299732e7698b006dc38e358986aa37f2da557e2",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "stakes",
+                    "type": "mapping(uint256 => mapping(address => struct IERC20Staking.Staking[]))",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "3",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0x93d4f6f84d242c7959f8d1f1917ddbc9fb925ada",
+                                            "value": {
+                                                "elemType": "struct IERC20Staking.Staking",
+                                                "elems": [
+                                                    {
+                                                        "index": 0,
+                                                        "value": {
+                                                            "fields": [
+                                                                {
+                                                                    "name": "stakeAt",
+                                                                    "type": "uint256",
+                                                                    "value": {
+                                                                        "current": "1718526935",
+                                                                        "prev": "1718526887",
+                                                                        "typeTag": 1
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "typeTag": 3
+                                                        }
+                                                    }
+                                                ],
+                                                "typeTag": 2
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "totalRewards",
+                    "type": "uint256",
+                    "value": {
+                        "current": "1135207370921186696",
+                        "prev": "0",
+                        "typeTag": 1
+                    }
+                },
+                {
+                    "name": "totalRewardsPerPlan",
+                    "type": "mapping(uint256 => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "3",
+                                "value": {
+                                    "current": "1135207370921186696",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "totalRewardsPerWalletPerPlan",
+                    "type": "mapping(uint256 => mapping(address => uint256))",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "3",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0x93d4f6f84d242c7959f8d1f1917ddbc9fb925ada",
+                                            "value": {
+                                                "current": "1135207370921186696",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "totalEarnedRewardsPerWallet",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x93d4f6f84d242c7959f8d1f1917ddbc9fb925ada",
+                                "value": {
+                                    "current": "1135207370921186696",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0xbfae33128ecf041856378b57adf0449181fffde7",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000008154995075b8b",
+                    "key": "0x7cbc1266c735c5b4841c9ca9a7225334635e43c0508dbc525380add4faffd10a",
+                    "prev": "0x0000000000000000000000000000000000000000000000000fc926606f30f113"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000e2dc29491256d70",
+                    "key": "0x8dddc4d1a1c182fb2fa196b9f56290c0a924d9946d750bf3217d6ab5989b87e6",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000001934e8249042818",
+                    "key": "0xb34209a263f6c38fe55f099e9e70f9d67e93982480ff3234a5e0108028ad164d",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "_balances",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x000000000000000000000000000000000000dead",
+                                "value": {
+                                    "current": "113520737092118552",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0x93d4f6f84d242c7959f8d1f1917ddbc9fb925ada",
+                                "value": {
+                                    "current": "1021686633829068144",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0xa1ce40702e15d0417a6c74d0bab96772f36f4e99",
+                                "value": {
+                                    "current": "2275205590768523",
+                                    "prev": "1137482576511955219",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "stateChanges": [
+        {
+            "address": "0x1bf68a9d1eaee7826b3593c20a0ca93293cb489a",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x000000000000000000000000000000000000000000000000000000000001ce54",
+                    "key": "0x0000000000000000000000000000000000000000000000000000000000000008",
+                    "prev": "0x000000000000000000000000000000000000000000000000000000000001ce52"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "depositCount",
+                    "type": "uint256",
+                    "value": {
+                        "current": "118356",
+                        "prev": "118354",
+                        "typeTag": 1
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x000000000000000000000000000000000000000000000000000000000000004b",
+                    "key": "0x8c8bdaaaf8a21e73afd5e31a3116f3cf2df9adc3a1c9e908ee600106e6cdadac",
+                    "prev": "0x00000000000000000000000000000000000000000000000000000000005379d3"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000000000006b3464238",
+                    "key": "0xa0bbaafc831a29fc05ab0d59f55cc902786a1f97d1af8abacd98807f17e6f558",
+                    "prev": "0x00000000000000000000000000000000000000000000000000000006b2f2c8b0"
+                },
+                {
+                    "current": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffac8677",
+                    "key": "0x707180e66227afc47b6c20ba92f11d08e0a8cb65dae907bc44448c37b8a8eb58",
+                    "prev": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "balances",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x1bf68a9d1eaee7826b3593c20a0ca93293cb489a",
+                                "value": {
+                                    "current": "28777529912",
+                                    "prev": "28772059312",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0x9263e7873613ddc598a701709875634819176aff",
+                                "value": {
+                                    "current": "75",
+                                    "prev": "5470675",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "allowed",
+                    "type": "mapping(address => mapping(address => uint256))",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x9263e7873613ddc598a701709875634819176aff",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0x1bf68a9d1eaee7826b3593c20a0ca93293cb489a",
+                                            "value": {
+                                                "current": "115792089237316195423570985008687907853269984665640564039457584007913124169335",
+                                                "prev": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "basicInfo": {
+        "baseFee": "65.582108791",
+        "blockNumber": 19286454,
+        "callData": "0x39f476930000000000000000000000000a3fbf5b4cf80db51fcae21efe63f6a36d45d2b200000000000000000000000000000000000000000000000000000000c559d9c0",
+        "debugEnable": true,
+        "errorInfo": "",
+        "eventCount": 2,
+        "feeRecipient": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "formatValue": "0",
+        "gasLimit": 132006,
+        "gasPrice": "65.595980694",
+        "gasUsed": 87076,
+        "intTxnCount": 3,
+        "internalRevert": false,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": false,
+        "maxFee": "87.039395814",
+        "nonce": 0,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "0.013871903",
+        "receiver": "0x2b9dc65253c035eb21778cb3898eab5a0ada0cce",
+        "revertMessage": "",
+        "sender": "0x38f68f119243adbca187e1ef64344ed475a8c69c",
+        "simulationEnable": true,
+        "sourceTxnHash": "0xc0be8c3792a5b1ba7d653dc681ff611a5b79a75fe51c359cf1aac633e9441574",
+        "status": true,
+        "timestamp": "2024-02-22T23:34:23Z",
+        "transactionFee": "0.005711835614910744",
+        "txnHash": "0xc0be8c3792a5b1ba7d653dc681ff611a5b79a75fe51c359cf1aac633e9441574",
+        "txnIndex": 89,
+        "type": 2,
+        "value": "0"
+    },
+    "fundFlow": [
+        {
+            "amount": "0.000000003311",
+            "from": "0x38f68f119243adbca187e1ef64344ed475a8c69c",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0x0000000000000000000000000000000000000000",
+            "token": "0x0a3fbf5b4cf80db51fcae21efe63f6a36d45d2b2"
+        },
+        {
+            "amount": "3,311",
+            "from": "0x2b9dc65253c035eb21778cb3898eab5a0ada0cce",
+            "id": 2,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 2,
+            "to": "0x38f68f119243adbca187e1ef64344ed475a8c69c",
+            "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+        }
+    ],
+    "tokenInfos": [
+        {
+            "address": "0x0a3fbf5b4cf80db51fcae21efe63f6a36d45d2b2",
+            "decimals": 18
+        },
+        {
+            "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "decimals": 6
+        },
+        {
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "decimals": 18
+        },
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        }
+    ]
+}

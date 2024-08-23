@@ -1,0 +1,112 @@
+{
+    "stateChanges": [
+        {
+            "address": "0x715cdda5e9ad30a0ced14940f9997ee611496de6",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "key": "0xd6850a1a912fdf741ebb3e401f20d6e2fb3fe3551d1445ae86d911e92b9d7f1d",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "key": "0xcf9421eb28ce5ceacf31c1ee94a208bf6d0b19a74affa2dd9e7606e76745a288",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "confirmations",
+                    "type": "mapping(uint256 => mapping(address => bool))",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "21106",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0x812d8622c6f3c45959439e7ede3c580da06f8f25",
+                                            "value": {
+                                                "current": "true",
+                                                "prev": "false",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "transactions",
+                    "type": "mapping(uint256 => struct MultiSigWallet.Transaction)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "21106",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "data",
+                                            "type": "bytes",
+                                            "value": {
+                                                "current": "0x973ff2e00000000000000000000000000000000000000000000002c6270531390xb13000000000000000000000000000000d043128146654c7683fbf30ac98d7b20x285ded0031caec811fc87db2ebc8210b44a8f27c300a35490b6f160e7470b45a0xdaf24cb2",
+                                                "prev": "0x973ff2e00000000000000000000000000000000000000000000002c6270531390xb13000000000000000000000000000000d043128146654c7683fbf30ac98d7b20x285ded0031caec811fc87db2ebc8210b44a8f27c300a35490b6f160e7470b45a0xdaf24cb2",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "executed",
+                                            "type": "bool",
+                                            "value": {
+                                                "current": "true",
+                                                "prev": "false",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0xf9fb1c508ff49f78b60d3a96dea99fa5d7f3a8a6",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "key": "0x718a981d320096cab8ca6aa616ec0cbb787d02fdc98d1d1983625e5516bca27c",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "usedEvents_",
+                    "type": "mapping(bytes32 => bool)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x31caec811fc87db2ebc8210b44a8f27c300a35490b6f160e7470b45adaf24cb2",
+                                "value": {
+                                    "current": "true",
+                                    "prev": "false",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

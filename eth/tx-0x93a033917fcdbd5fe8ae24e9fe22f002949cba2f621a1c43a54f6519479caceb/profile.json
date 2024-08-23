@@ -1,0 +1,84 @@
+{
+    "basicInfo": {
+        "baseFee": "40.301918075",
+        "blockNumber": 17649876,
+        "callData": "0x9910969e00000000000000000000000037fe0f067fa808ffbdd12891c0858532cfe7361d000000000000000000000000512e9701d314b365921bcb3b8265658a152c9ffd",
+        "debugEnable": true,
+        "errorInfo": "",
+        "eventCount": 4,
+        "feeRecipient": "0x95222290dd7278aa3ddd389cc1e1d165cc4bafe5",
+        "formatValue": "0",
+        "gasLimit": 587656,
+        "gasPrice": "43.301918075",
+        "gasUsed": 547299,
+        "intTxnCount": 12,
+        "internalRevert": false,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": false,
+        "maxFee": "138.49697422",
+        "nonce": 1,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "3",
+        "receiver": "0x1ae3929e1975043e5443868be91cac12d8cc25ec",
+        "revertMessage": "",
+        "sender": "0xbf9df575670c739d9bf1424d4913e7244ed3ff66",
+        "simulationEnable": true,
+        "sourceTxnHash": "0x93a033917fcdbd5fe8ae24e9fe22f002949cba2f621a1c43a54f6519479caceb",
+        "status": true,
+        "timestamp": "2023-07-08T15:16:35Z",
+        "transactionFee": "0.023699096460529425",
+        "txnHash": "0x93a033917fcdbd5fe8ae24e9fe22f002949cba2f621a1c43a54f6519479caceb",
+        "txnIndex": 19,
+        "type": 2,
+        "value": "0"
+    },
+    "fundFlow": [
+        {
+            "amount": "89,789.15480344136876601",
+            "from": "0x512e9701d314b365921bcb3b8265658a152c9ffd",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0x1ae3929e1975043e5443868be91cac12d8cc25ec",
+            "token": "0x37fe0f067fa808ffbdd12891c0858532cfe7361d"
+        },
+        {
+            "amount": "1",
+            "from": "0x0000000000000000000000000000000000000000",
+            "id": 2,
+            "isERC1155": false,
+            "isERC721": true,
+            "isReverted": false,
+            "order": 2,
+            "to": "0x1ae3929e1975043e5443868be91cac12d8cc25ec",
+            "token": "0xf169bd68ed72b2fdc3c9234833197171aa000580",
+            "tokenID": "61"
+        }
+    ],
+    "securityEvent": {
+        "id": 93,
+        "project": "CIVNFT",
+        "loss": 180000,
+        "media": "https://twitter.com/Phalcon_xyz/status/1677722208893022210",
+        "rootCause": "Access Control Issue",
+        "poc": "https://github.com/SunWeb3Sec/DeFiHackLabs?tab=readme-ov-file#20230708-civnft---lack-of-access-control",
+        "rescued": 0
+    },
+    "tokenInfos": [
+        {
+            "address": "0x37fe0f067fa808ffbdd12891c0858532cfe7361d",
+            "decimals": 18
+        },
+        {
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "decimals": 18
+        },
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        }
+    ]
+}

@@ -1,0 +1,169 @@
+{
+    "stateChanges": [
+        {
+            "address": "0xbcb8b7fc9197feda75c101fa69d3211b5a30dcd9",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "key": "0x81b993888c28609d76ed738fb097f840ac74485fd63a15fb9c3d14a0d6826e12",
+                    "prev": "0x000000000000000000000000000000000000000000004401d713e9e597a14165"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000000000004401d713e9e597a14165",
+                    "key": "0xba1ad3c33fadec692b0f1eae711df4d3ef4f3ef62f521c45f66829cde6b96894",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "_balances",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x2df9c154fe24d081cfe568645fb4075d725431e0",
+                                "value": {
+                                    "current": "321154865567124596801893",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0xd2869042e12a3506100af1d192b5b04d65137941",
+                                "value": {
+                                    "current": "0",
+                                    "prev": "321154865567124596801893",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        },
+        {
+            "address": "0xd2869042e12a3506100af1d192b5b04d65137941",
+            "erc": "",
+            "slots": [
+                {
+                    "current": "0x00000000000000000000000000000000000000000000000000f21e926e056b44",
+                    "key": "0x20abcbb49a5c5e861b04cb2a7289709adf7991f5593cfc72688862f6647abf02",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x00000000000000000000000000000000000000000512ecf17d05ab0063456ad3",
+                    "key": "0x83bb8e373621c3d10103e10cb276f584bd1229dda5c2b0de3a38a3723fcf0110",
+                    "prev": "0x000000000000000000000000000000000000000004ff3a60df17b200634075c7"
+                },
+                {
+                    "current": "0x000000000000000000000000000000000000000000000000000512ecf17d05ab",
+                    "key": "0xb15267de2e6139f5e6528d5ac8d649147afc80f4e5a3b60042e2b6eceef8317c",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000f21e926e056b440063456ad3",
+                    "key": "0x76937ff8efc1d1b30f4883b6b2ffd3ecd3ca9535384c68744e61756ba4f196c7",
+                    "prev": "0x0000000000000000000000000000000000000000ee27e805e468b900634075c7"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "rewardData",
+                    "type": "mapping(address => struct StaxLPStaking.Reward)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "lastUpdateTime",
+                                            "type": "uint40",
+                                            "value": {
+                                                "current": "1665493715",
+                                                "prev": "1665168839",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "rewardPerTokenStored",
+                                            "type": "uint216",
+                                            "value": {
+                                                "current": "68150558623886148",
+                                                "prev": "67034921941887161",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            },
+                            {
+                                "key": "0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7",
+                                "value": {
+                                    "fields": [
+                                        {
+                                            "name": "lastUpdateTime",
+                                            "type": "uint40",
+                                            "value": {
+                                                "current": "1665493715",
+                                                "prev": "1665168839",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "name": "rewardPerTokenStored",
+                                            "type": "uint216",
+                                            "value": {
+                                                "current": "1428183756637611",
+                                                "prev": "1406526105262002",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 3
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "userRewardPerTokenPaid",
+                    "type": "mapping(address => mapping(address => uint256))",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0x2df9c154fe24d081cfe568645fb4075d725431e0",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+                                            "value": {
+                                                "current": "68150558623886148",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        },
+                                        {
+                                            "key": "0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7",
+                                            "value": {
+                                                "current": "1428183756637611",
+                                                "prev": "0",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

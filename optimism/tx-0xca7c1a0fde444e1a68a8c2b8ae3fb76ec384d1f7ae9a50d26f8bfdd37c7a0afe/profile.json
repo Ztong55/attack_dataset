@@ -1,0 +1,359 @@
+{
+    "basicInfo": {
+        "baseFee": "0.000000144",
+        "blockNumber": 106676495,
+        "callData": "0x261e90f5",
+        "debugEnable": true,
+        "errorInfo": "",
+        "eventCount": 64,
+        "feeRecipient": "0x4200000000000000000000000000000000000011",
+        "formatValue": "0",
+        "gasLimit": 5000000,
+        "gasPrice": "0.006203144",
+        "gasUsed": 4109805,
+        "intTxnCount": 177,
+        "internalRevert": false,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": true,
+        "maxFee": "0.0063301",
+        "nonce": 1,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "0.006203",
+        "receiver": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+        "revertMessage": "",
+        "sender": "0xd3641c912a6a4c30338787e3c464420b561a9467",
+        "simulationEnable": true,
+        "sourceTxnHash": "0xca7c1a0fde444e1a68a8c2b8ae3fb76ec384d1f7ae9a50d26f8bfdd37c7a0afe",
+        "status": true,
+        "timestamp": "2023-07-10T01:16:07Z",
+        "transactionFee": "0.000043317468678785",
+        "txnHash": "0xca7c1a0fde444e1a68a8c2b8ae3fb76ec384d1f7ae9a50d26f8bfdd37c7a0afe",
+        "txnIndex": 6,
+        "type": 2,
+        "value": "0"
+    },
+    "fundFlow": [
+        {
+            "amount": "29.847813623947075968",
+            "from": "0xe50fa9b3c56ffb159cb0fca61f5c9d750e8128c8",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "token": "0x4200000000000000000000000000000000000006"
+        },
+        {
+            "amount": "11,916.6767",
+            "from": "0x625e7708f30ca75bfd92586e17077590c60eb4cd",
+            "id": 2,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 2,
+            "to": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "token": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+        },
+        {
+            "amount": "1",
+            "from": "0x0000000000000000000000000000000000000000",
+            "id": 3,
+            "isERC1155": false,
+            "isERC721": true,
+            "isReverted": false,
+            "order": 3,
+            "to": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "token": "0x00cb53780ea58503d3059fc02ddd596d0be926cb",
+            "tokenID": "1157"
+        },
+        {
+            "amount": "29.847813623947075968",
+            "from": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "id": 4,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 4,
+            "to": "0x13c0ef5f1996b4f119e9d6c32f5e23e8dc313109",
+            "token": "0x4200000000000000000000000000000000000006"
+        },
+        {
+            "amount": "146.739284530415128944",
+            "from": "0x0000000000000000000000000000000000000000",
+            "id": 5,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 5,
+            "to": "0x13c0ef5f1996b4f119e9d6c32f5e23e8dc313109",
+            "token": "0xd417c28af20884088f600e724441a3bab38b22cc"
+        },
+        {
+            "amount": "148.239068119735379843",
+            "from": "0xd417c28af20884088f600e724441a3bab38b22cc",
+            "id": 6,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 6,
+            "to": "0x2de7bbaaab48eac228449584f94636bb20d63e65",
+            "token": "0x4200000000000000000000000000000000000006"
+        },
+        {
+            "amount": "148.239068119735379843",
+            "from": "0x2de7bbaaab48eac228449584f94636bb20d63e65",
+            "id": 7,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 7,
+            "to": "0x13c0ef5f1996b4f119e9d6c32f5e23e8dc313109",
+            "token": "0x4200000000000000000000000000000000000006"
+        },
+        {
+            "amount": "178.086881743682455811",
+            "from": "0x13c0ef5f1996b4f119e9d6c32f5e23e8dc313109",
+            "id": 8,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 8,
+            "to": "0x2de7bbaaab48eac228449584f94636bb20d63e65",
+            "token": "0x4200000000000000000000000000000000000006"
+        },
+        {
+            "amount": "178.086881743682455811",
+            "from": "0x2de7bbaaab48eac228449584f94636bb20d63e65",
+            "id": 9,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 9,
+            "to": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "token": "0x4200000000000000000000000000000000000006"
+        },
+        {
+            "amount": "1",
+            "from": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "id": 10,
+            "isERC1155": false,
+            "isERC721": true,
+            "isReverted": false,
+            "order": 10,
+            "to": "0xd2a34731586bd10b645f870f4c9dcaf4f9e3823c",
+            "token": "0x00cb53780ea58503d3059fc02ddd596d0be926cb",
+            "tokenID": "1157"
+        },
+        {
+            "amount": "146.739284530415128944",
+            "from": "0x13c0ef5f1996b4f119e9d6c32f5e23e8dc313109",
+            "id": 11,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 11,
+            "to": "0x0000000000000000000000000000000000000000",
+            "token": "0xd417c28af20884088f600e724441a3bab38b22cc"
+        },
+        {
+            "amount": "1",
+            "from": "0x0000000000000000000000000000000000000000",
+            "id": 12,
+            "isERC1155": false,
+            "isERC721": true,
+            "isReverted": false,
+            "order": 12,
+            "to": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "token": "0x00cb53780ea58503d3059fc02ddd596d0be926cb",
+            "tokenID": "1158"
+        },
+        {
+            "amount": "11,916.6767",
+            "from": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "id": 13,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 13,
+            "to": "0x6c6515cabf1b90443634be4d88530b226a13a921",
+            "token": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+        },
+        {
+            "amount": "59,224.001092",
+            "from": "0x0000000000000000000000000000000000000000",
+            "id": 14,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 14,
+            "to": "0x6c6515cabf1b90443634be4d88530b226a13a921",
+            "token": "0x9aa024d3fd962701ed17f76c17cab22d3dc9d92d"
+        },
+        {
+            "amount": "59,433.3835",
+            "from": "0x9aa024d3fd962701ed17f76c17cab22d3dc9d92d",
+            "id": 15,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 15,
+            "to": "0x2de7bbaaab48eac228449584f94636bb20d63e65",
+            "token": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+        },
+        {
+            "amount": "59,433.3835",
+            "from": "0x2de7bbaaab48eac228449584f94636bb20d63e65",
+            "id": 16,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 16,
+            "to": "0x6c6515cabf1b90443634be4d88530b226a13a921",
+            "token": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+        },
+        {
+            "amount": "71,350.0602",
+            "from": "0x6c6515cabf1b90443634be4d88530b226a13a921",
+            "id": 17,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 17,
+            "to": "0x2de7bbaaab48eac228449584f94636bb20d63e65",
+            "token": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+        },
+        {
+            "amount": "71,350.0602",
+            "from": "0x2de7bbaaab48eac228449584f94636bb20d63e65",
+            "id": 18,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 18,
+            "to": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "token": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+        },
+        {
+            "amount": "1",
+            "from": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "id": 19,
+            "isERC1155": false,
+            "isERC721": true,
+            "isReverted": false,
+            "order": 19,
+            "to": "0xd2a34731586bd10b645f870f4c9dcaf4f9e3823c",
+            "token": "0x00cb53780ea58503d3059fc02ddd596d0be926cb",
+            "tokenID": "1158"
+        },
+        {
+            "amount": "59,224.001092",
+            "from": "0x6c6515cabf1b90443634be4d88530b226a13a921",
+            "id": 20,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 20,
+            "to": "0x0000000000000000000000000000000000000000",
+            "token": "0x9aa024d3fd962701ed17f76c17cab22d3dc9d92d"
+        },
+        {
+            "amount": "29.862737530759049506",
+            "from": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "id": 21,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 21,
+            "to": "0xe50fa9b3c56ffb159cb0fca61f5c9d750e8128c8",
+            "token": "0x4200000000000000000000000000000000000006"
+        },
+        {
+            "amount": "11,922.635038",
+            "from": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "id": 22,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 22,
+            "to": "0x625e7708f30ca75bfd92586e17077590c60eb4cd",
+            "token": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+        },
+        {
+            "amount": "59,427.425162",
+            "from": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "id": 23,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 23,
+            "to": "0xd3641c912a6a4c30338787e3c464420b561a9467",
+            "token": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+        },
+        {
+            "amount": "148.224144212923406305",
+            "from": "0x4200000000000000000000000000000000000006",
+            "id": 24,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 24,
+            "to": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        },
+        {
+            "amount": "148.224144212923406305",
+            "from": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "id": 25,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 25,
+            "to": "0x4200000000000000000000000000000000000006",
+            "token": "0x4200000000000000000000000000000000000006"
+        },
+        {
+            "amount": "148.224144212923406305",
+            "from": "0x01a4d9089c243ccaebe40aa224ad0cab573b83c6",
+            "id": 26,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 26,
+            "to": "0xd3641c912a6a4c30338787e3c464420b561a9467",
+            "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        }
+    ],
+    "securityEvent": {
+        "id": 94,
+        "project": "Arcadia Finance",
+        "loss": 400000,
+        "media": "https://twitter.com/Phalcon_xyz/status/1678250590709899264",
+        "rootCause": "Reentrancy",
+        "poc": "https://github.com/SunWeb3Sec/DeFiHackLabs?tab=readme-ov-file#20230710-arcadiafi---reentrancy",
+        "rescued": 0
+    },
+    "tokenInfos": [
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        },
+        {
+            "address": "0x4200000000000000000000000000000000000006",
+            "decimals": 18
+        },
+        {
+            "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+            "decimals": 6
+        },
+        {
+            "address": "0x9aa024d3fd962701ed17f76c17cab22d3dc9d92d",
+            "decimals": 6
+        },
+        {
+            "address": "0xd417c28af20884088f600e724441a3bab38b22cc",
+            "decimals": 18
+        }
+    ]
+}

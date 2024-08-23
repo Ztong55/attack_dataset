@@ -1,0 +1,87 @@
+{
+    "basicInfo": {
+        "baseFee": "0",
+        "blockNumber": 38167373,
+        "callData": "0x09b8790a0000000000000000000000000000000000000000000000000000000000000080000000000000000000000000a608985f5b40cdf6862bec775207f84280a91e3a0000000000000000000000004f31fa980a675570939b737ebdde0471a4be40eb0000000000000000000000000000000000000000000000008ac7230489e80000000000000000000000000000000000000000000000000000000000000000000568656c6c6f000000000000000000000000000000000000000000000000000000",
+        "debugEnable": true,
+        "errorInfo": "",
+        "eventCount": 5,
+        "feeRecipient": "0xef0274e31810c9df02f98fafde0f841f4e66a1cd",
+        "formatValue": "0",
+        "gasLimit": 687938,
+        "gasPrice": "1",
+        "gasUsed": 323736,
+        "intTxnCount": 19,
+        "internalRevert": false,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": false,
+        "maxFee": "",
+        "nonce": 5,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "",
+        "receiver": "0xc73781107d086754314f7720ca14ab8c5ad035e4",
+        "revertMessage": "",
+        "sender": "0xd03d360dfc1dac7935e114d564a088077e6754a0",
+        "simulationEnable": true,
+        "sourceTxnHash": "0x8ff764dde572928c353716358e271638fa05af54be69f043df72ad9ad054de25",
+        "status": true,
+        "timestamp": "2024-04-25T11:18:05Z",
+        "transactionFee": "0.000323736",
+        "txnHash": "0x8ff764dde572928c353716358e271638fa05af54be69f043df72ad9ad054de25",
+        "txnIndex": 111,
+        "type": 0,
+        "value": "0"
+    },
+    "fundFlow": [
+        {
+            "amount": "191,955,211,775.0677378921846213",
+            "from": "0xc73781107d086754314f7720ca14ab8c5ad035e4",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0x687756c50f6b3172e29df21c2537c37086b679a5",
+            "token": "0xa608985f5b40cdf6862bec775207f84280a91e3a"
+        },
+        {
+            "amount": "190,138.757990310758328686",
+            "from": "0x687756c50f6b3172e29df21c2537c37086b679a5",
+            "id": 2,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 2,
+            "to": "0xc73781107d086754314f7720ca14ab8c5ad035e4",
+            "token": "0x55d398326f99059ff775485246999027b3197955"
+        }
+    ],
+    "securityEvent": {
+        "id": 160,
+        "project": "NGFS Token",
+        "loss": 190000,
+        "media": "https://twitter.com/0xNickLFranklin/status/1783640967062663252",
+        "rootCause": "Access Control Issue",
+        "poc": "https://github.com/SunWeb3Sec/DeFiHackLabs?tab=readme-ov-file#20240425-ngfs---bad-access-control",
+        "rescued": 0
+    },
+    "tokenInfos": [
+        {
+            "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+            "decimals": 18
+        },
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        },
+        {
+            "address": "0x55d398326f99059ff775485246999027b3197955",
+            "decimals": 18
+        },
+        {
+            "address": "0xa608985f5b40cdf6862bec775207f84280a91e3a",
+            "decimals": 18
+        }
+    ]
+}

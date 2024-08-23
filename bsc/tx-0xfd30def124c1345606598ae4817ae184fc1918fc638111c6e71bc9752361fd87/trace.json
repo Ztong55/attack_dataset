@@ -1,0 +1,225 @@
+{
+    "accountLabels": null,
+    "dataMap": {
+        "-1": {
+            "invocation": {
+                "address": "0x6deba0f8ab4891632fb8d381b27ecec7f7743a14",
+                "callData": "",
+                "decodedMethod": null,
+                "errorInfo": "",
+                "fromAddress": "",
+                "gasUsed": 0,
+                "id": -1,
+                "methodDecoded": false,
+                "operation": "",
+                "output": "",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "",
+                "status": false,
+                "value": ""
+            },
+            "nodeType": 0
+        },
+        "0": {
+            "invocation": {
+                "address": "0x16149999c85c3e3f7d1b9402a4c64d125877d89d",
+                "callData": "0x000000000000000000000000a3fdf7f376f4bfd38d7c4a5cf8aab4de68792fd4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000000000f6ee06c6a62a6a42d1ad9d321d45c4f92a7a215509c850ee36fb025ba767a764000000000000000000000000000000000000000000000000000000000002a3000000000000000000000000000000000000000000000000000000000000000024f2fde38b0000000000000000000000007507f84610f6d656a70eb8cdec044674799265d300000000000000000000000000000000000000000000000000000000",
+                "decodedMethod": {
+                    "callParams": [
+                        {
+                            "name": "target",
+                            "type": "address",
+                            "value": "0xa3fdf7f376f4bfd38d7c4a5cf8aab4de68792fd4"
+                        },
+                        {
+                            "name": "value",
+                            "type": "uint256",
+                            "value": "0"
+                        },
+                        {
+                            "name": "data",
+                            "type": "bytes",
+                            "value": "0xf2fde38b0000000000000000000000007507f84610f6d656a70eb8cdec044674799265d3"
+                        },
+                        {
+                            "name": "predecessor",
+                            "type": "bytes32",
+                            "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                        },
+                        {
+                            "name": "salt",
+                            "type": "bytes32",
+                            "value": "0xf6ee06c6a62a6a42d1ad9d321d45c4f92a7a215509c850ee36fb025ba767a764"
+                        },
+                        {
+                            "name": "delay",
+                            "type": "uint256",
+                            "value": "172,800"
+                        }
+                    ],
+                    "constructorArguments": "",
+                    "name": "schedule",
+                    "returnParams": [],
+                    "signature": "schedule(address,uint256,bytes,bytes32,bytes32,uint256)"
+                },
+                "errorInfo": "",
+                "fromAddress": "0x6deba0f8ab4891632fb8d381b27ecec7f7743a14",
+                "gasUsed": 51329,
+                "id": 0,
+                "methodDecoded": true,
+                "operation": "CALL",
+                "output": "",
+                "revert": false,
+                "revertMessage": "",
+                "selector": "0x01d5062a",
+                "status": true,
+                "value": "0"
+            },
+            "nodeType": 0
+        },
+        "1": {
+            "event": {
+                "contract": "0x16149999c85c3e3f7d1b9402a4c64d125877d89d",
+                "decodedLog": {
+                    "name": "CallScheduled",
+                    "params": [
+                        {
+                            "name": "id",
+                            "type": "bytes32",
+                            "value": "0x691de0423f190dab6d72e5784656b8f2021907534ac79d6295dc26be8231d2bc"
+                        },
+                        {
+                            "name": "index",
+                            "type": "uint256",
+                            "value": "0"
+                        },
+                        {
+                            "name": "target",
+                            "type": "address",
+                            "value": "0xa3fdf7f376f4bfd38d7c4a5cf8aab4de68792fd4"
+                        },
+                        {
+                            "name": "value",
+                            "type": "uint256",
+                            "value": "0"
+                        },
+                        {
+                            "name": "data",
+                            "type": "bytes",
+                            "value": "0xf2fde38b0000000000000000000000007507f84610f6d656a70eb8cdec044674799265d3"
+                        },
+                        {
+                            "name": "predecessor",
+                            "type": "bytes32",
+                            "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                        },
+                        {
+                            "name": "delay",
+                            "type": "uint256",
+                            "value": "172,800"
+                        }
+                    ],
+                    "signature": "CallScheduled(bytes32,uint256,address,uint256,bytes,bytes32,uint256)"
+                },
+                "id": 1,
+                "logData": "0x000000000000000000000000a3fdf7f376f4bfd38d7c4a5cf8aab4de68792fd4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002a3000000000000000000000000000000000000000000000000000000000000000024f2fde38b0000000000000000000000007507f84610f6d656a70eb8cdec044674799265d300000000000000000000000000000000000000000000000000000000",
+                "logDecoded": true,
+                "operation": "EVENT",
+                "revert": false,
+                "status": true,
+                "topics": [
+                    "0x4cf4410cc57040e44862ef0f45f3dd5a5e02db8eb8add648d4b0e236f1d07dca",
+                    "0x691de0423f190dab6d72e5784656b8f2021907534ac79d6295dc26be8231d2bc",
+                    "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ]
+            },
+            "nodeType": 1
+        }
+    },
+    "gasFlame": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "depth": 0,
+                            "name": "Initial Gas",
+                            "value": 23176
+                        },
+                        {
+                            "children": [],
+                            "depth": 0,
+                            "name": "Executed Gas",
+                            "value": 28153
+                        }
+                    ],
+                    "depth": -1,
+                    "name": "Actual Gas Used",
+                    "value": 51329
+                },
+                {
+                    "children": [],
+                    "depth": -1,
+                    "name": "Refunded Gas",
+                    "value": 0
+                }
+            ],
+            "depth": -2,
+            "name": "Total Gas",
+            "value": 51329
+        }
+    ],
+    "isConfirmed": true,
+    "mainTrace": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "depth": 1,
+                            "id": 1,
+                            "order": 1
+                        }
+                    ],
+                    "depth": 0,
+                    "id": 0,
+                    "order": 0
+                }
+            ],
+            "depth": -1,
+            "id": -1,
+            "order": -1
+        }
+    ],
+    "mainTraceNodeCount": 2,
+    "parentIdMap": {
+        "0": -1,
+        "1": 0
+    },
+    "tidyTrace": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "depth": 1,
+                            "id": 1,
+                            "order": 1
+                        }
+                    ],
+                    "depth": 0,
+                    "id": 0,
+                    "order": 0
+                }
+            ],
+            "depth": -1,
+            "id": -1,
+            "order": -1
+        }
+    ],
+    "tidyTraceNodeCount": 2
+}

@@ -1,0 +1,131 @@
+{
+    "basicInfo": {
+        "baseFee": "0.1",
+        "blockNumber": 87626026,
+        "callData": "0x6b76484e000000000000000000000000ff970a61a04b1ca14834a43f5de4533ebddb5cc80000000000000000000000007dc406b9b904a52d10e19e848521bba2de74888b",
+        "debugEnable": true,
+        "errorInfo": "",
+        "eventCount": 13,
+        "feeRecipient": "0xa4b000000000000000000073657175656e636572",
+        "formatValue": "0",
+        "gasLimit": 5169579,
+        "gasPrice": "0.1",
+        "gasUsed": 4075314,
+        "intTxnCount": 50,
+        "internalRevert": false,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": false,
+        "maxFee": "0.135",
+        "nonce": 1,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "0",
+        "receiver": "0xe2ee6252509382a2b6504d5a5f7a1c5018a38168",
+        "revertMessage": "",
+        "sender": "0x189cf534de3097c08b6beaf6eb2b9179dab122d1",
+        "simulationEnable": true,
+        "sourceTxnHash": "0xb1141785b7b94eb37c39c37f0272744c6e79ca1517529fec3f4af59d4c3c37ef",
+        "status": true,
+        "timestamp": "2023-05-05T17:52:45Z",
+        "transactionFee": "0.0004075314",
+        "txnHash": "0xb1141785b7b94eb37c39c37f0272744c6e79ca1517529fec3f4af59d4c3c37ef",
+        "txnIndex": 2,
+        "type": 2,
+        "value": "0"
+    },
+    "fundFlow": [
+        {
+            "amount": "0",
+            "from": "0x7dc406b9b904a52d10e19e848521bba2de74888b",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0x0000000000000000000000000000000000000000",
+            "token": "0xde1e704dae0b4051e80dabb26ab6ad6c12262da0"
+        },
+        {
+            "amount": "4,602,837.09053881139263512",
+            "from": "0x7dc406b9b904a52d10e19e848521bba2de74888b",
+            "id": 2,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 2,
+            "to": "0xe2ee6252509382a2b6504d5a5f7a1c5018a38168",
+            "token": "0xde1e704dae0b4051e80dabb26ab6ad6c12262da0"
+        },
+        {
+            "amount": "4,602,837.09053881139263512",
+            "from": "0xe2ee6252509382a2b6504d5a5f7a1c5018a38168",
+            "id": 3,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 3,
+            "to": "0x7dc406b9b904a52d10e19e848521bba2de74888b",
+            "token": "0xde1e704dae0b4051e80dabb26ab6ad6c12262da0"
+        },
+        {
+            "amount": "5,047,470.472572",
+            "from": "0x7dc406b9b904a52d10e19e848521bba2de74888b",
+            "id": 4,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 4,
+            "to": "0x189cf534de3097c08b6beaf6eb2b9179dab122d1",
+            "token": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+        },
+        {
+            "amount": "220.936180345862946846",
+            "from": "0x7dc406b9b904a52d10e19e848521bba2de74888b",
+            "id": 5,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 5,
+            "to": "0x6cb66a0762e7ce3c0abc9d0241bf4cffc67fcda1",
+            "token": "0xde1e704dae0b4051e80dabb26ab6ad6c12262da0"
+        },
+        {
+            "amount": "1,620.198655869661610208",
+            "from": "0x7dc406b9b904a52d10e19e848521bba2de74888b",
+            "id": 6,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 6,
+            "to": "0xd2193bffe8f9c5a788dbae189c3c3eff53a32200",
+            "token": "0xde1e704dae0b4051e80dabb26ab6ad6c12262da0"
+        }
+    ],
+    "securityEvent": {
+        "id": 80,
+        "project": "DEI",
+        "loss": 4500000,
+        "media": "https://twitter.com/eugenioclrc/status/1654576296507088906",
+        "rootCause": "Business Logic Flaw",
+        "poc": "https://github.com/SunWeb3Sec/DeFiHackLabs?tab=readme-ov-file#20230505-dei---wrong-implemention",
+        "rescued": 0
+    },
+    "tokenInfos": [
+        {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "decimals": 18
+        },
+        {
+            "address": "0xde1e704dae0b4051e80dabb26ab6ad6c12262da0",
+            "decimals": 18
+        },
+        {
+            "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+            "decimals": 6
+        },
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        }
+    ]
+}

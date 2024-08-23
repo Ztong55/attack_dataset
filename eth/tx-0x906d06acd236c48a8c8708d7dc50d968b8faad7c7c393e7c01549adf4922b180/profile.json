@@ -1,0 +1,117 @@
+{
+    "basicInfo": {
+        "baseFee": "43.277944746",
+        "blockNumber": 18798295,
+        "callData": "0x84ac969900000000000000000000000013d8faf4a690f5ae52e2d2c52938d1167057b9af000000000000000000000000bc4ca0eda7647a8ab7c2061c2e118a18a936f13d000000000000000000000000e0c89b12ae7ac1af21d633720ebaf8203be55f0800000000000000000000000000000000000000000000000000000000000011ee000000000000000000000000000000000000000000000000000000000000057e",
+        "debugEnable": true,
+        "errorInfo": "",
+        "eventCount": 10,
+        "feeRecipient": "0xdafea492d9c6733ae3d56b7ed1adb60692c98bc5",
+        "formatValue": "0.01",
+        "gasLimit": 900047,
+        "gasPrice": "44.277944746",
+        "gasUsed": 810863,
+        "intTxnCount": 12,
+        "internalRevert": false,
+        "internalRevertMessage": "",
+        "isContractCreation": false,
+        "isFlashloan": false,
+        "maxFee": "46.568537137",
+        "nonce": 56,
+        "overwritedBlockNumber": -1,
+        "priorityFee": "1",
+        "receiver": "0xc446e0a1e22b54e18303022ff8c5c8ab364d6ebb",
+        "revertMessage": "",
+        "sender": "0xd717b85b5da61a56afeb57173c7336084243cdf0",
+        "simulationEnable": true,
+        "sourceTxnHash": "0x906d06acd236c48a8c8708d7dc50d968b8faad7c7c393e7c01549adf4922b180",
+        "status": true,
+        "timestamp": "2023-12-16T11:21:23Z",
+        "transactionFee": "0.035903347110575798",
+        "txnHash": "0x906d06acd236c48a8c8708d7dc50d968b8faad7c7c393e7c01549adf4922b180",
+        "txnIndex": 102,
+        "type": 2,
+        "value": "10000000000000000"
+    },
+    "fundFlow": [
+        {
+            "amount": "0.01",
+            "from": "0xd717b85b5da61a56afeb57173c7336084243cdf0",
+            "id": 1,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 1,
+            "to": "0xc446e0a1e22b54e18303022ff8c5c8ab364d6ebb",
+            "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        },
+        {
+            "amount": "0.01",
+            "from": "0xc446e0a1e22b54e18303022ff8c5c8ab364d6ebb",
+            "id": 2,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 2,
+            "to": "0x13d8faf4a690f5ae52e2d2c52938d1167057b9af",
+            "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        },
+        {
+            "amount": "0.01",
+            "from": "0x13d8faf4a690f5ae52e2d2c52938d1167057b9af",
+            "id": 3,
+            "isERC1155": false,
+            "isERC721": false,
+            "isReverted": false,
+            "order": 3,
+            "to": "0x48c45a687173ec396353cd1e507b26fa4f6ff6d9",
+            "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        },
+        {
+            "amount": "1",
+            "from": "0xc446e0a1e22b54e18303022ff8c5c8ab364d6ebb",
+            "id": 4,
+            "isERC1155": false,
+            "isERC721": true,
+            "isReverted": false,
+            "order": 4,
+            "to": "0xc446e0a1e22b54e18303022ff8c5c8ab364d6ebb",
+            "token": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+            "tokenID": "597403"
+        },
+        {
+            "amount": "1",
+            "from": "0xe0c89b12ae7ac1af21d633720ebaf8203be55f08",
+            "id": 5,
+            "isERC1155": false,
+            "isERC721": true,
+            "isReverted": false,
+            "order": 5,
+            "to": "0xc446e0a1e22b54e18303022ff8c5c8ab364d6ebb",
+            "token": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+            "tokenID": "1406"
+        },
+        {
+            "amount": "1",
+            "from": "0xc446e0a1e22b54e18303022ff8c5c8ab364d6ebb",
+            "id": 6,
+            "isERC1155": false,
+            "isERC721": true,
+            "isReverted": false,
+            "order": 6,
+            "to": "0x909f2159780e64143cf08f32dbbf56ed19478fda",
+            "token": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+            "tokenID": "1406"
+        }
+    ],
+    "tokenInfos": [
+        {
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "decimals": 18
+        },
+        {
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18
+        }
+    ]
+}

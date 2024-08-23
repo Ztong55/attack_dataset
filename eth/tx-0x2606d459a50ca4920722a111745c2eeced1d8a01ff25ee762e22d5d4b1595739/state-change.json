@@ -1,0 +1,77 @@
+{
+    "stateChanges": [
+        {
+            "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "erc": "ERC-20",
+            "slots": [
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "key": "0x69542905f4a613fcf1c6829cafb09d50a2036d3ba90c650967995bda63740efb",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000012f97197a40"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000012f97197a40",
+                    "key": "0x7cf6cb20c957fa459cb1d7a100c6fc997aec649ecd46ba20b0ba2b8e4f9cf31f",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                    "current": "0x0000000000000000000000000000000000000000000000000000000040f63fc0",
+                    "key": "0x96bd238752e267a6ceb07c568d0dd6bf2110cf8c5bd9de6ca1271e5a650dc994",
+                    "prev": "0x0000000000000000000000000000000000000000000000000000012fd80fba00"
+                }
+            ],
+            "storageVariables": [
+                {
+                    "name": "allowed",
+                    "type": "mapping(address => mapping(address => uint256))",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0xbc452fdc8f851d7c5b72e1fe74dfb63bb793d511",
+                                "value": {
+                                    "pairs": [
+                                        {
+                                            "key": "0xc793113f1548b97e37c409f39244ee44241bf2b3",
+                                            "value": {
+                                                "current": "1089880000",
+                                                "prev": "1305000000000",
+                                                "typeTag": 1
+                                            }
+                                        }
+                                    ],
+                                    "typeTag": 4
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                },
+                {
+                    "name": "balanceAndBlacklistStates",
+                    "type": "mapping(address => uint256)",
+                    "value": {
+                        "pairs": [
+                            {
+                                "key": "0xbc452fdc8f851d7c5b72e1fe74dfb63bb793d511",
+                                "value": {
+                                    "current": "0",
+                                    "prev": "1303910120000",
+                                    "typeTag": 1
+                                }
+                            },
+                            {
+                                "key": "0xded2b1a426e1b7d415a40bcad44e98f47181dda2",
+                                "value": {
+                                    "current": "1303910120000",
+                                    "prev": "0",
+                                    "typeTag": 1
+                                }
+                            }
+                        ],
+                        "typeTag": 4
+                    }
+                }
+            ]
+        }
+    ]
+}
